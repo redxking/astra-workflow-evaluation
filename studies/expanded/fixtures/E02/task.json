@@ -1,0 +1,9 @@
+{
+  "id": "E02",
+  "title": "Quorum placement under correlated failures",
+  "kind": "security_architecture",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. Each candidate chooses exactly three distinct nodes (list sorted). For each failure scenario remove nodes whose site OR provider is failed. A candidate survives if remaining nodes have total vote_weight >= quorum and include at least one node marked writable. Every chosen pair must have latency <= max_pair_latency and total cost <= budget. Return {feasible_placements:[[node IDs],...],selected:[node IDs],selected_cost:integer,selected_min_surviving_weight:integer}. feasible_placements satisfy all scenarios and both constraints; sort that outer list lexicographically. Select minimum cost, then maximum minimum surviving weight over scenarios, then lexicographic placement."
+}

@@ -1,0 +1,165 @@
+{
+  "cutoff": 100,
+  "release": "R2",
+  "environment": "prod",
+  "max_age": 20,
+  "gates": [
+    {
+      "id": "g1",
+      "requires": []
+    },
+    {
+      "id": "g2",
+      "requires": [
+        "g1"
+      ]
+    },
+    {
+      "id": "g3",
+      "requires": [
+        "g2"
+      ]
+    },
+    {
+      "id": "g4",
+      "requires": [
+        "g1"
+      ]
+    },
+    {
+      "id": "g5",
+      "requires": [
+        "g3",
+        "g4"
+      ]
+    },
+    {
+      "id": "g6",
+      "requires": [
+        "g5"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "a",
+      "gate": "g1",
+      "observed_at": 81,
+      "recorded_at": 82,
+      "release": "R2",
+      "environment": "prod",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "id": "b",
+      "gate": "g1",
+      "observed_at": 70,
+      "recorded_at": 99,
+      "release": "R2",
+      "environment": "prod",
+      "status": "FAIL",
+      "findings": 5
+    },
+    {
+      "id": "c",
+      "gate": "g2",
+      "observed_at": 80,
+      "recorded_at": 80,
+      "release": "R2",
+      "environment": "prod",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "id": "d",
+      "gate": "g2",
+      "observed_at": 80,
+      "recorded_at": 92,
+      "release": "R2",
+      "environment": "prod",
+      "status": "FAIL",
+      "findings": 1
+    },
+    {
+      "id": "e",
+      "gate": "g2",
+      "observed_at": 95,
+      "recorded_at": 101,
+      "release": "R2",
+      "environment": "prod",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "id": "f",
+      "gate": "g3",
+      "observed_at": 98,
+      "recorded_at": 98,
+      "release": "R1",
+      "environment": "prod",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "id": "g",
+      "gate": "g3",
+      "observed_at": 98,
+      "recorded_at": 98,
+      "release": "R2",
+      "environment": "lab",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "id": "h",
+      "gate": "g3",
+      "observed_at": 78,
+      "recorded_at": 99,
+      "release": "R2",
+      "environment": "prod",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "id": "i",
+      "gate": "g4",
+      "observed_at": 95,
+      "recorded_at": 96,
+      "release": "R2",
+      "environment": "prod",
+      "status": "NOT_RUN",
+      "findings": null
+    },
+    {
+      "id": "j",
+      "gate": "g5",
+      "observed_at": 99,
+      "recorded_at": 99,
+      "release": "R2",
+      "environment": "prod",
+      "status": "PASS",
+      "findings": 0
+    },
+    {
+      "id": "k",
+      "gate": "g6",
+      "observed_at": 98,
+      "recorded_at": 98,
+      "release": "R2",
+      "environment": "prod",
+      "status": "PROMISED",
+      "findings": 0
+    },
+    {
+      "id": "l",
+      "gate": "g4",
+      "observed_at": 95,
+      "recorded_at": 96,
+      "release": "R2",
+      "environment": "prod",
+      "status": "UNKNOWN",
+      "findings": null
+    }
+  ]
+}

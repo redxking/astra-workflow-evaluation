@@ -1,0 +1,149 @@
+{
+  "horizon": 40,
+  "jobs": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "events": [
+    {
+      "sequence": 7,
+      "time": 10,
+      "kind": "RESULT",
+      "job": "a",
+      "attempt": 1,
+      "token": "x"
+    },
+    {
+      "sequence": 1,
+      "time": 0,
+      "kind": "START",
+      "job": "a",
+      "lease": 10
+    },
+    {
+      "sequence": 2,
+      "time": 0,
+      "kind": "START",
+      "job": "b",
+      "lease": 12
+    },
+    {
+      "sequence": 3,
+      "time": 2,
+      "kind": "START",
+      "job": "a",
+      "lease": 8
+    },
+    {
+      "sequence": 4,
+      "time": 5,
+      "kind": "RESULT",
+      "job": "b",
+      "attempt": 2,
+      "token": "x"
+    },
+    {
+      "sequence": 5,
+      "time": 6,
+      "kind": "RESULT",
+      "job": "b",
+      "attempt": 1,
+      "token": "y"
+    },
+    {
+      "sequence": 6,
+      "time": 8,
+      "kind": "START",
+      "job": "c",
+      "lease": 8
+    },
+    {
+      "sequence": 8,
+      "time": 10,
+      "kind": "START",
+      "job": "a",
+      "lease": 10
+    },
+    {
+      "sequence": 9,
+      "time": 11,
+      "kind": "RESULT",
+      "job": "a",
+      "attempt": 1,
+      "token": "z"
+    },
+    {
+      "sequence": 10,
+      "time": 12,
+      "kind": "RESULT",
+      "job": "a",
+      "attempt": 2,
+      "token": "y"
+    },
+    {
+      "sequence": 11,
+      "time": 13,
+      "kind": "RESULT",
+      "job": "a",
+      "attempt": 2,
+      "token": "x"
+    },
+    {
+      "sequence": 12,
+      "time": 14,
+      "kind": "CANCEL",
+      "job": "a"
+    },
+    {
+      "sequence": 13,
+      "time": 16,
+      "kind": "RESULT",
+      "job": "c",
+      "attempt": 1,
+      "token": "z"
+    },
+    {
+      "sequence": 14,
+      "time": 16,
+      "kind": "START",
+      "job": "c",
+      "lease": 10
+    },
+    {
+      "sequence": 15,
+      "time": 17,
+      "kind": "CANCEL",
+      "job": "c"
+    },
+    {
+      "sequence": 16,
+      "time": 18,
+      "kind": "START",
+      "job": "c",
+      "lease": 10
+    },
+    {
+      "sequence": 17,
+      "time": 20,
+      "kind": "START",
+      "job": "d",
+      "lease": 20
+    },
+    {
+      "sequence": 18,
+      "time": 25,
+      "kind": "RESULT",
+      "job": "d",
+      "attempt": 0,
+      "token": "w"
+    },
+    {
+      "sequence": 19,
+      "time": 30,
+      "kind": "CANCEL",
+      "job": "c"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "capacity": 8,
+  "deadline": 18,
+  "recharge": [
+    "C",
+    "E"
+  ],
+  "edges": [
+    {
+      "id": "a",
+      "source": "S",
+      "target": "A",
+      "duration": 3,
+      "energy": 5,
+      "open": 0,
+      "close": 6
+    },
+    {
+      "id": "b",
+      "source": "S",
+      "target": "B",
+      "duration": 2,
+      "energy": 3,
+      "open": 0,
+      "close": 4
+    },
+    {
+      "id": "c",
+      "source": "A",
+      "target": "C",
+      "duration": 2,
+      "energy": 4,
+      "open": 0,
+      "close": 10
+    },
+    {
+      "id": "d",
+      "source": "A",
+      "target": "T",
+      "duration": 4,
+      "energy": 3,
+      "open": 9,
+      "close": 12
+    },
+    {
+      "id": "e",
+      "source": "B",
+      "target": "C",
+      "duration": 3,
+      "energy": 4,
+      "open": 0,
+      "close": 5
+    },
+    {
+      "id": "f",
+      "source": "B",
+      "target": "D",
+      "duration": 2,
+      "energy": 2,
+      "open": 0,
+      "close": 8
+    },
+    {
+      "id": "g",
+      "source": "C",
+      "target": "T",
+      "duration": 4,
+      "energy": 7,
+      "open": 7,
+      "close": 12
+    },
+    {
+      "id": "h",
+      "source": "C",
+      "target": "E",
+      "duration": 2,
+      "energy": 3,
+      "open": 0,
+      "close": 15
+    },
+    {
+      "id": "i",
+      "source": "D",
+      "target": "T",
+      "duration": 3,
+      "energy": 4,
+      "open": 0,
+      "close": 9
+    },
+    {
+      "id": "j",
+      "source": "D",
+      "target": "E",
+      "duration": 3,
+      "energy": 3,
+      "open": 4,
+      "close": 10
+    },
+    {
+      "id": "k",
+      "source": "E",
+      "target": "T",
+      "duration": 2,
+      "energy": 6,
+      "open": 0,
+      "close": 16
+    },
+    {
+      "id": "l",
+      "source": "E",
+      "target": "A",
+      "duration": 1,
+      "energy": 2,
+      "open": 0,
+      "close": 15
+    },
+    {
+      "id": "m",
+      "source": "C",
+      "target": "B",
+      "duration": 1,
+      "energy": 1,
+      "open": 0,
+      "close": 12
+    },
+    {
+      "id": "n",
+      "source": "B",
+      "target": "T",
+      "duration": 12,
+      "energy": 5,
+      "open": 0,
+      "close": 8
+    }
+  ]
+}

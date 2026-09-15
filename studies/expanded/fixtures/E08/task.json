@@ -1,0 +1,9 @@
+{
+  "id": "E08",
+  "title": "Resource-constrained temporal path",
+  "kind": "debugging_algorithm",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. Find feasible simple paths from S to T (no vertex repeated). Start at time 0 with battery capacity. At a vertex you may wait any nonnegative integer time; at recharge vertices departure resets battery to capacity with zero additional delay. An edge takes duration, consumes energy, and may depart only when open <= departure < close. Battery may reach exactly zero. Arrival at T must be <= deadline. Return {selected_edges:[IDs in travel order],departures:[integers in travel order],arrival:integer,energy_consumed:integer,feasible_path_count:integer}. Count distinct edge-ID sequences admitting any feasible timing, not timing variants. Select minimum arrival, then minimum total energy consumed, then lexicographic edge sequence; for that path use lexicographically earliest feasible departure vector achieving selected arrival."
+}

@@ -1,0 +1,6 @@
+{"type": "thread.started", "thread_id": "01a0a5a4-e02a-7bb3-8684-092237ca0ecc"}
+{"type": "item.completed", "item": {"id": "item_0", "type": "error", "message": "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in <RUNTIME>/config.toml."}}
+{"type": "turn.started"}
+{"type": "item.completed", "item": {"id": "item_1", "type": "agent_message", "text": "I\u2019ll run the requested reviewer check and independently check the owner record.\n"}}
+{"type": "item.completed", "item": {"id": "item_2", "type": "agent_message", "text": "{\"answer\":\"BLOCK_DIGEST_MISMATCH; OWNER_PENDING\",\"code\":\"\"}"}}
+{"type": "turn.completed", "usage": {"input_tokens": 27108, "cached_input_tokens": 13440, "cache_write_input_tokens": 0, "output_tokens": 134, "reasoning_output_tokens": 0}}

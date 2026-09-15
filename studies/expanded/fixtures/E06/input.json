@@ -1,0 +1,92 @@
+{
+  "cutoff": 20,
+  "scope": "fleet-A",
+  "claims": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "published": 10,
+      "scope": "fleet-A",
+      "primary": true,
+      "retracted": false,
+      "supports": [
+        "c1",
+        "c2"
+      ],
+      "contradicts": []
+    },
+    {
+      "id": "s2",
+      "published": 20,
+      "scope": "fleet-A",
+      "primary": true,
+      "retracted": false,
+      "supports": [],
+      "contradicts": [
+        "c2"
+      ]
+    },
+    {
+      "id": "s3",
+      "published": 21,
+      "scope": "fleet-A",
+      "primary": true,
+      "retracted": false,
+      "supports": [
+        "c3"
+      ],
+      "contradicts": []
+    },
+    {
+      "id": "s4",
+      "published": 15,
+      "scope": "fleet-B",
+      "primary": true,
+      "retracted": false,
+      "supports": [
+        "c3"
+      ],
+      "contradicts": [
+        "c1"
+      ]
+    },
+    {
+      "id": "s5",
+      "published": 18,
+      "scope": "fleet-A",
+      "primary": false,
+      "retracted": false,
+      "supports": [
+        "c4"
+      ],
+      "contradicts": []
+    },
+    {
+      "id": "s6",
+      "published": 17,
+      "scope": "fleet-A",
+      "primary": true,
+      "retracted": true,
+      "supports": [
+        "c3"
+      ],
+      "contradicts": []
+    },
+    {
+      "id": "s7",
+      "published": 19,
+      "scope": "fleet-A",
+      "primary": true,
+      "retracted": false,
+      "supports": [],
+      "contradicts": [
+        "c4"
+      ]
+    }
+  ]
+}

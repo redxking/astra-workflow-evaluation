@@ -4,8 +4,8 @@ author: Angelis Pseftis
 creator: Angelis Pseftis
 created: 2026-09-15
 modified: 2026-09-15
-revision: 2
-status: Completed exploratory study
+revision: 3
+status: Original pilot complete; expanded validation in preparation
 ---
 
 # Astra Workflow Evaluation — Controlled Pilot
@@ -80,3 +80,17 @@ Observed reductions apply only to the measured runs and comparator named above; 
 - Revision 1, 2026-09-15: recorded frozen method and preflight evidence before scored runs. Author and creator: Angelis Pseftis.
 
 - Revision 2, 2026-09-15: integrated all 12 results, token-accounting review, privacy transformations and limitations in this same authoritative file. Git retains revision history. Reliable active editing-time telemetry was unavailable; no editing duration is invented. Author and creator: Angelis Pseftis.
+
+## Expanded validation — prespecified follow-up
+
+The user authorized a follow-up to address task coverage and unexercised escalation. The original 12 observations above remain unchanged. The follow-up uses 12 new synthetic tasks in four domains, three repetitions per task under the same three comparator families (108 scored runs). The adaptive policy is revised to specify an actionable review trigger: two separable substantive analyses combined with a consequential trust boundary, interacting failure modes, or conflicting authoritative evidence. This is a different candidate policy, not retroactive validation of the original one.
+
+Separate forced conformance probes check actual Astra specialist effort and parent integration. They are excluded from natural routing rates and efficiency comparisons. Task-level review-opportunity labels and scoring oracles remain outside model-visible input folders. The protocol will freeze these labels, run order, policy, scoring and decision gates before any follow-up scored runs. No results are claimed here yet.
+
+Repeated runs measure variability, while 12 task clusters remain the unit of breadth. Even zero observed task regressions among 12 tasks gives a one-sided 95% exact upper bound of about 22.1% under an independent-task sampling assumption; these purposively authored synthetic tasks do not justify population generalization. The 5% quality-regression margin can therefore remain inconclusive. A benchmark acceptance gate, mechanical routing conformance, and broader quality evidence will be reported separately. No amount of wording can remove an evidence limitation that the measurements do not resolve.
+
+- Revision 3, 2026-09-15: added the authorized follow-up design before expanded scored execution. Original pilot findings preserved in this same authoritative report. Author and creator: Angelis Pseftis.
+
+The exact-binomial bound follows [NIST’s one-sided confidence-limit method](https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbino.htm). This is a bound on regression-task incidence under stated sampling assumptions, not a confidence interval on the acceptance-rate difference.
+
+The follow-up oracle is outside the model-visible fixture workspace and forbidden by the common task contract. The host read-only sandbox is not a per-file confidentiality boundary; retained parent/child tool traces require audit for unauthorized oracle or prior-result access before interpreting the scores.

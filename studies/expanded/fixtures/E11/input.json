@@ -1,0 +1,126 @@
+{
+  "budget": 12,
+  "actions": [
+    {
+      "id": "a",
+      "cost": 4,
+      "requires": []
+    },
+    {
+      "id": "b",
+      "cost": 3,
+      "requires": []
+    },
+    {
+      "id": "c",
+      "cost": 2,
+      "requires": [
+        "a"
+      ]
+    },
+    {
+      "id": "d",
+      "cost": 5,
+      "requires": []
+    },
+    {
+      "id": "e",
+      "cost": 2,
+      "requires": []
+    },
+    {
+      "id": "f",
+      "cost": 3,
+      "requires": [
+        "e"
+      ]
+    },
+    {
+      "id": "g",
+      "cost": 1,
+      "requires": []
+    }
+  ],
+  "incompatible": [
+    [
+      "b",
+      "d"
+    ],
+    [
+      "c",
+      "f"
+    ]
+  ],
+  "scenarios": [
+    {
+      "id": "site",
+      "base_loss": 100,
+      "weight": 2,
+      "reductions": {
+        "a": 30,
+        "b": 10,
+        "c": 15,
+        "d": 40,
+        "e": 5,
+        "f": 10,
+        "g": 0
+      },
+      "bonuses": [
+        {
+          "actions": [
+            "a",
+            "e"
+          ],
+          "reduction": 10
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "base_loss": 80,
+      "weight": 3,
+      "reductions": {
+        "a": 0,
+        "b": 25,
+        "c": 0,
+        "d": 10,
+        "e": 10,
+        "f": 25,
+        "g": 5
+      },
+      "bonuses": [
+        {
+          "actions": [
+            "b",
+            "g"
+          ],
+          "reduction": 15
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "base_loss": 90,
+      "weight": 1,
+      "reductions": {
+        "a": 10,
+        "b": 5,
+        "c": 35,
+        "d": 20,
+        "e": 5,
+        "f": 5,
+        "g": 10
+      },
+      "bonuses": [
+        {
+          "actions": [
+            "a",
+            "c",
+            "g"
+          ],
+          "reduction": 15
+        }
+      ]
+    }
+  ]
+}

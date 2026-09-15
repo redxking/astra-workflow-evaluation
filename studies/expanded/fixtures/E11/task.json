@@ -1,0 +1,9 @@
+{
+  "id": "E11",
+  "title": "Recovery portfolio under scenario uncertainty",
+  "kind": "operational_planning",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. Select a subset of actions costing <= budget. For each scenario, loss is max(0,base_loss-sum(reduction for each chosen action)-sum(bonus when all listed actions chosen)); bonuses are scenario-specific. Incompatible action pairs may not both be selected, and each selected action requires all listed prerequisites selected. Return {actions:[IDs],cost:integer,scenario_losses:{scenario ID:integer},worst_loss:integer,weighted_loss:integer,feasible_portfolios:integer}. Minimize worst_loss, then weighted_loss=sum(scenario loss*integer weight), then cost, then lexicographic action-ID list. Count all constraint-feasible subsets including empty set, independent of objective."
+}

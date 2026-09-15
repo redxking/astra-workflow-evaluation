@@ -1,0 +1,9 @@
+{
+  "id": "E10",
+  "title": "Constrained migration wave plan",
+  "kind": "operational_planning",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. Assign every operation an integer start >=0, finish=start+duration <= horizon. Dependencies require predecessor finish <= start. At every time, each named capacity must cover the sum of demand of active operations; intervals are half-open. An operation with permitted_starts may start only at one listed time. permitted_starts=null means any nonnegative integer start satisfying the other constraints is allowed. Return {starts:{operation ID:integer},makespan:integer,risk_exposure:integer}. Minimize makespan, then risk_exposure=sum(start*risk_weight), then lexicographic vector of starts in sorted operation-ID order. All operations must be scheduled; risk is a tie-breaker, not a hard constraint."
+}

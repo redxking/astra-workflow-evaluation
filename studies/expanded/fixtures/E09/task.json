@@ -1,0 +1,9 @@
+{
+  "id": "E09",
+  "title": "Dependency cycles and downstream impact",
+  "kind": "debugging_algorithm",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. Each edge [a,b] means a depends on b. Return {cycle_components:[[IDs],...],blocked:[IDs],build_order:[IDs]}. A cycle component is a maximal strongly connected component with more than one member or a singleton with a self-loop. Sort components internally and outer lexicographically. Block all cycle members and all nodes that transitively depend on any cycle. Build remaining nodes topologically, repeatedly choosing the lexicographically smallest currently ready node; dependencies must precede dependents. Duplicate edges have no additional effect."
+}

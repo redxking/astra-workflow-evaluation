@@ -1,0 +1,97 @@
+{
+  "now": 50,
+  "rules": [
+    {
+      "id": "r1",
+      "priority": 1,
+      "effect": "allow",
+      "subject": "*",
+      "resource": "*",
+      "action": "read"
+    },
+    {
+      "id": "r2",
+      "priority": 3,
+      "effect": "allow",
+      "subject": "ops",
+      "resource": "vault",
+      "action": "*"
+    },
+    {
+      "id": "r3",
+      "priority": 3,
+      "effect": "deny",
+      "subject": "*",
+      "resource": "vault",
+      "action": "write"
+    },
+    {
+      "id": "r4",
+      "priority": 3,
+      "effect": "allow",
+      "subject": "ops",
+      "resource": "vault",
+      "action": "write"
+    },
+    {
+      "id": "r5",
+      "priority": 3,
+      "effect": "deny",
+      "subject": "ops",
+      "resource": "vault",
+      "action": "write"
+    },
+    {
+      "id": "r6",
+      "priority": 5,
+      "effect": "allow",
+      "subject": "auditor",
+      "resource": "vault",
+      "action": "read"
+    }
+  ],
+  "requests": [
+    {
+      "id": "q1",
+      "subject": "ops",
+      "resource": "vault",
+      "action": "write",
+      "expiry": 60
+    },
+    {
+      "id": "q2",
+      "subject": "ops",
+      "resource": "vault",
+      "action": "read",
+      "expiry": 60
+    },
+    {
+      "id": "q3",
+      "subject": "auditor",
+      "resource": "vault",
+      "action": "read",
+      "expiry": 50
+    },
+    {
+      "id": "q4",
+      "subject": "guest",
+      "resource": "public",
+      "action": "read",
+      "expiry": 70
+    },
+    {
+      "id": "q5",
+      "subject": "guest",
+      "resource": "public",
+      "action": "write",
+      "expiry": 70
+    },
+    {
+      "id": "q6",
+      "subject": "auditor",
+      "resource": "vault",
+      "action": "read",
+      "expiry": 51
+    }
+  ]
+}

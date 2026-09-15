@@ -1,0 +1,177 @@
+{
+  "cutoff": 100,
+  "services": [
+    "api",
+    "db",
+    "queue"
+  ],
+  "reports": [
+    {
+      "id": "r01",
+      "service": "api",
+      "start": -5,
+      "end": 12,
+      "kind": "down",
+      "authoritative": true,
+      "published": 80,
+      "superseded_by": null
+    },
+    {
+      "id": "r02",
+      "service": "api",
+      "start": 10,
+      "end": 20,
+      "kind": "down",
+      "authoritative": true,
+      "published": 85,
+      "superseded_by": "r03"
+    },
+    {
+      "id": "r03",
+      "service": "api",
+      "start": 12,
+      "end": 18,
+      "kind": "down",
+      "authoritative": true,
+      "published": 95,
+      "superseded_by": null
+    },
+    {
+      "id": "r04",
+      "service": "api",
+      "start": 18,
+      "end": 30,
+      "kind": "uncertain",
+      "authoritative": false,
+      "published": 90,
+      "superseded_by": null
+    },
+    {
+      "id": "r05",
+      "service": "api",
+      "start": 40,
+      "end": 55,
+      "kind": "down",
+      "authoritative": false,
+      "published": 90,
+      "superseded_by": null
+    },
+    {
+      "id": "r06",
+      "service": "db",
+      "start": 15,
+      "end": 35,
+      "kind": "down",
+      "authoritative": true,
+      "published": 91,
+      "superseded_by": null
+    },
+    {
+      "id": "r07",
+      "service": "db",
+      "start": 35,
+      "end": 45,
+      "kind": "down",
+      "authoritative": true,
+      "published": 92,
+      "superseded_by": "r08"
+    },
+    {
+      "id": "r08",
+      "service": "db",
+      "start": 35,
+      "end": 38,
+      "kind": "down",
+      "authoritative": true,
+      "published": 101,
+      "superseded_by": null
+    },
+    {
+      "id": "r09",
+      "service": "db",
+      "start": 42,
+      "end": 70,
+      "kind": "uncertain",
+      "authoritative": true,
+      "published": 99,
+      "superseded_by": null
+    },
+    {
+      "id": "r10",
+      "service": "queue",
+      "start": 5,
+      "end": 10,
+      "kind": "down",
+      "authoritative": true,
+      "published": 90,
+      "superseded_by": "r11"
+    },
+    {
+      "id": "r11",
+      "service": "queue",
+      "start": 6,
+      "end": 9,
+      "kind": "down",
+      "authoritative": true,
+      "published": 95,
+      "superseded_by": "r12"
+    },
+    {
+      "id": "r12",
+      "service": "queue",
+      "start": 7,
+      "end": 8,
+      "kind": "uncertain",
+      "authoritative": true,
+      "published": 99,
+      "superseded_by": null
+    },
+    {
+      "id": "r13",
+      "service": "queue",
+      "start": 50,
+      "end": 70,
+      "kind": "down",
+      "authoritative": true,
+      "published": 94,
+      "superseded_by": null
+    },
+    {
+      "id": "r14",
+      "service": "queue",
+      "start": 60,
+      "end": 65,
+      "kind": "down",
+      "authoritative": true,
+      "published": 95,
+      "superseded_by": null
+    }
+  ],
+  "monitors": [
+    {
+      "service": "api",
+      "start": 0,
+      "end": 8
+    },
+    {
+      "service": "api",
+      "start": 10,
+      "end": 25
+    },
+    {
+      "service": "db",
+      "start": 0,
+      "end": 20
+    },
+    {
+      "service": "db",
+      "start": 30,
+      "end": 60
+    },
+    {
+      "service": "queue",
+      "start": 0,
+      "end": 55
+    }
+  ]
+}

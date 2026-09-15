@@ -1,0 +1,9 @@
+{
+  "id": "E04",
+  "title": "Reconcile scoped release evidence",
+  "kind": "evidence_synthesis",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. Only records with recorded_at <= cutoff, exact release and environment, and status PASS/FAIL/NOT_RUN/UNKNOWN are eligible. Select largest (observed_at,recorded_at,id) per gate; timestamps are integer sequence times. A later recorded correction of an old observation does not outrank a newer observation. Missing gates are UNKNOWN with source null. A selected record with cutoff-observed_at > max_age becomes UNKNOWN but retains source; equality is fresh. Return {gates:[{id,status,source},...],decision:string,blocked_dependencies:[IDs],observed_findings:integer,unknown_finding_gates:[IDs]}. Decision BLOCKED if any selected effective FAIL; else INCOMPLETE if any UNKNOWN/NOT_RUN or blocked dependency; otherwise READY. A gate is dependency-blocked when any direct prerequisite effective status is not PASS, regardless of its own status. Sum numeric findings of selected records even if stale; null or missing selections yield unknown finding gate."
+}

@@ -1,0 +1,206 @@
+{
+  "now": 100,
+  "revoked_keys": [
+    "old"
+  ],
+  "edges": [
+    {
+      "id": "e01",
+      "source": "internet",
+      "target": "web",
+      "cost": 2,
+      "removable": true
+    },
+    {
+      "id": "e02",
+      "source": "web",
+      "target": "api",
+      "cost": 4,
+      "removable": true
+    },
+    {
+      "id": "e03",
+      "source": "api",
+      "target": "control",
+      "cost": 3,
+      "removable": true
+    },
+    {
+      "id": "e04",
+      "source": "internet",
+      "target": "relay",
+      "cost": 2,
+      "removable": true
+    },
+    {
+      "id": "e05",
+      "source": "relay",
+      "target": "api",
+      "cost": 2,
+      "removable": true
+    },
+    {
+      "id": "e06",
+      "source": "ops",
+      "target": "api",
+      "cost": 0,
+      "removable": false
+    },
+    {
+      "id": "e07",
+      "source": "ops",
+      "target": "control",
+      "cost": 8,
+      "removable": true
+    },
+    {
+      "id": "e08",
+      "source": "web",
+      "target": "cache",
+      "cost": 1,
+      "removable": true
+    },
+    {
+      "id": "e09",
+      "source": "cache",
+      "target": "control",
+      "cost": 2,
+      "removable": true
+    },
+    {
+      "id": "e10",
+      "source": "relay",
+      "target": "cache",
+      "cost": 2,
+      "removable": true
+    },
+    {
+      "id": "e11",
+      "source": "monitor",
+      "target": "cache",
+      "cost": 0,
+      "removable": false
+    },
+    {
+      "id": "e12",
+      "source": "cache",
+      "target": "metrics",
+      "cost": 0,
+      "removable": false
+    }
+  ],
+  "forbidden": [
+    [
+      "internet",
+      "control"
+    ],
+    [
+      "web",
+      "control"
+    ]
+  ],
+  "required": [
+    [
+      "ops",
+      "control"
+    ],
+    [
+      "internet",
+      "web"
+    ],
+    [
+      "monitor",
+      "metrics"
+    ]
+  ],
+  "probes": [
+    {
+      "id": "p1",
+      "source": "internet",
+      "target": "control",
+      "signed": true,
+      "audience": "control",
+      "tenant": "a",
+      "resource_tenant": "a",
+      "expires": 101,
+      "key": "new"
+    },
+    {
+      "id": "p2",
+      "source": "ops",
+      "target": "control",
+      "signed": true,
+      "audience": "control",
+      "tenant": "a",
+      "resource_tenant": "a",
+      "expires": 100,
+      "key": "new"
+    },
+    {
+      "id": "p3",
+      "source": "monitor",
+      "target": "control",
+      "signed": true,
+      "audience": "control",
+      "tenant": "b",
+      "resource_tenant": "a",
+      "expires": 105,
+      "key": "new"
+    },
+    {
+      "id": "p4",
+      "source": "internet",
+      "target": "metrics",
+      "signed": false,
+      "audience": "control",
+      "tenant": "a",
+      "resource_tenant": "a",
+      "expires": 110,
+      "key": "new"
+    },
+    {
+      "id": "p5",
+      "source": "ops",
+      "target": "control",
+      "signed": true,
+      "audience": "control",
+      "tenant": "a",
+      "resource_tenant": "a",
+      "expires": 120,
+      "key": "old"
+    },
+    {
+      "id": "p6",
+      "source": "metrics",
+      "target": "control",
+      "signed": true,
+      "audience": "control",
+      "tenant": "a",
+      "resource_tenant": "a",
+      "expires": 150,
+      "key": "new"
+    },
+    {
+      "id": "p7",
+      "source": "relay",
+      "target": "control",
+      "signed": true,
+      "audience": "metrics",
+      "tenant": "a",
+      "resource_tenant": "a",
+      "expires": 180,
+      "key": "new"
+    },
+    {
+      "id": "p8",
+      "source": "ops",
+      "target": "control",
+      "signed": true,
+      "audience": "control",
+      "tenant": "z",
+      "resource_tenant": "z",
+      "expires": 101,
+      "key": "new"
+    }
+  ]
+}

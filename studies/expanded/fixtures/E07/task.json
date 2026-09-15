@@ -1,0 +1,9 @@
+{
+  "id": "E07",
+  "title": "Replay deduplication and retry state machine",
+  "kind": "debugging_algorithm",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. Replay events ordered by (time,sequence), not input order. Maintain each job state initially PENDING, attempt initially 0, lease_until null, accepted_results initially empty. Before each event expire every RUNNING job with lease_until <= event.time to PENDING with lease_until null, keeping its attempt. A START is accepted only for PENDING, increments attempt and sets RUNNING lease_until=time+lease. A RESULT is accepted only if job is RUNNING, its event attempt equals current attempt, and event token has never been accepted for any job. Accepted result makes DONE, lease_until null, and globally consumes token; rejected results do not consume tokens. CANCEL makes any non-DONE job CANCELLED with lease null; CANCELLED never restarts. At horizon expire leases as above. Return {jobs:[{id,state,attempt,lease_until},...],accepted_sequences:[integers chronological],rejected_sequences:[integers chronological],accepted_tokens:[strings sorted]}. Every event is accepted or rejected; CANCEL on DONE or already CANCELLED is rejected."
+}

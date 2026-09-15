@@ -1,0 +1,9 @@
+{
+  "id": "E06",
+  "title": "Bounded claim attribution",
+  "kind": "evidence_synthesis",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. For each claim collect eligible supporting and contradicting source IDs. Eligible means published <= cutoff, exact scope, primary=true, retracted=false. Each source explicitly lists supports and contradicts; silence is neither. Label CONFLICTED if both sets nonempty, SUPPORTED if support only, CONTRADICTED if contradiction only, UNKNOWN if neither. Do not infer additional claims. Return {claims:[{id,status,supporting:[IDs],contradicting:[IDs]},...]} sorted by claim ID."
+}

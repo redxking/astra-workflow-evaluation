@@ -1,0 +1,2 @@
+2026-09-15T15:16:51.516580Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 503 Service Unavailable, url: wss://chatgpt.com/backend-api/codex/responses
+2026-09-15T15:16:51.517177Z  WARN codex_core::session_startup_prewarm: startup websocket prewarm setup failed: unexpected status 503 Service Unavailable: upstream connect error or disconnect/reset before headers. reset reason: connection termination, url: wss://chatgpt.com/backend-api/codex/responses, cf-ray: a3b8980858800aec-EWR

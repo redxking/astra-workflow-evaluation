@@ -1,0 +1,14 @@
+{
+  "author": "Angelis Pseftis",
+  "checks": {
+    "child_effort": true,
+    "child_model": true,
+    "completed": true,
+    "exact_integrated_answer": true,
+    "one_child": true
+  },
+  "passed": true,
+  "requested_effort": "xhigh",
+  "requested_role": "critical_verifier",
+  "scope": "Forced mechanical conformance, not spontaneous routing or efficiency benefit"
+}

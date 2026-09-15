@@ -1,0 +1,102 @@
+{
+  "horizon": 12,
+  "capacities": {
+    "engineers": 3,
+    "outage": 1
+  },
+  "operations": [
+    {
+      "id": "a",
+      "duration": 2,
+      "requires": [],
+      "demand": {
+        "engineers": 2,
+        "outage": 0
+      },
+      "risk_weight": 3,
+      "permitted_starts": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "b",
+      "duration": 3,
+      "requires": [],
+      "demand": {
+        "engineers": 1,
+        "outage": 0
+      },
+      "risk_weight": 5,
+      "permitted_starts": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "c",
+      "duration": 2,
+      "requires": [
+        "a"
+      ],
+      "demand": {
+        "engineers": 2,
+        "outage": 1
+      },
+      "risk_weight": 7,
+      "permitted_starts": [
+        2,
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "d",
+      "duration": 2,
+      "requires": [
+        "a"
+      ],
+      "demand": {
+        "engineers": 1,
+        "outage": 0
+      },
+      "risk_weight": 4,
+      "permitted_starts": null
+    },
+    {
+      "id": "e",
+      "duration": 1,
+      "requires": [
+        "b",
+        "c"
+      ],
+      "demand": {
+        "engineers": 2,
+        "outage": 1
+      },
+      "risk_weight": 8,
+      "permitted_starts": [
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "f",
+      "duration": 2,
+      "requires": [
+        "d",
+        "e"
+      ],
+      "demand": {
+        "engineers": 2,
+        "outage": 0
+      },
+      "risk_weight": 1,
+      "permitted_starts": null
+    }
+  ]
+}

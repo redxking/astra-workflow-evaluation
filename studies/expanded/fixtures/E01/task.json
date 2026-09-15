@@ -1,0 +1,9 @@
+{
+  "id": "E01",
+  "title": "Least-cost trust-boundary repair",
+  "kind": "security_architecture",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. All supplied edges are initially enabled. A request is reachable if at least one directed path connects its source to its target. All graph vertices and edges are explicit; no implicit paths. For each probe identify reachability in the original graph. Authorization requires reachability AND signed=true, audience exactly control, tenant equal resource_tenant, now < expires, and no revoked key; network reachability alone never grants authority. Return {reachable_probes:[IDs],authorized_probes:[IDs],repair_edges:[IDs],repair_cost:integer}. Choose a subset of removable edges that disconnects every forbidden source/target pair while retaining every required pair. Minimize total cost, then number of removed edges, then lexicographically sorted edge-ID list. Repair constraints are defined solely by directed connectivity."
+}

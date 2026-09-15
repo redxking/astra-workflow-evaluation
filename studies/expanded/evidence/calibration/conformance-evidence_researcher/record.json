@@ -1,0 +1,203 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 26752,
+        "input_tokens": 40793,
+        "output_tokens": 188,
+        "reasoning_output_tokens": 15
+      }
+    ],
+    "root_id": "01a0a5a4-9905-71f2-ae76-8e3346c625ac",
+    "sessions": [
+      {
+        "id": "01a0a5a4-9905-71f2-ae76-8e3346c625ac",
+        "last_event_at": "2026-09-15T15:17:16.982Z",
+        "model_effort": [
+          {
+            "effort": "medium",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a5a4-991f-7f12-89f4-7b92be68821d"
+          }
+        ],
+        "rollout_sha256": "2d2b2764d763f268fe2fabfc52f693f056189980a3d0f4c3de405e5027913240",
+        "source": "exec",
+        "started_at": "2026-09-15T15:17:02.853Z",
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 26752,
+          "input_tokens": 40793,
+          "output_tokens": 188,
+          "reasoning_output_tokens": 15,
+          "total_tokens": 40981
+        },
+        "usage_event_count": 3,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 13466,
+                "output_tokens": 123,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13589
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 13466,
+                "output_tokens": 123,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13589
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 13312,
+                "input_tokens": 13611,
+                "output_tokens": 38,
+                "reasoning_output_tokens": 15,
+                "total_tokens": 13649
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 13312,
+                "input_tokens": 27077,
+                "output_tokens": 161,
+                "reasoning_output_tokens": 15,
+                "total_tokens": 27238
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 13440,
+                "input_tokens": 13716,
+                "output_tokens": 27,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13743
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 26752,
+                "input_tokens": 40793,
+                "output_tokens": 188,
+                "reasoning_output_tokens": 15,
+                "total_tokens": 40981
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      },
+      {
+        "id": "01a0a5a4-b658-7f83-a510-ae0b58588367",
+        "last_event_at": "2026-09-15T15:17:14.586Z",
+        "model_effort": [
+          {
+            "effort": "medium",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a5a4-b680-7bc0-9464-44e8192a1598"
+          }
+        ],
+        "rollout_sha256": "2c6684e16d319800140ef4a063f6855dec5144d076d9f01a913416827b7bea39",
+        "source": {
+          "subagent": {
+            "thread_spawn": {
+              "agent_nickname": "Socrates",
+              "agent_path": "/root/digest_check",
+              "agent_role": "evidence_researcher",
+              "depth": 1,
+              "parent_thread_id": "01a0a5a4-9905-71f2-ae76-8e3346c625ac"
+            }
+          }
+        },
+        "started_at": "2026-09-15T15:17:10.360Z",
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 13194,
+          "output_tokens": 10,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 13204
+        },
+        "usage_event_count": 1,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 13194,
+                "output_tokens": 10,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13204
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 13194,
+                "output_tokens": 10,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13204
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "C",
+  "config_sha256": "caaa5f430569d80b56db4973b16db5e4ea911fa8a5a4a2ebcfbe18cbf51a8652",
+  "elapsed_seconds": 17.503269792010542,
+  "ended_at": "2026-09-15T15:17:20.299980+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {},
+  "input_hashes_after": {},
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "c184edd76728f141ac19dfcb6e916aa8ea162c0f9680a013504e24ea62076f49",
+    "serialized_characters": 20598
+  },
+  "instructions_sha256": "30e6128b8be45a8538c62aab0eb75cdcadd13ae3bf38524c27e3a1fae2c171b4",
+  "operational_status": "completed",
+  "response": {
+    "answer": "BLOCK_DIGEST_MISMATCH; OWNER_PENDING",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "conformance-evidence_researcher",
+  "setup_seconds": 0.8338757079909556,
+  "started_at": "2026-09-15T15:17:02.794384+00:00",
+  "task_id": null,
+  "timed_out": false,
+  "timeout_seconds": 180
+}

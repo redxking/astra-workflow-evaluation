@@ -1,0 +1,899 @@
+{
+  "accounting": "Distinct sessions final cumulative input+output; cached/reasoning subsets not added; unknown usage remains unknown; inspect child context inheritance for copied usage events",
+  "analysis_seed": 2026091503,
+  "arms": {
+    "A": "fixed Ultra parent/children",
+    "B": "Medium single agent",
+    "C": "Medium parent with revised explicit review trigger and effort-specific specialists"
+  },
+  "author": "Angelis Pseftis",
+  "codex_version": "codex-cli 0.154.0-alpha.6.2",
+  "conformance": "Four forced role probes excluded from scored comparisons and natural routing",
+  "design": "12 new purposively authored synthetic task clusters, 4 domains, 3 paired repeated blocks, 3 configurations, 108 scored runs",
+  "domains": {
+    "algorithm_reasoning": [
+      "E07",
+      "E08",
+      "E09"
+    ],
+    "evidence_synthesis": [
+      "E04",
+      "E05",
+      "E06"
+    ],
+    "operational_planning": [
+      "E10",
+      "E11",
+      "E12"
+    ],
+    "security_architecture": [
+      "E01",
+      "E02",
+      "E03"
+    ]
+  },
+  "efficiency_gate": {
+    "comparators": [
+      "A",
+      "B"
+    ],
+    "elapsed_increase_allowed": 0,
+    "minimum_token_reduction": 0.1,
+    "requires_quality_gate": true
+  },
+  "failure_policy": "All assigned failed/malformed/timed-out attempts retained; no score repairs or selective reruns. Allowance failure checkpoints, no paid fallback.",
+  "files": {
+    "config/adaptive.md": "c0a2bf68cecdaa28d3f21d41027e1c5ed3d7b3c4c200c20f6da0080515976400",
+    "config/agents/critical-verifier.toml": "58e7aef3fa68aa60fea9e7294e6142a2963fae0b4407d565162a899aaf6909fb",
+    "config/agents/evidence-researcher.toml": "00338f3bd442c638138f9b2c271dd574419b14ae6619dfa9cef77afd552837b4",
+    "config/agents/expert-reviewer.toml": "7f988f00ecd558f9c1cfa85698c63ea0aca691905d1b494b5825cbbe5f845d86",
+    "config/agents/fast-scan.toml": "e7df6d4af53c54c67419fb0b306a724943f9a02240a023a74c2afc6f677a883d",
+    "config/common.md": "731d892c041611fd84fe876166be687430c7b6c12b360c5fb7e9ca2b5bf054cf",
+    "config/medium.md": "122012105ad97d3c44302a93b59046147a58f470ac6211fc6775cd2eee3f58ef",
+    "config/response.schema.json": "c342706bffe5221d209874f56aec828319a270b92f48a49201bb26dca84de08e",
+    "config/ultra.md": "33abf5e7b6585418c4c0069a1800e3f4b3c942fb3a277776653be55a2a154e26",
+    "evaluator.py": "8a8194680a3fc536177a12a30d5a7a62e385d8b554d660f0d9a1eff458882026",
+    "fixtures/E01/input.json": "0b9c4a657346ce6c1f9bc722ea2d9be91e8c18f7ef8a22dfa5f3a695521da2d6",
+    "fixtures/E01/task.json": "5f8f65ae166428cfc39ba6d6812fb68782a3653dd08c824b68dadd8c32577abb",
+    "fixtures/E02/input.json": "e3e2b55fa0ad0f785818fdf2489cf0f97df35a4535172223f257138524a25f41",
+    "fixtures/E02/task.json": "74456237e2ec4a7bf722806e8cb9297035047ab0603c925532c212996b0b3986",
+    "fixtures/E03/input.json": "3582d7f6c5a4755bc0cfd1a985626cfa29028324e572f8da66ba5a89c3c70778",
+    "fixtures/E03/task.json": "422b4b9c96af55d51d7e7b12c8947fc6a601c6907b7b5047d2ea6d69a171022d",
+    "fixtures/E04/input.json": "70ff612704a9fa2ab23792652e102b56fb35d28f45dd494bbe7832a7d2958637",
+    "fixtures/E04/task.json": "9a04c9ab5b38a32f4b19e311802536c2a15f30cdf9258ea9029d84c9b6a32119",
+    "fixtures/E05/input.json": "38eba826e4cda7a1a7386287e6a36b67d81477565ea7b0110a9b7ece1ea5c0eb",
+    "fixtures/E05/task.json": "cc29964964aafbffce41f3067ea73074121b3a8d46a60095f39cdfa95e89fbd8",
+    "fixtures/E06/input.json": "fb5dd86342cde7a604302bc5c0a4e9833638b4688bbac1f040af852e6dc13683",
+    "fixtures/E06/task.json": "f9d94b6ddc9ea6f98b230919814c5f08ecd4add7a09650944c437add08c3310a",
+    "fixtures/E07/input.json": "8abfde3ef28b5adfd80086ea74a94ff2ce4a26f91a2559ed29e2b7043260a103",
+    "fixtures/E07/task.json": "55394fde62d265b68c41746863e70d36a8f3fb0db365325a886b24408137d308",
+    "fixtures/E08/input.json": "8e1f69f9d95ce89766502a59cbdbb156b84323fb4fdf6576c745749e78e2eae6",
+    "fixtures/E08/task.json": "e6207294d631a6ab7c4b9428869b310b7c57131227822cb24d9416e56ca33ade",
+    "fixtures/E09/input.json": "04cde627505cd439a46a72c672f4501d7acb5e0bbb2cac4c029cb4307a7df0a3",
+    "fixtures/E09/task.json": "40c931a142762c18ae5b4d6369fdb4a43f72deb4f3f76d16c55d8f5845882a3d",
+    "fixtures/E10/input.json": "507c4609e8e867bbe86a1ddcb0be79903373a9adf1718bdcb77e3047eee897a3",
+    "fixtures/E10/task.json": "aa3edd69e1b859aa2357cedbb6c75b7b5113c80e25047f17573939f9efdb55cf",
+    "fixtures/E11/input.json": "38ac9d18f3f273bbee5c367c7922cb40ceb0ca34db44f4260c359cc01f340afe",
+    "fixtures/E11/task.json": "85bb197575fa08274e5d7e5754e7c386ae8e5cbec38066511e6e7577e35634b3",
+    "fixtures/E12/input.json": "ec3998f669ede79da8843f616fe242534eca6e6bf6be6601eb1de6acde0485c3",
+    "fixtures/E12/task.json": "ff72030ea116f3da1dbc13491ed9b54a0b27113f92a8ec1202bdf3ef18775039",
+    "scripts/analyze.py": "afd1526e5eb1db22fe4b88b67cf4bac4522f6600875ce2790605a785d8d66002",
+    "scripts/conformance.py": "f2fef98316891ae324916443ae0ab29c72862147e45761a33e84ac068f771013",
+    "scripts/execute.py": "7ce9d863f604eab70a4349d60ce2d702f0681b11c3029cd74d3dbcda93cdc1cb",
+    "scripts/run_study.py": "4167d74cdebd6857d311b6792c2a3a3d45bd41f610031f7c37616bbe84f19d43",
+    "tests/test_analysis.py": "948e71e92f00ae884cae513b7794ffd7d715b2d342acf90d897e89457cf94ef1",
+    "tests/test_fixtures.py": "d215bb45f8b93708ee5de64ebab643ef1204fdd85f5f694baa4a6f016405754e"
+  },
+  "frozen_at": "2026-09-15T15:26:29.838113+00:00",
+  "model": "gpt-6-astra",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7",
+  "quality_gate": {
+    "C_task_accepted_counts_not_below_A": true,
+    "critical_failures_allowed": 0,
+    "indispensable_check_regressions_against_A_perfect_items_allowed": 0,
+    "minimum_C_accepted_runs": 33
+  },
+  "routing_gate": {
+    "integration": "separate evidence review; forced probes excluded",
+    "max_false_positive_tasks": 1,
+    "min_true_positive_tasks": 6,
+    "task_positive": "actual High or Xhigh Astra child in at least 2 of 3 repeats",
+    "unverified_invocation_claims_allowed": 0
+  },
+  "routing_labels": {
+    "E01": {
+      "critical_checks": [
+        "authorized_probes",
+        "repair_edges"
+      ],
+      "independent_workstreams": [
+        "Directed reachability and minimum feasible cut",
+        "Identity, expiry, tenant and revocation decisions"
+      ],
+      "rationale": "Network cut optimality and credential validity have independent failure modes.",
+      "review_opportunity": true
+    },
+    "E02": {
+      "critical_checks": [
+        "feasible_placements",
+        "selected"
+      ],
+      "independent_workstreams": [
+        "Quorum and writable survivor scenarios",
+        "Latency, cost and deterministic selection"
+      ],
+      "rationale": "Correlated failure survivability must be reconciled with placement constraints.",
+      "review_opportunity": true
+    },
+    "E03": {
+      "critical_checks": [
+        "decisions"
+      ],
+      "independent_workstreams": [],
+      "rationale": "Small ordered rule table is a bounded single-pass control.",
+      "review_opportunity": false
+    },
+    "E04": {
+      "critical_checks": [
+        "gates",
+        "decision",
+        "blocked_dependencies"
+      ],
+      "independent_workstreams": [
+        "Eligibility, freshness and observation chronology",
+        "Gate dependency and release decision"
+      ],
+      "rationale": "Bitemporal evidence selection and dependency release gating can fail independently.",
+      "review_opportunity": true
+    },
+    "E05": {
+      "critical_checks": [
+        "services",
+        "fleet_confirmed_minutes",
+        "retained_report_ids"
+      ],
+      "independent_workstreams": [
+        "Publication cutoff and direct supersession",
+        "Downtime unions, monitor differences and fleet overlap"
+      ],
+      "rationale": "Correction eligibility and interval-set aggregation have distinct consequential errors.",
+      "review_opportunity": true
+    },
+    "E06": {
+      "critical_checks": [
+        "claims"
+      ],
+      "independent_workstreams": [],
+      "rationale": "Explicit bounded evidence labels need no independent specialist work.",
+      "review_opportunity": false
+    },
+    "E07": {
+      "critical_checks": [
+        "jobs",
+        "accepted_sequences",
+        "accepted_tokens"
+      ],
+      "independent_workstreams": [
+        "Verify transition rules including lease, attempt and token guards",
+        "Independently derive chronological replay and terminal state trace"
+      ],
+      "rationale": "Lease and attempt transitions interact with global idempotency and cancellation.",
+      "review_opportunity": true
+    },
+    "E08": {
+      "critical_checks": [
+        "selected_edges",
+        "departures",
+        "feasible_path_count"
+      ],
+      "independent_workstreams": [
+        "Simple path temporal feasibility and optimal arrival",
+        "Battery accounting and feasible sequence enumeration"
+      ],
+      "rationale": "Time-window reachability and recharge-constrained paths require independent checks.",
+      "review_opportunity": true
+    },
+    "E09": {
+      "critical_checks": [
+        "cycle_components",
+        "blocked",
+        "build_order"
+      ],
+      "independent_workstreams": [],
+      "rationale": "Small dependency graph and deterministic SCC closure are bounded control work.",
+      "review_opportunity": false
+    },
+    "E10": {
+      "critical_checks": [
+        "starts",
+        "makespan"
+      ],
+      "independent_workstreams": [
+        "Dependency and permitted-start feasibility",
+        "Concurrent capacity and multi-objective schedule search"
+      ],
+      "rationale": "Migration precedence and windows must agree with capacity and exposure optimization.",
+      "review_opportunity": true
+    },
+    "E11": {
+      "critical_checks": [
+        "actions",
+        "scenario_losses",
+        "worst_loss"
+      ],
+      "independent_workstreams": [
+        "Budget, prerequisite and incompatibility feasibility",
+        "Scenario losses, interactions and minimax objective"
+      ],
+      "rationale": "Portfolio constraint enumeration is separable from correlated scenario and bonus analysis.",
+      "review_opportunity": true
+    },
+    "E12": {
+      "critical_checks": [
+        "feasible_starts"
+      ],
+      "independent_workstreams": [],
+      "rationale": "Small common-clock interval intersection is a bounded control.",
+      "review_opportunity": false
+    }
+  },
+  "run_order": [
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "001-E08-B-r1",
+      "task": "E08"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "002-E08-C-r1",
+      "task": "E08"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "003-E08-A-r1",
+      "task": "E08"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "004-E07-A-r1",
+      "task": "E07"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "005-E07-B-r1",
+      "task": "E07"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "006-E07-C-r1",
+      "task": "E07"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "007-E02-B-r1",
+      "task": "E02"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "008-E02-A-r1",
+      "task": "E02"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "009-E02-C-r1",
+      "task": "E02"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "010-E09-B-r1",
+      "task": "E09"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "011-E09-C-r1",
+      "task": "E09"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "012-E09-A-r1",
+      "task": "E09"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "013-E12-C-r1",
+      "task": "E12"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "014-E12-B-r1",
+      "task": "E12"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "015-E12-A-r1",
+      "task": "E12"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "016-E05-B-r1",
+      "task": "E05"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "017-E05-C-r1",
+      "task": "E05"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "018-E05-A-r1",
+      "task": "E05"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "019-E10-B-r1",
+      "task": "E10"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "020-E10-A-r1",
+      "task": "E10"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "021-E10-C-r1",
+      "task": "E10"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "022-E06-B-r1",
+      "task": "E06"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "023-E06-C-r1",
+      "task": "E06"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "024-E06-A-r1",
+      "task": "E06"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "025-E01-A-r1",
+      "task": "E01"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "026-E01-B-r1",
+      "task": "E01"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "027-E01-C-r1",
+      "task": "E01"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "028-E04-C-r1",
+      "task": "E04"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "029-E04-A-r1",
+      "task": "E04"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "030-E04-B-r1",
+      "task": "E04"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "031-E11-A-r1",
+      "task": "E11"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "032-E11-B-r1",
+      "task": "E11"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "033-E11-C-r1",
+      "task": "E11"
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "034-E03-C-r1",
+      "task": "E03"
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "035-E03-B-r1",
+      "task": "E03"
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "036-E03-A-r1",
+      "task": "E03"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "037-E04-B-r2",
+      "task": "E04"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "038-E04-A-r2",
+      "task": "E04"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "039-E04-C-r2",
+      "task": "E04"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "040-E03-B-r2",
+      "task": "E03"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "041-E03-A-r2",
+      "task": "E03"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "042-E03-C-r2",
+      "task": "E03"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "043-E02-C-r2",
+      "task": "E02"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "044-E02-A-r2",
+      "task": "E02"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "045-E02-B-r2",
+      "task": "E02"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "046-E12-A-r2",
+      "task": "E12"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "047-E12-B-r2",
+      "task": "E12"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "048-E12-C-r2",
+      "task": "E12"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "049-E11-A-r2",
+      "task": "E11"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "050-E11-B-r2",
+      "task": "E11"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "051-E11-C-r2",
+      "task": "E11"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "052-E05-A-r2",
+      "task": "E05"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "053-E05-C-r2",
+      "task": "E05"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "054-E05-B-r2",
+      "task": "E05"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "055-E07-B-r2",
+      "task": "E07"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "056-E07-A-r2",
+      "task": "E07"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "057-E07-C-r2",
+      "task": "E07"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "058-E08-C-r2",
+      "task": "E08"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "059-E08-A-r2",
+      "task": "E08"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "060-E08-B-r2",
+      "task": "E08"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "061-E09-C-r2",
+      "task": "E09"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "062-E09-A-r2",
+      "task": "E09"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "063-E09-B-r2",
+      "task": "E09"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "064-E10-C-r2",
+      "task": "E10"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "065-E10-B-r2",
+      "task": "E10"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "066-E10-A-r2",
+      "task": "E10"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "067-E01-C-r2",
+      "task": "E01"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "068-E01-B-r2",
+      "task": "E01"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "069-E01-A-r2",
+      "task": "E01"
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "070-E06-C-r2",
+      "task": "E06"
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "071-E06-B-r2",
+      "task": "E06"
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "072-E06-A-r2",
+      "task": "E06"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "073-E09-A-r3",
+      "task": "E09"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "074-E09-B-r3",
+      "task": "E09"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "075-E09-C-r3",
+      "task": "E09"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "076-E03-C-r3",
+      "task": "E03"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "077-E03-B-r3",
+      "task": "E03"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "078-E03-A-r3",
+      "task": "E03"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "079-E08-A-r3",
+      "task": "E08"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "080-E08-C-r3",
+      "task": "E08"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "081-E08-B-r3",
+      "task": "E08"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "082-E04-A-r3",
+      "task": "E04"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "083-E04-C-r3",
+      "task": "E04"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "084-E04-B-r3",
+      "task": "E04"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "085-E01-B-r3",
+      "task": "E01"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "086-E01-A-r3",
+      "task": "E01"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "087-E01-C-r3",
+      "task": "E01"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "088-E02-C-r3",
+      "task": "E02"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "089-E02-B-r3",
+      "task": "E02"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "090-E02-A-r3",
+      "task": "E02"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "091-E06-C-r3",
+      "task": "E06"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "092-E06-A-r3",
+      "task": "E06"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "093-E06-B-r3",
+      "task": "E06"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "094-E11-A-r3",
+      "task": "E11"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "095-E11-B-r3",
+      "task": "E11"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "096-E11-C-r3",
+      "task": "E11"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "097-E12-B-r3",
+      "task": "E12"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "098-E12-A-r3",
+      "task": "E12"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "099-E12-C-r3",
+      "task": "E12"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "100-E07-B-r3",
+      "task": "E07"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "101-E07-A-r3",
+      "task": "E07"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "102-E07-C-r3",
+      "task": "E07"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "103-E05-C-r3",
+      "task": "E05"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "104-E05-A-r3",
+      "task": "E05"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "105-E05-B-r3",
+      "task": "E05"
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "106-E10-C-r3",
+      "task": "E10"
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "107-E10-A-r3",
+      "task": "E10"
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "108-E10-B-r3",
+      "task": "E10"
+    }
+  ],
+  "run_order_seed": 2026091502,
+  "study_id": "expanded-astra-2026-09-15",
+  "timeout_seconds": 300,
+  "uncertainty": {
+    "method": "20000 paired domain-stratified task-cluster bootstrap samples, descriptive ratios; all repeats retained within each sampled task",
+    "quality_margin": 0.05,
+    "warning": "12 purposive tasks cannot establish population NI. Exact regression-incidence upper bound is separate from acceptance-rate-difference NI. Degenerate quality intervals are not evidence of equivalence."
+  }
+}

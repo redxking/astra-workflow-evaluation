@@ -1,0 +1,62 @@
+{
+  "author": "Angelis Pseftis",
+  "scope": "Forced mechanical conformance only; excluded from natural routing and scored comparison",
+  "probes": [
+    {
+      "role": "critical_verifier",
+      "effort": "xhigh",
+      "passed": true,
+      "checks": {
+        "child_effort": true,
+        "child_model": true,
+        "completed": true,
+        "exact_integrated_answer": true,
+        "one_child": true
+      },
+      "tokens": 54220,
+      "execution_seconds": 17.593215374974534
+    },
+    {
+      "role": "evidence_researcher",
+      "effort": "medium",
+      "passed": true,
+      "checks": {
+        "child_effort": true,
+        "child_model": true,
+        "completed": true,
+        "exact_integrated_answer": true,
+        "one_child": true
+      },
+      "tokens": 54185,
+      "execution_seconds": 17.503269792010542
+    },
+    {
+      "role": "expert_reviewer",
+      "effort": "high",
+      "passed": true,
+      "checks": {
+        "child_effort": true,
+        "child_model": true,
+        "completed": true,
+        "exact_integrated_answer": true,
+        "one_child": true
+      },
+      "tokens": 40449,
+      "execution_seconds": 19.09328287502285
+    },
+    {
+      "role": "fast_scan",
+      "effort": "low",
+      "passed": true,
+      "checks": {
+        "child_effort": true,
+        "child_model": true,
+        "completed": true,
+        "exact_integrated_answer": true,
+        "one_child": true
+      },
+      "tokens": 67842,
+      "execution_seconds": 29.62239854200743
+    }
+  ]
+}

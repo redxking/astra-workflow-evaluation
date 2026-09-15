@@ -48,3 +48,7 @@ For each entry in `protocol.json`, run the runner with its exact task, arm and r
 The recorded comparison includes setup, execution and grading. It excludes study development and release work; it is not a lifecycle cost study. Cached input is a subset of input, reasoning output is a subset of output, and token counts are not subscription charges.
 
 MIT license. Author: Angelis Pseftis. No external reproduction or production-wide validation is claimed.
+
+## Follow-up validation
+
+An expanded 108-run study is frozen and execution is starting. Its [protocol](studies/expanded/protocol.json), [fixtures and runner](studies/expanded), and [four passing forced conformance probes](studies/expanded/evidence/conformance-summary.json) are available. Expanded outcome claims remain pending. Original pilot results are preserved.

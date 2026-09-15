@@ -1,0 +1,9 @@
+{
+  "id": "E05",
+  "title": "Reconstruct outage and evidence coverage",
+  "kind": "evidence_synthesis",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. Analyze half-open observation window [0,60). Intersect all intervals with that window; ignore empty intervals. For each service, confirmed downtime is union of down intervals from authoritative=true sources only. possible downtime is union of confirmed intervals and all uncertain intervals (any authority), but nonauthoritative down reports are excluded entirely. Coverage is union of monitor intervals; confirmed unobserved downtime is confirmed downtime outside coverage. Apply correction records: each report with a superseded_by ID is excluded only if that referenced correction exists with published<=cutoff; chains use the original direct reference and do not require terminal correction to be current. Reports published after cutoff are excluded. These rules apply to down/uncertain reports, not monitor data. Return {services:[{id,confirmed_minutes,possible_minutes,unobserved_confirmed_minutes},...],fleet_confirmed_minutes:integer,retained_report_ids:[IDs]}. retained_report_ids includes only reports passing publication/supersession rules with a nonempty clipped interval and either authoritative down or any uncertain kind. Fleet counts elapsed time during which any service is confirmed down, not summed service downtime."
+}

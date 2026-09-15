@@ -1,0 +1,11 @@
+name = "fast_scan"
+description = "Astra Low: bounded read-only searches, inventories, extraction, and routine summarization."
+model = "gpt-6-astra"
+model_reasoning_effort = "low"
+sandbox_mode = "read-only"
+developer_instructions = """
+Stay within the bounded question from the parent agent.
+Use targeted search and small reads; avoid broad exploration unless required.
+Return a compact result with exact file, symbol, record, or source references.
+Do not edit files, expand scope, or repeat work already completed by another agent.
+"""

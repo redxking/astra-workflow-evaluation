@@ -1,0 +1,53 @@
+test_all_failures (test_analysis.BoundTests.test_all_failures) ... ok
+test_more_tasks_tighten_bound (test_analysis.BoundTests.test_more_tasks_tighten_bound) ... ok
+test_one_failure_increases_bound (test_analysis.BoundTests.test_one_failure_increases_bound) ... ok
+test_zero_failures_not_zero_uncertainty (test_analysis.BoundTests.test_zero_failures_not_zero_uncertainty) ... ok
+test_known_synthetic_aggregation (test_analysis.EndToEndTests.test_known_synthetic_aggregation) ... ok
+test_E01_break_required_ops_path (test_fixtures.Fixtures.test_E01_break_required_ops_path) ... ok
+test_E01_correct_reference (test_fixtures.Fixtures.test_E01_correct_reference) ... ok
+test_E01_expired_token_allowed (test_fixtures.Fixtures.test_E01_expired_token_allowed) ... ok
+test_E02_choose_higher_cost_feasible (test_fixtures.Fixtures.test_E02_choose_higher_cost_feasible) ... ok
+test_E02_correct_reference (test_fixtures.Fixtures.test_E02_correct_reference) ... ok
+test_E02_ignore_correlated_site_failure (test_fixtures.Fixtures.test_E02_ignore_correlated_site_failure) ... ok
+test_E03_allow_wins_priority_tie (test_fixtures.Fixtures.test_E03_allow_wins_priority_tie) ... ok
+test_E03_correct_reference (test_fixtures.Fixtures.test_E03_correct_reference) ... ok
+test_E03_expiry_inclusive (test_fixtures.Fixtures.test_E03_expiry_inclusive) ... ok
+test_E04_correct_reference (test_fixtures.Fixtures.test_E04_correct_reference) ... ok
+test_E04_record_time_over_observation_time (test_fixtures.Fixtures.test_E04_record_time_over_observation_time) ... ok
+test_E04_stale_pass_counts_as_pass (test_fixtures.Fixtures.test_E04_stale_pass_counts_as_pass) ... ok
+test_E05_correct_reference (test_fixtures.Fixtures.test_E05_correct_reference) ... ok
+test_E05_future_correction_applied (test_fixtures.Fixtures.test_E05_future_correction_applied) ... ok
+test_E05_sum_service_outages (test_fixtures.Fixtures.test_E05_sum_service_outages) ... ok
+test_E06_conflict_hidden (test_fixtures.Fixtures.test_E06_conflict_hidden) ... ok
+test_E06_correct_reference (test_fixtures.Fixtures.test_E06_correct_reference) ... ok
+test_E06_future_evidence_accepted (test_fixtures.Fixtures.test_E06_future_evidence_accepted) ... ok
+test_E07_correct_reference (test_fixtures.Fixtures.test_E07_correct_reference) ... ok
+test_E07_lease_equality_not_expired (test_fixtures.Fixtures.test_E07_lease_equality_not_expired) ... ok
+test_E07_rejected_result_consumes_token (test_fixtures.Fixtures.test_E07_rejected_result_consumes_token) ... ok
+test_E08_battery_ignored_shortcut (test_fixtures.Fixtures.test_E08_battery_ignored_shortcut) ... ok
+test_E08_correct_reference (test_fixtures.Fixtures.test_E08_correct_reference) ... ok
+test_E08_count_timings_instead_of_paths (test_fixtures.Fixtures.test_E08_count_timings_instead_of_paths) ... ok
+test_E09_correct_reference (test_fixtures.Fixtures.test_E09_correct_reference) ... ok
+test_E09_lexical_sort_not_ready_order (test_fixtures.Fixtures.test_E09_lexical_sort_not_ready_order) ... ok
+test_E09_self_cycle_ignored (test_fixtures.Fixtures.test_E09_self_cycle_ignored) ... ok
+test_E10_capacity_overbooked (test_fixtures.Fixtures.test_E10_capacity_overbooked) ... ok
+test_E10_correct_reference (test_fixtures.Fixtures.test_E10_correct_reference) ... ok
+test_E10_risk_uses_finish (test_fixtures.Fixtures.test_E10_risk_uses_finish) ... ok
+test_E11_correct_reference (test_fixtures.Fixtures.test_E11_correct_reference) ... ok
+test_E11_empty_portfolio_not_counted (test_fixtures.Fixtures.test_E11_empty_portfolio_not_counted) ... ok
+test_E11_scenario_bonus_ignored (test_fixtures.Fixtures.test_E11_scenario_bonus_ignored) ... ok
+test_E12_adjacency_treated_as_gap (test_fixtures.Fixtures.test_E12_adjacency_treated_as_gap) ... ok
+test_E12_blackout_overlap (test_fixtures.Fixtures.test_E12_blackout_overlap) ... ok
+test_E12_correct_reference (test_fixtures.Fixtures.test_E12_correct_reference) ... ok
+test_catalog_metadata_and_no_oracle_in_task_inputs (test_fixtures.Fixtures.test_catalog_metadata_and_no_oracle_in_task_inputs) ... ok
+test_e01_independent_floyd_cut_search (test_fixtures.Fixtures.test_e01_independent_floyd_cut_search) ... ok
+test_e02_independent_failure_masks (test_fixtures.Fixtures.test_e02_independent_failure_masks) ... ok
+test_e08_independent_all_integer_waits (test_fixtures.Fixtures.test_e08_independent_all_integer_waits) ... ok
+test_e10_independent_cartesian_schedules (test_fixtures.Fixtures.test_e10_independent_cartesian_schedules) ... ok
+test_e11_independent_binary_portfolios (test_fixtures.Fixtures.test_e11_independent_binary_portfolios) ... ok
+test_strict_schema_and_json (test_fixtures.Fixtures.test_strict_schema_and_json) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.664s
+
+OK

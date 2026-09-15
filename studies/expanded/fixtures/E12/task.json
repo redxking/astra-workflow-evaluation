@@ -1,0 +1,9 @@
+{
+  "id": "E12",
+  "title": "Maintenance availability intersection",
+  "kind": "operational_planning",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. Intervals are half-open integer minutes on one common clock. Find start minutes >= window_start and start+duration <= window_end for which the entire operation interval is inside every team's union of availability intervals, does not overlap any blackout, and finish <= deadline. Adjacent availability intervals join continuously. Return {feasible_starts:[integers ascending],earliest:integer or null,latest:integer or null}. End exactly at blackout start or deadline is allowed; start exactly at blackout end is allowed."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "E03",
+  "title": "Ordered policy evaluation",
+  "kind": "security_architecture",
+  "author": "Angelis Pseftis",
+  "license": "MIT",
+  "synthetic": true,
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}, with code empty and answer encoding the requested JSON object. Use only the supplied synthetic files. All lists of IDs and arrays of objects containing an id must be sorted lexicographically by ID, unless another ordering is specified. Do not add answer keys. Read input.json. For each request choose matching rule of highest priority; tie: deny before allow, then lexicographically smallest rule ID. Rule fields subject, resource, action match exact equality or wildcard *. CIDR is irrelevant and absent. If none match decision is deny and rule is null. An expired request (now >= expiry) is denied with rule EXPIRED before policy evaluation. Return {decisions:[{id,decision,rule},...]} sorted by request ID."
+}
