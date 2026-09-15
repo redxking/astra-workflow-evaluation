@@ -1,0 +1,112 @@
+{
+  "accepted": true,
+  "checks": [
+    {
+      "detail": "",
+      "name": "response_schema",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "noncoding_code_empty",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_object",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_keys",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "candidate_coverage",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C01_decision",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C01_source_reference",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C01_rationale_present",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C02_decision",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C02_source_reference",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C02_rationale_present",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C03_decision",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C03_source_reference",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C03_rationale_present",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C04_decision",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C04_source_reference",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C04_rationale_present",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C05_decision",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C05_source_reference",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "C05_rationale_present",
+      "passed": true
+    }
+  ],
+  "checks_passed": 20,
+  "checks_total": 20,
+  "errors": [],
+  "grading_seconds": 7.1291986387223e-05,
+  "input_unchanged": true,
+  "operational_status": "completed",
+  "passed": true
+}

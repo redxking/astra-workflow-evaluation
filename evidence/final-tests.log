@@ -1,0 +1,24 @@
+test_boolean_is_not_count (test_evaluator.EvaluatorTests.test_boolean_is_not_count) ... ok
+test_coding_deliberate_defects (test_evaluator.EvaluatorTests.test_coding_deliberate_defects) ... ok
+test_coding_reference_passes (test_evaluator.EvaluatorTests.test_coding_reference_passes) ... ok
+test_malformed_responses_fail_without_exception (test_evaluator.EvaluatorTests.test_malformed_responses_fail_without_exception) ... ok
+test_noncoding_references_pass (test_evaluator.EvaluatorTests.test_noncoding_references_pass) ... ok
+test_prohibited_source_even_with_correct_output_fails (test_evaluator.EvaluatorTests.test_prohibited_source_even_with_correct_output_fails) ... ok
+test_t01_false_clean_fails (test_evaluator.EvaluatorTests.test_t01_false_clean_fails) ... ok
+test_t01_missing_unknown_fails (test_evaluator.EvaluatorTests.test_t01_missing_unknown_fails) ... ok
+test_t03_bad_reference_fails (test_evaluator.EvaluatorTests.test_t03_bad_reference_fails) ... ok
+test_t03_each_wrong_decision_fails (test_evaluator.EvaluatorTests.test_t03_each_wrong_decision_fails) ... ok
+test_t04_vendor_claim_and_plan_do_not_prove_completion (test_evaluator.EvaluatorTests.test_t04_vendor_claim_and_plan_do_not_prove_completion) ... ok
+test_existing_routing_section_preserves_neighbors (test_install.InstallTests.test_existing_routing_section_preserves_neighbors) ... ok
+test_preview_apply_idempotence_and_exact_rollback (test_install.InstallTests.test_preview_apply_idempotence_and_exact_rollback) ... ok
+test_rollback_refuses_later_edits (test_install.InstallTests.test_rollback_refuses_later_edits) ... ok
+test_absent_usage_remains_unknown (test_runner.InstrumentationTests.test_absent_usage_remains_unknown) ... ok
+test_cumulative_usage_is_not_summed_repeatedly (test_runner.InstrumentationTests.test_cumulative_usage_is_not_summed_repeatedly) ... ok
+test_grader_denies_network_and_private_reads (test_runner.InstrumentationTests.test_grader_denies_network_and_private_reads) ... ok
+test_grader_output_is_bounded (test_runner.InstrumentationTests.test_grader_output_is_bounded) ... ok
+test_private_path_redaction (test_runner.InstrumentationTests.test_private_path_redaction) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.891s
+
+OK

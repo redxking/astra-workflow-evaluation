@@ -1,0 +1,167 @@
+{
+  "accepted": true,
+  "checks": [
+    {
+      "detail": "",
+      "name": "response_schema",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "bounded_nonempty_code",
+      "passed": true
+    },
+    {
+      "detail": "Declared source constraints satisfied",
+      "name": "code_contract",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "valid_exact_limits",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "empty_snapshot",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "empty_file",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "extra_blobs_ignored",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "unicode_and_dot_in_name",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "negative_perfile",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "negative_aggregate",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "bad_path_''",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "bad_path_'/a'",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "bad_path_'a/'",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "bad_path_'a//b'",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "bad_path_'./a'",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "bad_path_'a/../b'",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "bad_path_'../a'",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "bad_path_'a/./b'",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "bad_path_'a\\\\b'",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "bad_path_'a\\x00b'",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "duplicate_paths",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "missing_blob",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "declared_size_-1",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "declared_size_2",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "declared_size_4",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "digest_mismatch",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "digest_uppercase",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "digest_short",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "digest_not_hex",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "perfile_overflow",
+      "passed": true
+    },
+    {
+      "detail": "Correct outcome and inputs preserved",
+      "name": "aggregate_overflow",
+      "passed": true
+    }
+  ],
+  "checks_passed": 31,
+  "checks_total": 31,
+  "errors": [],
+  "grading_seconds": 0.08061258302768692,
+  "input_unchanged": true,
+  "operational_status": "completed",
+  "passed": true
+}

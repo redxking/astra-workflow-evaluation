@@ -1,0 +1,72 @@
+{
+  "accepted": true,
+  "checks": [
+    {
+      "detail": "",
+      "name": "response_schema",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "noncoding_code_empty",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_object",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_keys",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "as_of",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "current_state",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "current_source",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "completed_gates",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "unrun_gates",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "unknowns",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "superseded_sources",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "production_ready",
+      "passed": true
+    }
+  ],
+  "checks_passed": 12,
+  "checks_total": 12,
+  "errors": [],
+  "grading_seconds": 6.679102079942822e-05,
+  "input_unchanged": true,
+  "operational_status": "completed",
+  "passed": true
+}

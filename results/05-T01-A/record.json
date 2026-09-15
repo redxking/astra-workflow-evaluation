@@ -1,0 +1,127 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12288,
+        "input_tokens": 25254,
+        "output_tokens": 153,
+        "reasoning_output_tokens": 34
+      }
+    ],
+    "root_id": "01a0a591-9969-7ef1-b85c-5a160ab6a3a1",
+    "sessions": [
+      {
+        "id": "01a0a591-9969-7ef1-b85c-5a160ab6a3a1",
+        "last_event_at": "2026-09-15T14:56:27.300Z",
+        "model_effort": [
+          {
+            "effort": "ultra",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a591-997c-7b72-a7dd-83d47075f5c5"
+          }
+        ],
+        "rollout_sha256": "91708afe4c057cee2d567d163571559b064b1d5c8150ca462c7200e3138f0d39",
+        "source": "exec",
+        "started_at": "2026-09-15T14:56:17.769Z",
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 12288,
+          "input_tokens": 25254,
+          "output_tokens": 153,
+          "reasoning_output_tokens": 34,
+          "total_tokens": 25407
+        },
+        "usage_event_count": 2,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 12474,
+                "output_tokens": 52,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 12526
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 12474,
+                "output_tokens": 52,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 12526
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12288,
+                "input_tokens": 12780,
+                "output_tokens": 101,
+                "reasoning_output_tokens": 34,
+                "total_tokens": 12881
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12288,
+                "input_tokens": 25254,
+                "output_tokens": 153,
+                "reasoning_output_tokens": 34,
+                "total_tokens": 25407
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "A",
+  "config_sha256": "f9e63cc0b1b99c6012320f95473ee67f565797ecb7ab71be48680769e35c5d5d",
+  "elapsed_seconds": 10.568458124995232,
+  "ended_at": "2026-09-15T14:56:28.280958+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {
+    "evidence.json": "96a399d8983e499a4fe3df64889bddefa749d4701ea3b9d7601490c44e4f58b2",
+    "task.json": "92103956e962ccbdc629d3d49ae7173592dc72319cea112525958939fcef8744"
+  },
+  "input_hashes_after": {
+    "evidence.json": "96a399d8983e499a4fe3df64889bddefa749d4701ea3b9d7601490c44e4f58b2",
+    "task.json": "92103956e962ccbdc629d3d49ae7173592dc72319cea112525958939fcef8744"
+  },
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "b7d03971133e897597bc0728dfba5386a0ce91ea06a6543d9df8de7c280ec64a",
+    "serialized_characters": 15261
+  },
+  "instructions_sha256": "16b4bef48164c3f76545d9ac819b474a9726dd92311d6e916cef4f678b8dcad0",
+  "operational_status": "completed",
+  "response": {
+    "answer": "{\"counts\":{\"PASS\":3,\"FAIL\":0,\"NOT_RUN\":1,\"UNKNOWN\":1},\"findings_observed\":0,\"overall_status\":\"INCOMPLETE\",\"unknowns\":[\"S03\",\"S04\"]}",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "05-T01-A",
+  "setup_seconds": 0.9051950420252979,
+  "started_at": "2026-09-15T14:56:17.710321+00:00",
+  "task_id": "T01",
+  "timed_out": false,
+  "timeout_seconds": 300
+}

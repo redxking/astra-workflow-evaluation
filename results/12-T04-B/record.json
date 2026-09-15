@@ -1,0 +1,127 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 9984,
+        "input_tokens": 20870,
+        "output_tokens": 155,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "root_id": "01a0a596-39c9-7e10-9191-2c2158b5acf3",
+    "sessions": [
+      {
+        "id": "01a0a596-39c9-7e10-9191-2c2158b5acf3",
+        "last_event_at": "2026-09-15T15:01:31.754Z",
+        "model_effort": [
+          {
+            "effort": "medium",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a596-39dd-7741-b0d1-f9540c1b3ba6"
+          }
+        ],
+        "rollout_sha256": "7c2bffe33eebb9030397f93934375acd151233bcabb97345ef4c5271a1e3fe84",
+        "source": "exec",
+        "started_at": "2026-09-15T15:01:20.969Z",
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 9984,
+          "input_tokens": 20870,
+          "output_tokens": 155,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 21025
+        },
+        "usage_event_count": 2,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 10219,
+                "output_tokens": 54,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 10273
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 10219,
+                "output_tokens": 54,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 10273
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 9984,
+                "input_tokens": 10651,
+                "output_tokens": 101,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 10752
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 9984,
+                "input_tokens": 20870,
+                "output_tokens": 155,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 21025
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "B",
+  "config_sha256": "32742fbaa817f54a70bca827fa8250fa36784752e475d71a829503e27452e1c3",
+  "elapsed_seconds": 11.653246750007384,
+  "ended_at": "2026-09-15T15:01:32.558485+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {
+    "sources.json": "f691abba5f73b0f9b0b3e406f8bca0c2a7ded12dac86ccb3fa339e9fba0f150f",
+    "task.json": "1c768a484423d792185e82841d7f47ba5c6f5071e8cb8a54655fc25acc3d74c3"
+  },
+  "input_hashes_after": {
+    "sources.json": "f691abba5f73b0f9b0b3e406f8bca0c2a7ded12dac86ccb3fa339e9fba0f150f",
+    "task.json": "1c768a484423d792185e82841d7f47ba5c6f5071e8cb8a54655fc25acc3d74c3"
+  },
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "164aead9442470bdf72ef36fc3a1c437cb18f014f7d43f2540c164c1cee36643",
+    "serialized_characters": 11336
+  },
+  "instructions_sha256": "45de65339d57f681d368c6708649860a12c30077dffb730ce88146331e07f794",
+  "operational_status": "completed",
+  "response": {
+    "answer": "{\"as_of\":\"2026-08-12\",\"current_state\":\"LAB_VERIFIED\",\"current_source\":\"SRC-B\",\"completed_gates\":[\"G1\",\"G2\"],\"unrun_gates\":[\"G3\",\"G4\"],\"unknowns\":[\"U1\",\"U2\"],\"superseded_sources\":[\"SRC-A\"],\"production_ready\":false}",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "12-T04-B",
+  "setup_seconds": 1.6438385000219569,
+  "started_at": "2026-09-15T15:01:20.903232+00:00",
+  "task_id": "T04",
+  "timed_out": false,
+  "timeout_seconds": 300
+}

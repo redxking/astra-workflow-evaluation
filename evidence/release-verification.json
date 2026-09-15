@@ -1,0 +1,10 @@
+{
+  "author": "Angelis Pseftis",
+  "frozen_protocol_commit": "ea39ecf915f3988e88683b9098ac0880a53709ac",
+  "scored_runs": 12,
+  "offline_saved_response_rechecks": 12,
+  "unit_test_methods_passed": 19,
+  "privacy_audit": "Known private path, credential-field, memory and account-rate-limit patterns checked in release files and initial frozen Git tree; no matches outside intentional detector source. Not a formal secret-scanner certification.",
+  "child_usage_review": "Read-only Astra expert review of original logs: child cumulative starts with child own usage, no inherited token_count events; final root+child totals 92807 and 128693. Reviewer is an AI agent, not an independent human auditor.",
+  "publication_state": "Prepared locally; remote status must be verified separately."
+}

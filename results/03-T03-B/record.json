@@ -1,0 +1,151 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 20096,
+        "input_tokens": 31451,
+        "output_tokens": 345,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "root_id": "01a0a590-f6c9-7b91-b084-8e5dc3a4b38c",
+    "sessions": [
+      {
+        "id": "01a0a590-f6c9-7b91-b084-8e5dc3a4b38c",
+        "last_event_at": "2026-09-15T14:55:54.694Z",
+        "model_effort": [
+          {
+            "effort": "medium",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a590-f6dd-70b0-b85c-ac4ed6988fbd"
+          }
+        ],
+        "rollout_sha256": "f787eb8ebf797bcf194cea2f56878e18923ec475e87d5552896a3fc41bedeb62",
+        "source": "exec",
+        "started_at": "2026-09-15T14:55:36.137Z",
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 20096,
+          "input_tokens": 31451,
+          "output_tokens": 345,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 31796
+        },
+        "usage_event_count": 3,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 10187,
+                "output_tokens": 59,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 10246
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 10187,
+                "output_tokens": 59,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 10246
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 9984,
+                "input_tokens": 10347,
+                "output_tokens": 36,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 10383
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 9984,
+                "input_tokens": 20534,
+                "output_tokens": 95,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 20629
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 10112,
+                "input_tokens": 10917,
+                "output_tokens": 250,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 11167
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 20096,
+                "input_tokens": 31451,
+                "output_tokens": 345,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 31796
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "B",
+  "config_sha256": "32742fbaa817f54a70bca827fa8250fa36784752e475d71a829503e27452e1c3",
+  "elapsed_seconds": 19.60118854197208,
+  "ended_at": "2026-09-15T14:55:55.686481+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {
+    "gate.py": "d0de5248a82133a556807756ad80752692eea5bdad91759a205dfa06248083af",
+    "task.json": "283ad8ccca3ff90a6c5322f16f30be2431424e1577b189b039b039314e2ea474",
+    "threat_model.txt": "b1db2e24724378d06d6d7040dd48e3780faf72f8bfbe4a7e76a0f885d85267d6"
+  },
+  "input_hashes_after": {
+    "gate.py": "d0de5248a82133a556807756ad80752692eea5bdad91759a205dfa06248083af",
+    "task.json": "283ad8ccca3ff90a6c5322f16f30be2431424e1577b189b039b039314e2ea474",
+    "threat_model.txt": "b1db2e24724378d06d6d7040dd48e3780faf72f8bfbe4a7e76a0f885d85267d6"
+  },
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "3f28f54c1d8a7a58e263210f0242cdb9debf26d4b2058f3697542242ad672b7e",
+    "serialized_characters": 11336
+  },
+  "instructions_sha256": "45de65339d57f681d368c6708649860a12c30077dffb730ce88146331e07f794",
+  "operational_status": "completed",
+  "response": {
+    "answer": "{\"decisions\":[{\"id\":\"C01\",\"is_issue\":false,\"lines\":[7],\"reason\":\"Exact Host comparison matches the model's raw canonical DNS host without port; proxy rewriting is out of scope.\"},{\"id\":\"C02\",\"is_issue\":true,\"lines\":[10,21],\"reason\":\"Only session existence is checked before the protected write; a pre-login session with authenticated=false can pass, violating mandatory POST authentication.\"},{\"id\":\"C03\",\"is_issue\":true,\"lines\":[17],\"reason\":\"startswith accepts attacker-chosen Origins such as https://console.example.test.evil, violating the required exact Origin equality.\"},{\"id\":\"C04\",\"is_issue\":true,\"lines\":[19,21],\"reason\":\"Any nonempty CSRF value passes without comparison to session csrf_token, violating the required token equality.\"},{\"id\":\"C05\",\"is_issue\":false,\"lines\":[13,14],\"reason\":\"GET returns before the protected write. The model specifies only public static content for GET, so POST authentication, Origin, and CSRF requirements do not apply.\"}]}",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "03-T03-B",
+  "setup_seconds": 0.8236778330174275,
+  "started_at": "2026-09-15T14:55:36.082730+00:00",
+  "task_id": "T03",
+  "timed_out": false,
+  "timeout_seconds": 300
+}

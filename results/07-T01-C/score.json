@@ -1,0 +1,52 @@
+{
+  "accepted": true,
+  "checks": [
+    {
+      "detail": "",
+      "name": "response_schema",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "noncoding_code_empty",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_object",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_keys",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "counts",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "findings_observed",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "overall_status",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "unknowns",
+      "passed": true
+    }
+  ],
+  "checks_passed": 8,
+  "checks_total": 8,
+  "errors": [],
+  "grading_seconds": 5.9583981055766344e-05,
+  "input_unchanged": true,
+  "operational_status": "completed",
+  "passed": true
+}

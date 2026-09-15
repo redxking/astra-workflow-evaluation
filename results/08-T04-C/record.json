@@ -1,0 +1,127 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 13184,
+        "input_tokens": 27088,
+        "output_tokens": 162,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "root_id": "01a0a593-3f77-7090-87ca-fdbe1220a0db",
+    "sessions": [
+      {
+        "id": "01a0a593-3f77-7090-87ca-fdbe1220a0db",
+        "last_event_at": "2026-09-15T14:58:16.520Z",
+        "model_effort": [
+          {
+            "effort": "medium",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a593-3f8a-73b2-a27f-83fd6da660e8"
+          }
+        ],
+        "rollout_sha256": "b4428e3d11baa81f9dde50b5abf0274c39c5110f6bfe9bfe7f3cbdb9f2990295",
+        "source": "exec",
+        "started_at": "2026-09-15T14:58:05.816Z",
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 13184,
+          "input_tokens": 27088,
+          "output_tokens": 162,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 27250
+        },
+        "usage_event_count": 2,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 13326,
+                "output_tokens": 61,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13387
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 13326,
+                "output_tokens": 61,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13387
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 13184,
+                "input_tokens": 13762,
+                "output_tokens": 101,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13863
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 13184,
+                "input_tokens": 27088,
+                "output_tokens": 162,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 27250
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "C",
+  "config_sha256": "caaa5f430569d80b56db4973b16db5e4ea911fa8a5a4a2ebcfbe18cbf51a8652",
+  "elapsed_seconds": 11.508422250044532,
+  "ended_at": "2026-09-15T14:58:17.276292+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {
+    "sources.json": "f691abba5f73b0f9b0b3e406f8bca0c2a7ded12dac86ccb3fa339e9fba0f150f",
+    "task.json": "1c768a484423d792185e82841d7f47ba5c6f5071e8cb8a54655fc25acc3d74c3"
+  },
+  "input_hashes_after": {
+    "sources.json": "f691abba5f73b0f9b0b3e406f8bca0c2a7ded12dac86ccb3fa339e9fba0f150f",
+    "task.json": "1c768a484423d792185e82841d7f47ba5c6f5071e8cb8a54655fc25acc3d74c3"
+  },
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "a49eeea926dee81938f8b4772705980b25213d35838a9c1402488bfa38b96bfb",
+    "serialized_characters": 19565
+  },
+  "instructions_sha256": "f76fcbd7b565f4fe605fd706f890e7ae1bdff32addfcfb4315ba0228df8f4ee0",
+  "operational_status": "completed",
+  "response": {
+    "answer": "{\"as_of\":\"2026-08-12\",\"current_state\":\"LAB_VERIFIED\",\"current_source\":\"SRC-B\",\"completed_gates\":[\"G1\",\"G2\"],\"unrun_gates\":[\"G3\",\"G4\"],\"unknowns\":[\"U1\",\"U2\"],\"superseded_sources\":[\"SRC-A\"],\"production_ready\":false}",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "08-T04-C",
+  "setup_seconds": 0.7691369579988532,
+  "started_at": "2026-09-15T14:58:05.765679+00:00",
+  "task_id": "T04",
+  "timed_out": false,
+  "timeout_seconds": 300
+}

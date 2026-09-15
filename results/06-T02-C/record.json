@@ -1,0 +1,173 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 41088,
+        "input_tokens": 57650,
+        "output_tokens": 2505,
+        "reasoning_output_tokens": 89
+      }
+    ],
+    "root_id": "01a0a591-c5dd-7c32-accb-e6fcf8862adb",
+    "sessions": [
+      {
+        "id": "01a0a591-c5dd-7c32-accb-e6fcf8862adb",
+        "last_event_at": "2026-09-15T14:57:52.556Z",
+        "model_effort": [
+          {
+            "effort": "medium",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a591-c5f0-7d81-b615-39afb1bfc433"
+          }
+        ],
+        "rollout_sha256": "2fc31a5aca4e4c1da51547b5e7a620cc304041cd418255ce5ffe87ae28bbf7b0",
+        "source": "exec",
+        "started_at": "2026-09-15T14:56:29.150Z",
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 41088,
+          "input_tokens": 57650,
+          "output_tokens": 2505,
+          "reasoning_output_tokens": 89,
+          "total_tokens": 60155
+        },
+        "usage_event_count": 4,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 13295,
+                "output_tokens": 60,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13355
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 13295,
+                "output_tokens": 60,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13355
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 13056,
+                "input_tokens": 13680,
+                "output_tokens": 1071,
+                "reasoning_output_tokens": 56,
+                "total_tokens": 14751
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 13056,
+                "input_tokens": 26975,
+                "output_tokens": 1131,
+                "reasoning_output_tokens": 56,
+                "total_tokens": 28106
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 13440,
+                "input_tokens": 14820,
+                "output_tokens": 964,
+                "reasoning_output_tokens": 33,
+                "total_tokens": 15784
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 26496,
+                "input_tokens": 41795,
+                "output_tokens": 2095,
+                "reasoning_output_tokens": 89,
+                "total_tokens": 43890
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 14592,
+                "input_tokens": 15855,
+                "output_tokens": 410,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 16265
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 41088,
+                "input_tokens": 57650,
+                "output_tokens": 2505,
+                "reasoning_output_tokens": 89,
+                "total_tokens": 60155
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "C",
+  "config_sha256": "caaa5f430569d80b56db4973b16db5e4ea911fa8a5a4a2ebcfbe18cbf51a8652",
+  "elapsed_seconds": 84.48155495902756,
+  "ended_at": "2026-09-15T14:57:53.572236+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {
+    "contract.txt": "251ca27532639cd1180e6cee8811db2daeb889269ac00979ff41aa6d8ced5e09",
+    "snapshot.py": "3e1329882d166dc736ed37bf5c64093b59b9a3f3f066513a60568ef2edad1f77",
+    "task.json": "1716ee6fc04cb7ec51dc9665616c5d5ff5819074a885ac924ea45f179d6fbe2c"
+  },
+  "input_hashes_after": {
+    "contract.txt": "251ca27532639cd1180e6cee8811db2daeb889269ac00979ff41aa6d8ced5e09",
+    "snapshot.py": "3e1329882d166dc736ed37bf5c64093b59b9a3f3f066513a60568ef2edad1f77",
+    "task.json": "1716ee6fc04cb7ec51dc9665616c5d5ff5819074a885ac924ea45f179d6fbe2c"
+  },
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "6a2de6720030a06c5903d558bdee0f25477f5076dd9927ea77338660348e94eb",
+    "serialized_characters": 19565
+  },
+  "instructions_sha256": "f76fcbd7b565f4fe605fd706f890e7ae1bdff32addfcfb4315ba0228df8f4ee0",
+  "operational_status": "completed",
+  "response": {
+    "answer": "Implemented all contract validations without mutating inputs. Passed 24 rejection checks and 3 success/immutability checks.",
+    "code": "import hashlib\n\n\ndef verify_snapshot(entries, blobs, per_file_limit, total_limit):\n    if per_file_limit < 0 or total_limit < 0:\n        raise ValueError('negative limit')\n    seen = set()\n    total_bytes = 0\n    for entry in entries:\n        path = entry['path']\n        size = entry['size']\n        digest = entry['sha256']\n        if size < 0:\n            raise ValueError('negative size')\n        if not path or '\\\\' in path or '\\x00' in path:\n            raise ValueError('invalid path')\n        if any(part in ('', '.', '..') for part in path.split('/')):\n            raise ValueError('invalid path')\n        if path in seen:\n            raise ValueError('duplicate path')\n        seen.add(path)\n        if path not in blobs:\n            raise ValueError('missing blob')\n        data = blobs[path]\n        actual_size = len(data)\n        if actual_size != size:\n            raise ValueError('size mismatch')\n        if actual_size > per_file_limit:\n            raise ValueError('file limit exceeded')\n        total_bytes += actual_size\n        if total_bytes > total_limit:\n            raise ValueError('total limit exceeded')\n        if len(digest) != 64 or any(c not in '0123456789abcdef' for c in digest):\n            raise ValueError('invalid digest')\n        if hashlib.sha256(data).hexdigest() != digest:\n            raise ValueError('digest mismatch')\n    return {'files': len(entries), 'total_bytes': total_bytes}\n"
+  },
+  "response_parse_error": null,
+  "run_id": "06-T02-C",
+  "setup_seconds": 0.797740708978381,
+  "started_at": "2026-09-15T14:56:29.086995+00:00",
+  "task_id": "T02",
+  "timed_out": false,
+  "timeout_seconds": 300
+}
