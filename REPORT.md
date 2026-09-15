@@ -4,7 +4,7 @@ author: Angelis Pseftis
 creator: Angelis Pseftis
 created: 2026-09-15
 modified: 2026-09-15
-revision: 3
+revision: 4
 status: Original pilot complete; expanded validation in preparation
 ---
 
@@ -94,3 +94,39 @@ Repeated runs measure variability, while 12 task clusters remain the unit of bre
 The exact-binomial bound follows [NIST’s one-sided confidence-limit method](https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/exacbino.htm). This is a bound on regression-task incidence under stated sampling assumptions, not a confidence interval on the acceptance-rate difference.
 
 The follow-up oracle is outside the model-visible fixture workspace and forbidden by the common task contract. The host read-only sandbox is not a per-file confidentiality boundary; retained parent/child tool traces require audit for unauthorized oracle or prior-result access before interpreting the scores.
+
+## Validation needed for broader claims
+
+The expanded study remains a synthetic engineering benchmark. More repetitions do not create more independent tasks, and no finite suite demonstrates superiority for all future projects. A defensible next claim must identify a target workload, model/client version, operating conditions, quality margin and measured benefit. The following is a proposed next-stage design, not a change to the running frozen protocol or a claim that the work has been performed.
+
+### Workload sampling and quality
+
+Define the target population first: for example, bounded repository changes and technical evidence reviews within named scope and complexity bands. Build an eligibility-based task inventory from multiple projects and independent contributors, sample across task type, difficulty and consequence, and record exclusions. Treat related tasks from a shared repository or template as clustered. Keep workflow tuning cases separate from an untouched confirmation set; do not use benchmark outcomes to select favorable confirmation cases.
+
+Use the current pilot to inform plausible variability and paired disagreement rates, then conduct a prospective power/precision calculation for the chosen quality margin and minimum practical efficiency benefit. Freeze sample size, primary endpoints, multiplicity handling and stopping rules. A convenient count such as 60 or 100 tasks is not a substitute for that calculation. The zero-regression binomial example elsewhere in this report is not an acceptance-rate noninferiority power calculation.
+
+Add real deliverables: multi-file bug repairs, hidden integration tests, incomplete/conflicting evidence, architecture alternatives with failure analysis, and technical documents requiring verified citations and rendered artifact inspection. Develop hard cases on a separate calibration set. Freeze scoring before confirmation, including critical-error vetoes and behaviorally anchored quality rubrics; preserve easy controls to expose unnecessary delegation. A high score is not itself a defective metric, but universal perfect scores cannot distinguish configurations well.
+
+For open-ended outputs, use at least two blinded domain reviewers with predefined rubrics, measure agreement, and adjudicate disagreements without showing arm identity. Strip model/effort labels and randomize presentation order. Automated/model-assisted scoring may support triage, but is not independent human validation. Human task vetting and blinded expert comparisons are demonstrated practices in [OpenAI's GDPval methodology](https://openai.com/index/gdpval/); that work does not validate this study's fixtures or results.
+
+### Environment, cache and causal attribution
+
+For a later confirmation study, balance all six arm-order permutations across tasks, block runs by task and execution window, repeat across days, and hold client version, hardware, configured service tier, input snapshot and tool permissions constant where possible. Record cache-hit counts, tool time, setup time, execution timestamps and observed throttling. This follows [NIST's randomized-block design guidance](https://www.itl.nist.gov/div898/handbook/pri/section3/pri332.htm). Provider-side contention remains unobservable without provider telemetry; randomization mitigates its influence but does not establish full control.
+
+Do not call an isolated session a cold cache. Use warm/cold experimental conditions only if the execution surface supplies a documented control and telemetry confirms the intended state. Otherwise report observed cache behavior and descriptive sensitivity analyses. Cache reuse can itself be a workflow effect; adjusting it away is not automatically a valid causal estimate. Repeated prefix perturbations are not a verified cache-control mechanism.
+
+Separate two questions. For whole-workflow effectiveness, differing tool/delegation choices are part of the treatment: charge all their time and usage. For mechanism attribution, run a separate preregistered ablation with a common tool policy to distinguish effort selection, context size, review and delegation effects. A frozen tool transcript may characterize reasoning under fixed evidence, but is not equivalent to live agent execution. Do not claim that specialist use caused a benefit merely because it co-occurred with it.
+
+### Routing assurance, cost and reproduction
+
+Treat role conformance, routing choice, completed specialist work, evidence integration and outcome benefit as separate gates. Audit observed decisions against hidden engineering labels and inspect unsupported claims of invocation. If the frozen policy misses its routing gate, preserve that failure and evaluate a new version on new confirmation cases. A future controller can enforce required launch settings and refuse completion when a required review receipt is absent; it still needs a separately validated decision rule for when review is required. Prompt wording alone does not guarantee enforcement, and mandatory delegation is not automatically efficient.
+
+Report total input/output tokens, cache subsets, parent/child usage, failures, retries, setup, tools, grading, human repair time and maintenance overhead. Compare resources per accepted task while retaining failed-attempt expenditure and reporting success rates separately. With a flat subscription, token reductions do not establish bill reductions or a proportional change in allowance. A monetary claim requires an explicit cost model with attributable invoices or an authorized metered billing experiment; neither has been established here. Hypothetical API-rate calculations must be labelled estimates and cannot be substituted for observed subscription cost.
+
+Publish a versioned release, environment specification, input hashes, immutable result bundles, analysis command and a replication submission template. An unrelated person or team must then execute it in its own environment and provide logs, configurations, hashes, deviations and results. A second local checkout or another agent operated by the same author establishes additional local reproduction only. Independent reproduction cannot be manufactured by automation; independent participants have not yet been recruited and no outreach is authorized by this plan.
+
+### Publication gate
+
+A broader claim requires a prespecified quality criterion to pass, no critical-error veto, practically meaningful efficiency improvement with an uncertainty interval supporting the claim, and replication evidence appropriate to the wording. Quality equivalence requires its own two-sided equivalence criterion; failure to detect a difference does not establish equivalence. If a gate is inconclusive or fails, report that result and limit the claim to the evidence actually obtained. The remaining qualifications should name the tested population and unresolved conditions rather than promise universal performance.
+
+- Revision 4, 2026-09-15: added the prospective validation design in response to the user's methodology questions. No frozen expanded inputs, labels, policies, or criteria were altered. Author and creator: Angelis Pseftis.
