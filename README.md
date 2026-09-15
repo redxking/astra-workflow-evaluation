@@ -52,3 +52,7 @@ MIT license. Author: Angelis Pseftis. No external reproduction or production-wid
 ## Follow-up validation
 
 An expanded 108-run study is frozen and execution is starting. Its [protocol](studies/expanded/protocol.json), [fixtures and runner](studies/expanded), and [four passing forced conformance probes](studies/expanded/evidence/conformance-summary.json) are available. Expanded outcome claims remain pending. Original pilot results are preserved.
+
+## Stronger-validation tools
+
+The [independent-reproduction kit](reproducibility/README.md), [blinded-review exporter](validation/review/README.md), [real-workload candidate inventory](validation/workloads/README.md), and [sample-size planning sensitivity](validation/design/README.md) are implemented and tested. They prepare future validation; no independent external result or real-workload performance claim is established by these tools.

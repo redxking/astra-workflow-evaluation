@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "author": "Angelis Pseftis",
+  "creator": "Angelis Pseftis",
+  "submission_id": "",
+  "reviewer": {
+    "name": "",
+    "organization": "",
+    "relationship_to_original_author": "",
+    "conflicts_of_interest": "",
+    "independence_statement": ""
+  },
+  "release": {
+    "source_url": null,
+    "commit": null,
+    "manifest_sha256": null,
+    "original_protocol_sha256": null,
+    "expanded_protocol_sha256": null
+  },
+  "execution": {
+    "started_at_utc": null,
+    "ended_at_utc": null,
+    "model_version": null,
+    "codex_version": null,
+    "planned_runs": null,
+    "completed_runs": null,
+    "failed_runs": null,
+    "unresolved_usage_runs": null
+  },
+  "claims": [
+    {
+      "category": "release_integrity",
+      "reported_status": "unknown",
+      "statement": "",
+      "evidence": []
+    },
+    {
+      "category": "protocol_integrity",
+      "reported_status": "unknown",
+      "statement": "",
+      "evidence": []
+    },
+    {
+      "category": "environment",
+      "reported_status": "unknown",
+      "statement": "",
+      "evidence": []
+    },
+    {
+      "category": "run_records",
+      "reported_status": "unknown",
+      "statement": "",
+      "evidence": []
+    },
+    {
+      "category": "scoring",
+      "reported_status": "unknown",
+      "statement": "",
+      "evidence": []
+    },
+    {
+      "category": "usage_accounting",
+      "reported_status": "unknown",
+      "statement": "",
+      "evidence": []
+    },
+    {
+      "category": "timing",
+      "reported_status": "unknown",
+      "statement": "",
+      "evidence": []
+    },
+    {
+      "category": "deviations",
+      "reported_status": "unknown",
+      "statement": "",
+      "evidence": []
+    },
+    {
+      "category": "reviewer_independence",
+      "reported_status": "unknown",
+      "statement": "",
+      "evidence": []
+    }
+  ],
+  "notes": ""
+}

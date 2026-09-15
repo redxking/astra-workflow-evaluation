@@ -4,7 +4,7 @@ author: Angelis Pseftis
 creator: Angelis Pseftis
 created: 2026-09-15
 modified: 2026-09-15
-revision: 4
+revision: 5
 status: Original pilot complete; expanded validation in preparation
 ---
 
@@ -130,3 +130,16 @@ Publish a versioned release, environment specification, input hashes, immutable 
 A broader claim requires a prespecified quality criterion to pass, no critical-error veto, practically meaningful efficiency improvement with an uncertainty interval supporting the claim, and replication evidence appropriate to the wording. Quality equivalence requires its own two-sided equivalence criterion; failure to detect a difference does not establish equivalence. If a gate is inconclusive or fails, report that result and limit the claim to the evidence actually obtained. The remaining qualifications should name the tested population and unresolved conditions rather than promise universal performance.
 
 - Revision 4, 2026-09-15: added the prospective validation design in response to the user's methodology questions. No frozen expanded inputs, labels, policies, or criteria were altered. Author and creator: Angelis Pseftis.
+
+## Stronger-validation implementation status
+
+The following preparation is implemented and tested while the frozen expanded comparison continues:
+
+- [Blinded-review exporter](validation/review/README.md): exports every completed response with randomized IDs and a private unblinding key; incomplete studies and unsafe key placement are rejected. Three tests pass. It also prepared a 12-response local demonstration from the original study. No human ratings were supplied, and prior public availability limits blinding of those demonstration outputs.
+- [Independent-reproduction kit](reproducibility/README.md): verifies release and protocol hashes, captures minimal nonsensitive environment metadata, creates a blank external submission, and inspects referenced evidence. Twelve tests pass. It distinguishes self-report and byte consistency from substantive independence; it cannot certify independence from a form or matching hash.
+- [Real-workload candidate inventory](validation/workloads/README.md): 500 SWE-bench Verified metadata rows across 12 repositories, pinned to source revision c104f840cc67f8b6eec6f759ebc8b2693d585d4a. Seven offline tests pass. The deterministic proposed split selects 55 tuning and 29 confirmation candidates from disjoint sets of eight and four repositories. This is a proposed sample, not a power-justified confirmation commitment. The public benchmark has unknown model-training exposure and covers Python issue repair, not the user's whole workload. Gold patches, test patches and issue prose are excluded from the published inventory. Dataset redistribution clearance and task execution readiness remain unresolved; the harness MIT license does not resolve underlying dataset/repository rights.
+- [Sample-size sensitivity tool](validation/design/README.md): computes explicitly approximate paired-binary planning scenarios under hypothetical discordance and clustering assumptions. Four tests pass. It refuses zero-discordance planning rather than turning perfect pilot scores into a zero-sample recommendation. These calculations are not an exact noninferiority design or a frozen sample-size decision.
+
+Docker Server 29.8.0 was reachable in a read-only environment check. No new benchmark images or real-task executions were started by this preparation. External reviewer recruitment, completed blinded reviews, independent reproduction, target-specific endpoint validation, confirmation power/simulation review and full live-harness qualification remain pending. The current 108-run protocol and its frozen inputs were not changed. All 26 tests above concern the new preparation tools; they are not 26 additional model-performance observations.
+
+- Revision 5, 2026-09-15: recorded implemented and tested stronger-validation tooling, real-workload candidate provenance, and remaining external prerequisites. Author and creator: Angelis Pseftis.

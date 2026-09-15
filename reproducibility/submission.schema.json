@@ -1,0 +1,248 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "External replication submission",
+  "description": "Template authorship is separate from blank external reviewer identity; no evidence of independence is implied.",
+  "author": "Angelis Pseftis",
+  "creator": "Angelis Pseftis",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "author",
+    "creator",
+    "submission_id",
+    "reviewer",
+    "release",
+    "execution",
+    "claims",
+    "notes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "author": {
+      "const": "Angelis Pseftis"
+    },
+    "creator": {
+      "const": "Angelis Pseftis"
+    },
+    "submission_id": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": "object",
+      "required": [
+        "name",
+        "organization",
+        "relationship_to_original_author",
+        "conflicts_of_interest",
+        "independence_statement"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "organization": {
+          "type": "string"
+        },
+        "relationship_to_original_author": {
+          "type": "string"
+        },
+        "conflicts_of_interest": {
+          "type": "string"
+        },
+        "independence_statement": {
+          "type": "string"
+        }
+      }
+    },
+    "release": {
+      "type": "object",
+      "required": [
+        "source_url",
+        "commit",
+        "manifest_sha256",
+        "original_protocol_sha256",
+        "expanded_protocol_sha256"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "commit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "manifest_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "original_protocol_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "expanded_protocol_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "execution": {
+      "type": "object",
+      "required": [
+        "started_at_utc",
+        "ended_at_utc",
+        "model_version",
+        "codex_version",
+        "planned_runs",
+        "completed_runs",
+        "failed_runs",
+        "unresolved_usage_runs"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "started_at_utc": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ended_at_utc": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "model_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "codex_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "planned_runs": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "completed_runs": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "failed_runs": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "unresolved_usage_runs": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "category",
+          "reported_status",
+          "statement",
+          "evidence"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "category": {
+            "enum": [
+              "release_integrity",
+              "protocol_integrity",
+              "environment",
+              "run_records",
+              "scoring",
+              "usage_accounting",
+              "timing",
+              "deviations",
+              "reviewer_independence"
+            ]
+          },
+          "reported_status": {
+            "enum": [
+              "unknown",
+              "pass",
+              "fail",
+              "not_applicable"
+            ]
+          },
+          "statement": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "kind",
+                "reference",
+                "sha256",
+                "description"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "local_file",
+                    "external_url"
+                  ]
+                },
+                "reference": {
+                  "type": "string"
+                },
+                "sha256": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

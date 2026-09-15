@@ -1,0 +1,46 @@
+{
+  "author": "Angelis Pseftis",
+  "dataset": "princeton-nlp/SWE-bench_Verified",
+  "index_sha256": "feeafcc891f5d3ef6427df2402e9888f2e167d155dd87722d761ffb178cd3e7d",
+  "license_status": "Dataset card/API declare no dataset license at retrieved revision. Harness MIT does not establish dataset or underlying repository rights. Execution and corpus redistribution clearance pending.",
+  "original_benchmark_authors": [
+    "Carlos E Jimenez",
+    "John Yang",
+    "Alexander Wettig",
+    "Shunyu Yao",
+    "Kexin Pei",
+    "Ofir Press",
+    "Karthik R Narasimhan"
+  ],
+  "raw_intake_distribution": "excluded; local work/workload-intake only",
+  "repository_counts": {
+    "astropy/astropy": 22,
+    "django/django": 231,
+    "matplotlib/matplotlib": 34,
+    "mwaskom/seaborn": 2,
+    "pallets/flask": 1,
+    "psf/requests": 8,
+    "pydata/xarray": 22,
+    "pylint-dev/pylint": 10,
+    "pytest-dev/pytest": 19,
+    "scikit-learn/scikit-learn": 32,
+    "sphinx-doc/sphinx": 44,
+    "sympy/sympy": 75
+  },
+  "retrieved_at_utc": "2026-09-15T15:46:16.972268+00:00",
+  "revision": "c104f840cc67f8b6eec6f759ebc8b2693d585d4a",
+  "row_count": 500,
+  "source_sha256": {
+    "dataset-card.md": "6edb58b1b2c44ce858426c4ebc90077827713b75cebc243661e4433c81fd57f5",
+    "harness-license.txt": "2bd2e08df7147f67a69b42c10efae09bd4bf119df397371036187d5dd1b02f57",
+    "test.parquet": "a45b1fe4e2f0c8390b2b2938ac83e92ed5979000856808f3679c07812e9e6dcd"
+  },
+  "source_urls": {
+    "card": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/raw/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/README.md",
+    "dataset_api": "https://huggingface.co/api/datasets/princeton-nlp/SWE-bench_Verified",
+    "harness_license": "https://raw.githubusercontent.com/SWE-bench/SWE-bench/02e7a74ffd0b707aab73d203fe87bdc7c76afc8e/LICENSE",
+    "official_docs": "https://www.swebench.com/SWE-bench/",
+    "parquet": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified/resolve/c104f840cc67f8b6eec6f759ebc8b2693d585d4a/data/test-00000-of-00001.parquet"
+  },
+  "split": "test"
+}

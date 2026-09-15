@@ -1,0 +1,61 @@
+{
+  "author": "Angelis Pseftis",
+  "scenarios": [
+    {
+      "assumed_discordance_probability": 0.05,
+      "assumed_true_acceptance_difference": 0,
+      "margin": 0.05,
+      "power": 0.8,
+      "one_sided_alpha": 0.05,
+      "approx_independent_task_pairs": 124,
+      "assumed_cluster_size": 1,
+      "assumed_intracluster_correlation": 0,
+      "heuristic_design_effect": 1,
+      "approx_tasks_with_design_effect": 124,
+      "status": "planning_sensitivity_only",
+      "limitation": "Not an exact NI test or validated sample-size commitment. Requires representative discordance assumptions, cluster-aware design, endpoint definition and simulation review before confirmation."
+    },
+    {
+      "assumed_discordance_probability": 0.1,
+      "assumed_true_acceptance_difference": 0,
+      "margin": 0.05,
+      "power": 0.8,
+      "one_sided_alpha": 0.05,
+      "approx_independent_task_pairs": 248,
+      "assumed_cluster_size": 1,
+      "assumed_intracluster_correlation": 0,
+      "heuristic_design_effect": 1,
+      "approx_tasks_with_design_effect": 248,
+      "status": "planning_sensitivity_only",
+      "limitation": "Not an exact NI test or validated sample-size commitment. Requires representative discordance assumptions, cluster-aware design, endpoint definition and simulation review before confirmation."
+    },
+    {
+      "assumed_discordance_probability": 0.2,
+      "assumed_true_acceptance_difference": 0,
+      "margin": 0.05,
+      "power": 0.8,
+      "one_sided_alpha": 0.05,
+      "approx_independent_task_pairs": 495,
+      "assumed_cluster_size": 1,
+      "assumed_intracluster_correlation": 0,
+      "heuristic_design_effect": 1,
+      "approx_tasks_with_design_effect": 495,
+      "status": "planning_sensitivity_only",
+      "limitation": "Not an exact NI test or validated sample-size commitment. Requires representative discordance assumptions, cluster-aware design, endpoint definition and simulation review before confirmation."
+    },
+    {
+      "assumed_discordance_probability": 0.4,
+      "assumed_true_acceptance_difference": 0,
+      "margin": 0.05,
+      "power": 0.8,
+      "one_sided_alpha": 0.05,
+      "approx_independent_task_pairs": 990,
+      "assumed_cluster_size": 1,
+      "assumed_intracluster_correlation": 0,
+      "heuristic_design_effect": 1,
+      "approx_tasks_with_design_effect": 990,
+      "status": "planning_sensitivity_only",
+      "limitation": "Not an exact NI test or validated sample-size commitment. Requires representative discordance assumptions, cluster-aware design, endpoint definition and simulation review before confirmation."
+    }
+  ]
+}

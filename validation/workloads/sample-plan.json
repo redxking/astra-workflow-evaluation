@@ -1,0 +1,4011 @@
+{
+  "assignment_unit": "entire_repository",
+  "assignments": [
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-12907",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-13033",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-13236",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "astropy__astropy-13398",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-13453",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "astropy__astropy-13579",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-13977",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-14096",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-14182",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "astropy__astropy-14309",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-14365",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "astropy__astropy-14369",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-14508",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-14539",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-14598",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "astropy__astropy-14995",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "astropy__astropy-7166",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "astropy__astropy-7336",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-7606",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-7671",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-8707",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "astropy/astropy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "astropy__astropy-8872",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-10097",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-10554",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-10880",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-10914",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-10973",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-10999",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11066",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11087",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11095",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11099",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11119",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11133",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-11138",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11141",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11149",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11163",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11179",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11206",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11211",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11239",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11265",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11276",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11292",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11299",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11333",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-11400",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11433",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11451",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11477",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11490",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11532",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11551",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11555",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11603",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11728",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11734",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11740",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11749",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11790",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11815",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11820",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11848",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11880",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-11885",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11951",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-11964",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-11999",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12039",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12050",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-12125",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12143",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12155",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-12193",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-12209",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12262",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12273",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-12276",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-12304",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-12308",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-12325",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12406",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-12419",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12663",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-12708",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12713",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-12741",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12754",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12774",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12858",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-12965",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13012",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13023",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13028",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13033",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13089",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13109",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13112",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13121",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-13128",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13158",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13195",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-13212",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13279",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13297",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13315",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13343",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-13344",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13346",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13363",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13401",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13406",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13410",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13417",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-13449",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13512",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13513",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13516",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13551",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13568",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13569",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13590",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13658",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13670",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13741",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13786",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13794",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13807",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13809",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13810",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13820",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13821",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-13837",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13925",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-13933",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-13964",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-14007",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-14011",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14017",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14034",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14053",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14089",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14122",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14140",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14155",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14170",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14238",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14311",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14315",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14349",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14351",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14373",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14376",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14404",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14434",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14493",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14500",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14534",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14539",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14559",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14580",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14608",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-14631",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14672",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14725",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14752",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14765",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-14771",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14787",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14792",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14855",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14915",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-14999",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15022",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15037",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15098",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15103",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15104",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15127",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-15128",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15161",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15252",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-15268",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15277",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15278",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15280",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15315",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15368",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15375",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15380",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15382",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15467",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15499",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-15503",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15525",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15554",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15561",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15563",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15569",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15572",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-15629",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15695",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15731",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15732",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15741",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15814",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15851",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15863",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15916",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15930",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-15957",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-15973",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-15987",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16032",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16082",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16100",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16116",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16136",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16139",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16145",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16255",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16256",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-16263",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16315",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16333",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16429",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16454",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16485",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16493",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16502",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16527",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-16560",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16569",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16595",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16612",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "django__django-16631",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16642",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16661",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16662",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16667",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16801",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16819",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16877",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-16899",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16901",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16938",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-16950",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-17029",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-17084",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-17087",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "django__django-7530",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "django/django",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "django__django-9296",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-13989",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-14623",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-20488",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-20676",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-20826",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-20859",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-21568",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-22719",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-22865",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-22871",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-23299",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-23314",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-23412",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-23476",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-24026",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-24149",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-24177",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-24570",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-24627",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-24637",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-24870",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-24970",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-25122",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-25287",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-25311",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-25332",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-25479",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-25775",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-25960",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-26113",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "matplotlib__matplotlib-26208",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-26291",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-26342",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "matplotlib/matplotlib",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "matplotlib__matplotlib-26466",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "mwaskom/seaborn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "mwaskom__seaborn-3069",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "mwaskom/seaborn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "mwaskom__seaborn-3187",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pallets/flask",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pallets__flask-5014",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "psf/requests",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "psf__requests-1142",
+      "selected": false,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "psf/requests",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "psf__requests-1724",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "psf/requests",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "psf__requests-1766",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "psf/requests",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "psf__requests-1921",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "psf/requests",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "psf__requests-2317",
+      "selected": false,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "psf/requests",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "psf__requests-2931",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "psf/requests",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "psf__requests-5414",
+      "selected": false,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "psf/requests",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "psf__requests-6028",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-2905",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-3095",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-3151",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-3305",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-3677",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "pydata__xarray-3993",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pydata__xarray-4075",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pydata__xarray-4094",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pydata__xarray-4356",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pydata__xarray-4629",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-4687",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-4695",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-4966",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pydata__xarray-6461",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-6599",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-6721",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-6744",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-6938",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": ">4 hours",
+      "instance_id": "pydata__xarray-6992",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-7229",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-7233",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pydata/xarray",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pydata__xarray-7393",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pylint-dev/pylint",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "pylint-dev__pylint-4551",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pylint-dev/pylint",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pylint-dev__pylint-4604",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pylint-dev/pylint",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pylint-dev__pylint-4661",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pylint-dev/pylint",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pylint-dev__pylint-4970",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pylint-dev/pylint",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pylint-dev__pylint-6386",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pylint-dev/pylint",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pylint-dev__pylint-6528",
+      "selected": false,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pylint-dev/pylint",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pylint-dev__pylint-6903",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pylint-dev/pylint",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pylint-dev__pylint-7080",
+      "selected": false,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pylint-dev/pylint",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pylint-dev__pylint-7277",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "pylint-dev/pylint",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "pylint-dev__pylint-8898",
+      "selected": true,
+      "size_stratum": "small"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pytest-dev__pytest-10051",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pytest-dev__pytest-10081",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "pytest-dev__pytest-10356",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pytest-dev__pytest-5262",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pytest-dev__pytest-5631",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "pytest-dev__pytest-5787",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pytest-dev__pytest-5809",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pytest-dev__pytest-5840",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "pytest-dev__pytest-6197",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pytest-dev__pytest-6202",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pytest-dev__pytest-7205",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pytest-dev__pytest-7236",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pytest-dev__pytest-7324",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pytest-dev__pytest-7432",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pytest-dev__pytest-7490",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pytest-dev__pytest-7521",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pytest-dev__pytest-7571",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "pytest-dev__pytest-7982",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "pytest-dev/pytest",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "pytest-dev__pytest-8399",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-10297",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-10844",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-10908",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-11310",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-11578",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-12585",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-12682",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-12973",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-13124",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-13135",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-13142",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-13328",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-13439",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-13496",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-13779",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-14053",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-14087",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-14141",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-14496",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-14629",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-14710",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-14894",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-14983",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-15100",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "scikit-learn__scikit-learn-25102",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-25232",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-25747",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-25931",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "scikit-learn__scikit-learn-25973",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-26194",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-26323",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "scikit-learn/scikit-learn",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "scikit-learn__scikit-learn-9288",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-10323",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-10435",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-10449",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-10466",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-10614",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-10673",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-11445",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "sphinx-doc__sphinx-11510",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-7440",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-7454",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-7462",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": ">4 hours",
+      "instance_id": "sphinx-doc__sphinx-7590",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-7748",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-7757",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-7889",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-7910",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-7985",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-8035",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-8056",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-8120",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-8265",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-8269",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-8459",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-8475",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "sphinx-doc__sphinx-8548",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-8551",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-8593",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-8595",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-8621",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-8638",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-8721",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "sphinx-doc__sphinx-9229",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-9230",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-9258",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-9281",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-9320",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-9367",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "sphinx-doc__sphinx-9461",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-9591",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-9602",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-9658",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sphinx-doc__sphinx-9673",
+      "selected": true,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-9698",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "train_tuning",
+      "cluster_id": "sphinx-doc/sphinx",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sphinx-doc__sphinx-9711",
+      "selected": false,
+      "size_stratum": "medium"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-11618",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-12096",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-12419",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-12481",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "sympy__sympy-12489",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-13031",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-13091",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-13372",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-13480",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-13551",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-13615",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-13647",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-13757",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-13798",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "sympy__sympy-13852",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-13877",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": ">4 hours",
+      "instance_id": "sympy__sympy-13878",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-13974",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "sympy__sympy-14248",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-14531",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-14711",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-14976",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-15017",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-15345",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-15349",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-15599",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-15809",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-15875",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-15976",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-16450",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "sympy__sympy-16597",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-16766",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-16792",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-16886",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-17139",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-17318",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "sympy__sympy-17630",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-17655",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-18189",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "1-4 hours",
+      "instance_id": "sympy__sympy-18199",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-18211",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-18698",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-18763",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-19040",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-19346",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-19495",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-19637",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-19783",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-19954",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-20154",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-20428",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-20438",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-20590",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-20801",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-20916",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-21379",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-21596",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-21612",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-21847",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-21930",
+      "selected": true,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-22080",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-22456",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-22714",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-22914",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-23262",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-23413",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-23534",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-23824",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-23950",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-24066",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-24213",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-24443",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-24539",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "<15 min fix",
+      "instance_id": "sympy__sympy-24562",
+      "selected": false,
+      "size_stratum": "large"
+    },
+    {
+      "arm": "confirmatory",
+      "cluster_id": "sympy/sympy",
+      "difficulty_stratum": "15 min - 1 hour",
+      "instance_id": "sympy__sympy-24661",
+      "selected": false,
+      "size_stratum": "large"
+    }
+  ],
+  "confirm_fraction_target_clusters": 0.3333333333333333,
+  "design_version": 1,
+  "input_sha256": "feeafcc891f5d3ef6427df2402e9888f2e167d155dd87722d761ffb178cd3e7d",
+  "per_repo_difficulty_cap": 3,
+  "seed": 20260915,
+  "status": "candidate_design_only_no_execution"
+}
