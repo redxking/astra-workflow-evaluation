@@ -1,0 +1,6 @@
+{
+  "id": "T01",
+  "title": "Extract bounded security evidence",
+  "kind": "extraction",
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}. For noncoding tasks code is empty; answer encodes the specified task JSON. Read evidence.json. answer must encode JSON with keys counts, findings_observed, overall_status, unknowns. counts maps each of PASS, FAIL, NOT_RUN, UNKNOWN to its exact number of checks. findings_observed is the integer sum of numeric observed_findings; null is unknown, not evidence of zero. overall_status is FAILED if any FAIL exists, otherwise INCOMPLETE if any NOT_RUN or UNKNOWN exists, otherwise PASSED. unknowns is the sorted list of check IDs with null observed_findings. Zero observed findings does not establish a clean system."
+}

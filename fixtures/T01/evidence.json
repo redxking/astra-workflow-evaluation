@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "license": "MIT",
+  "checks": [
+    {
+      "id": "S01",
+      "status": "PASS",
+      "observed_findings": 0
+    },
+    {
+      "id": "S02",
+      "status": "PASS",
+      "observed_findings": 0
+    },
+    {
+      "id": "S03",
+      "status": "NOT_RUN",
+      "observed_findings": null
+    },
+    {
+      "id": "S04",
+      "status": "UNKNOWN",
+      "observed_findings": null
+    },
+    {
+      "id": "S05",
+      "status": "PASS",
+      "observed_findings": 0
+    }
+  ]
+}

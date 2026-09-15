@@ -1,0 +1,6 @@
+{
+  "id": "T04",
+  "title": "Synthesize conflicting pilot evidence",
+  "kind": "synthesis",
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}. For noncoding tasks code is empty; answer encodes the specified task JSON. Read sources.json. answer must encode exactly {\"as_of\":string,\"current_state\":string,\"current_source\":string,\"completed_gates\":[string],\"unrun_gates\":[string],\"unknowns\":[string],\"superseded_sources\":[string],\"production_ready\":boolean}. Use stated machine-readable IDs and values. Current state uses the newest signed owner state record, not a forecast, vendor assertion, or unsigned later note. Completed means directly recorded gate execution passed; authorization and scheduled work do not count. unknowns lists all uncertainty IDs whose values are expressly unavailable. Superseded sources lists older signed owner state records. production_ready requires every gate G1-G4 passed and owner acceptance recorded. as_of is the latest source date, YYYY-MM-DD. No outside research."
+}

@@ -1,0 +1,112 @@
+{
+  "acceptance": "all frozen deterministic checks pass; rationale semantics not scored automatically",
+  "arms": {
+    "A": "fixed Ultra, parent and any child",
+    "B": "fixed Medium, single agent",
+    "C": "Medium parent with adaptive policy and Astra roles"
+  },
+  "author": "Angelis Pseftis",
+  "cache": "uncontrolled, recorded; random run order mitigates but does not remove caching/order effects",
+  "codex_version": "codex-cli 0.154.0-alpha.6.2",
+  "design": "exploratory controlled synthetic microbenchmark; four tasks, three arms, one run per task/arm",
+  "failures": "retained and included; no scored retries or result repair",
+  "files": {
+    "config/adaptive.md": "0a8be91f24f286209bcf8dc54eda88423cce1819243050df8456998e596b3146",
+    "config/agents/critical-verifier.toml": "58e7aef3fa68aa60fea9e7294e6142a2963fae0b4407d565162a899aaf6909fb",
+    "config/agents/evidence-researcher.toml": "00338f3bd442c638138f9b2c271dd574419b14ae6619dfa9cef77afd552837b4",
+    "config/agents/expert-reviewer.toml": "7f988f00ecd558f9c1cfa85698c63ea0aca691905d1b494b5825cbbe5f845d86",
+    "config/agents/fast-scan.toml": "e7df6d4af53c54c67419fb0b306a724943f9a02240a023a74c2afc6f677a883d",
+    "config/common.md": "6a574db30a100a5f44fd697ccfcf0533353a5d80906bd524a9f0ff2ef4377d92",
+    "config/medium.md": "122012105ad97d3c44302a93b59046147a58f470ac6211fc6775cd2eee3f58ef",
+    "config/response.schema.json": "c342706bffe5221d209874f56aec828319a270b92f48a49201bb26dca84de08e",
+    "config/ultra.md": "33abf5e7b6585418c4c0069a1800e3f4b3c942fb3a277776653be55a2a154e26",
+    "evaluator.py": "5c1d1cb23bbb9c76328a55401e713fee6a24b7af2b4d6fca0c5cf1d174e9c766",
+    "fixtures/T01/evidence.json": "96a399d8983e499a4fe3df64889bddefa749d4701ea3b9d7601490c44e4f58b2",
+    "fixtures/T01/task.json": "92103956e962ccbdc629d3d49ae7173592dc72319cea112525958939fcef8744",
+    "fixtures/T02/contract.txt": "251ca27532639cd1180e6cee8811db2daeb889269ac00979ff41aa6d8ced5e09",
+    "fixtures/T02/snapshot.py": "3e1329882d166dc736ed37bf5c64093b59b9a3f3f066513a60568ef2edad1f77",
+    "fixtures/T02/task.json": "1716ee6fc04cb7ec51dc9665616c5d5ff5819074a885ac924ea45f179d6fbe2c",
+    "fixtures/T03/gate.py": "d0de5248a82133a556807756ad80752692eea5bdad91759a205dfa06248083af",
+    "fixtures/T03/task.json": "283ad8ccca3ff90a6c5322f16f30be2431424e1577b189b039b039314e2ea474",
+    "fixtures/T03/threat_model.txt": "b1db2e24724378d06d6d7040dd48e3780faf72f8bfbe4a7e76a0f885d85267d6",
+    "fixtures/T04/sources.json": "f691abba5f73b0f9b0b3e406f8bca0c2a7ded12dac86ccb3fa339e9fba0f150f",
+    "fixtures/T04/task.json": "1c768a484423d792185e82841d7f47ba5c6f5071e8cb8a54655fc25acc3d74c3",
+    "scripts/execution_sandbox.py": "d1bd34bb489ef07f1be37523e93e3787cc7d8ba8c38f9bcc12c303afbb6526bf",
+    "scripts/run_study.py": "f7e79bcab17a3d711a0dff0cfa08b1198bac56fc48ab9002196e47938e704ce9",
+    "tests/test_evaluator.py": "3a64dc71149f05a19753ab0b88467bd8a3c24f3aab5a2f881aee68a8070e7433",
+    "tests/test_runner.py": "c943167aec98383d1e57a0b49bf470f7710e92b68a0c44c35fe08a03147e4f58"
+  },
+  "frozen_at": "2026-09-15T14:52:55.236302+00:00",
+  "max_children": 2,
+  "model": "gpt-6-astra",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "primary_timing": "setup + model execution + deterministic grading; no human or study-development time",
+  "primary_usage": "sum of per-session final cumulative input_tokens + output_tokens; cached/reasoning counts are subsets",
+  "python": "3.13.0",
+  "run_order": [
+    {
+      "arm": "A",
+      "run_id": "01-T03-A",
+      "task": "T03"
+    },
+    {
+      "arm": "B",
+      "run_id": "02-T02-B",
+      "task": "T02"
+    },
+    {
+      "arm": "B",
+      "run_id": "03-T03-B",
+      "task": "T03"
+    },
+    {
+      "arm": "C",
+      "run_id": "04-T03-C",
+      "task": "T03"
+    },
+    {
+      "arm": "A",
+      "run_id": "05-T01-A",
+      "task": "T01"
+    },
+    {
+      "arm": "C",
+      "run_id": "06-T02-C",
+      "task": "T02"
+    },
+    {
+      "arm": "C",
+      "run_id": "07-T01-C",
+      "task": "T01"
+    },
+    {
+      "arm": "C",
+      "run_id": "08-T04-C",
+      "task": "T04"
+    },
+    {
+      "arm": "A",
+      "run_id": "09-T02-A",
+      "task": "T02"
+    },
+    {
+      "arm": "B",
+      "run_id": "10-T01-B",
+      "task": "T01"
+    },
+    {
+      "arm": "A",
+      "run_id": "11-T04-A",
+      "task": "T04"
+    },
+    {
+      "arm": "B",
+      "run_id": "12-T04-B",
+      "task": "T04"
+    }
+  ],
+  "seed": 20260915,
+  "study_id": "astra-workflow-pilot-2026-09-15",
+  "timeout_seconds": 300,
+  "unknown_usage": "makes efficiency claim incomplete"
+}

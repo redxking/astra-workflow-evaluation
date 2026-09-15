@@ -1,0 +1,104 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 26240,
+        "input_tokens": 39972,
+        "output_tokens": 154,
+        "reasoning_output_tokens": 9
+      }
+    ],
+    "root_id": "01a0a588-1adc-7c50-bc1b-3394cc32b2f1",
+    "sessions": [
+      {
+        "id": "01a0a588-1adc-7c50-bc1b-3394cc32b2f1",
+        "model_effort": [
+          {
+            "effort": "medium",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a588-1af1-7a60-938a-a5752f707756"
+          }
+        ],
+        "rollout_sha256": "a1327c12532159cbd5cf7da28b99b8490db1ec740ef2f8cc2dbca4ca8647a1c7",
+        "source": "exec",
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 26240,
+          "input_tokens": 39972,
+          "output_tokens": 154,
+          "reasoning_output_tokens": 9,
+          "total_tokens": 40126
+        },
+        "usage_event_count": 3
+      },
+      {
+        "id": "01a0a588-36b9-7021-9b1c-3ebf1ab8479b",
+        "model_effort": [
+          {
+            "effort": "low",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a588-36d6-7053-ac03-ff01a429e9f9"
+          }
+        ],
+        "rollout_sha256": "876ed1547da6607da0408235d5bd7658abb79d2cb5fe623d5b1db0a2570ab5d3",
+        "source": {
+          "subagent": {
+            "thread_spawn": {
+              "agent_nickname": "Ampere",
+              "agent_path": "/root/calibration",
+              "agent_role": "default",
+              "depth": 1,
+              "parent_thread_id": "01a0a588-1adc-7c50-bc1b-3394cc32b2f1"
+            }
+          }
+        },
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 0,
+          "input_tokens": 12927,
+          "output_tokens": 7,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 12934
+        },
+        "usage_event_count": 1
+      }
+    ]
+  },
+  "arm": "C",
+  "config_sha256": "caaa5f430569d80b56db4973b16db5e4ea911fa8a5a4a2ebcfbe18cbf51a8652",
+  "elapsed_seconds": 14.679348375007976,
+  "ended_at": "2026-09-15T14:46:10.167890+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {},
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "837246416beff7aa749d1d2d544180d91466180e1d24a29eef534be35813282c",
+    "serialized_characters": 19586
+  },
+  "instructions_sha256": "f76fcbd7b565f4fe605fd706f890e7ae1bdff32addfcfb4315ba0228df8f4ee0",
+  "operational_status": "completed",
+  "response": {
+    "answer": "CALIBRATION_OK; CHILD_OK; 4",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "calibration-team",
+  "started_at": "2026-09-15T14:45:55.484611+00:00",
+  "task_id": null,
+  "timed_out": false,
+  "timeout_seconds": 180
+}

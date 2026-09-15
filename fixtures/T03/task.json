@@ -1,0 +1,6 @@
+{
+  "id": "T03",
+  "title": "Review an explicit request trust boundary",
+  "kind": "security_review",
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}. For noncoding tasks code is empty; answer encodes the specified task JSON. Review gate.py using threat_model.txt. answer must encode {\"decisions\":[{\"id\":string,\"is_issue\":boolean,\"lines\":[integer],\"reason\":string}]} with exactly one decision per C01-C05. Lines are physical 1-based gate.py line numbers including comments and blank lines; do not reformat the source. Include the decisive actual source line and a concise explanation grounded in the model. Candidates: C01 exact Host comparison; C02 session authentication; C03 Origin validation; C04 CSRF validation; C05 GET behavior. Do not invent deployment controls or issues outside these candidates."
+}

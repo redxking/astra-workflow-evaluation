@@ -1,0 +1,6 @@
+{
+  "id": "T02",
+  "title": "Verify a bounded byte snapshot",
+  "kind": "coding",
+  "prompt": "Return outer JSON exactly {\"answer\":string,\"code\":string}. For noncoding tasks code is empty; answer encodes the specified task JSON. Implement verify_snapshot(entries, blobs, per_file_limit, total_limit). code must contain the full standalone Python module and answer briefly describes it. Read contract.txt and snapshot.py. No I/O, network, environment access, dependencies, or entrypoint. Only hashlib may be imported. No decorators or double-underscore attribute access. The identifiers exec, eval, compile, __import__, globals, locals, vars, getattr, setattr, delattr, and dir are prohibited; these restrictions are checked syntactically. These constraints keep the submitted module a simple pure-function implementation. Raise ValueError for all specified rejection cases."
+}
