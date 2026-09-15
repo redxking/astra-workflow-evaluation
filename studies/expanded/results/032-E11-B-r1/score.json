@@ -1,0 +1,60 @@
+{
+  "accepted": true,
+  "checks": [
+    {
+      "detail": "",
+      "name": "response_schema",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "noncoding_code_empty",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_object",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_keys",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "actions",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "cost",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "scenario_losses",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "worst_loss",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "weighted_loss",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "feasible_portfolios",
+      "passed": true
+    }
+  ],
+  "checks_passed": 10,
+  "checks_total": 10,
+  "errors": [],
+  "grading_seconds": 0.0011322909849695861,
+  "passed": true
+}

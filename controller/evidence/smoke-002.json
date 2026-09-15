@@ -1,0 +1,161 @@
+{
+  "acceptance_scope": "Supplied verifier only; not independent validation or general correctness",
+  "attempts": [
+    {
+      "execution": {
+        "attempt_id": "79e7ff08-663a-4411-a930-ad3674d3e888",
+        "config_provenance": {
+          "approval_policy": {
+            "name": {
+              "file": "<RUNTIME>/config.toml",
+              "profile": null,
+              "type": "user"
+            },
+            "version": "sha256:fe2291e18e50bd676fe11047545ad1ce99d97e783be43f94a96d0c75a92f87ab"
+          },
+          "model": {
+            "name": {
+              "file": "<RUNTIME>/config.toml",
+              "profile": null,
+              "type": "user"
+            },
+            "version": "sha256:fe2291e18e50bd676fe11047545ad1ce99d97e783be43f94a96d0c75a92f87ab"
+          },
+          "model_reasoning_effort": {
+            "name": {
+              "file": "<RUNTIME>/config.toml",
+              "profile": null,
+              "type": "user"
+            },
+            "version": "sha256:fe2291e18e50bd676fe11047545ad1ce99d97e783be43f94a96d0c75a92f87ab"
+          },
+          "sandbox_mode": {
+            "name": {
+              "file": "<RUNTIME>/config.toml",
+              "profile": null,
+              "type": "user"
+            },
+            "version": "sha256:fe2291e18e50bd676fe11047545ad1ce99d97e783be43f94a96d0c75a92f87ab"
+          }
+        },
+        "configuration_checks": {
+          "agents_disabled": true,
+          "approval_never": true,
+          "apps_disabled": true,
+          "common_contract_loaded": true,
+          "effort_matches": true,
+          "host_skills_disabled": true,
+          "memory_disabled": true,
+          "model_matches": true,
+          "native_login": true,
+          "personal_instructions_absent": true,
+          "personal_memory_absent": true,
+          "plugins_disabled": true,
+          "project_instructions_disabled": true,
+          "read_only": true,
+          "web_disabled": true
+        },
+        "ended_at": "2026-09-15T16:30:07.064761+00:00",
+        "execution_seconds": 9.414838833035901,
+        "exit_code": 0,
+        "failure_reasons": [],
+        "malformed_runtime_records": 0,
+        "observed_effort": "medium",
+        "observed_model": "gpt-6-astra",
+        "observed_sandbox": {
+          "type": "read-only"
+        },
+        "operational_status": "completed",
+        "original_hashes": {
+          "config-read.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "config-read.stdout.jsonl": "ef2ceb24ae4fdb0c3ca3aad35be0e09c34a78a08dc476b370faf7c843e455682",
+          "events.jsonl": "e111c2f5f951b6e97fdf0eddd149bba1f4f208f6ce310c06e691db11a024ab75",
+          "native-config.json": "c2fe236c1e9043241adaac12de841926086d6703d86b75bb0e8a796afc693f44",
+          "prompt-assembly.json": "e8aa333ae250d75e0ab7c98467b3a04dd90901f698ee14df09e4f56ec868e0fe",
+          "prompt-assembly.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "prompt.txt": "d4843cf3190c13a165b43d647a3763867021691d292630df1ab9d4d4470b2ae4",
+          "record.json": "f59c4caec5c73514ac8ba672447b1009e68df6d1176a263ae30c3b6372763fc1",
+          "response.json": "c291d65e3d2c8d9c08e29d72d7bb9ca38fa40077016d8c880ce752bf323738bc",
+          "response.schema.json": "d0e28a769035cfbc58186ab38f4a7824cda10b8e895a59349237b8a0bc0fc982",
+          "runtime/AGENTS.md": "8f2215483c97a60d740b513fa7e8109a80302231f6c54d41865489b5fab17fdc",
+          "runtime/config.toml": "d5d1e9726f77aa3c07c47485e57f1460f97586db6780383ae9291d6fed2cba2b",
+          "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "requested_effort": "medium",
+        "requested_model": "gpt-6-astra",
+        "response": {
+          "answer": "ASTRA_CONTROLLER_OK",
+          "code": ""
+        },
+        "rollout_hashes": [
+          "b9768961e78322df9b571d113a46257e8ddf8906638d39585a9e386d811e0a9c"
+        ],
+        "root_id": "01a0a5e7-5a5d-7770-a719-fc5f9fec9e32",
+        "scope": {
+          "agents_enabled": false,
+          "boundary": "TASK",
+          "code_executed": false,
+          "reading_scope": "workspace and necessary installed runtime files; instructional",
+          "sandbox": "read-only",
+          "semantic_acceptance": "not_assessed"
+        },
+        "session_count": 1,
+        "setup_seconds": 0.9023681670078076,
+        "started_at": "2026-09-15T16:29:56.745726+00:00",
+        "timed_out": false,
+        "usage": {
+          "cli": {
+            "cached_input_tokens": 0,
+            "input_tokens": 9960,
+            "output_tokens": 22,
+            "reasoning_output_tokens": 0,
+            "total_tokens": null
+          },
+          "reconciled": {
+            "cached_input_tokens": 0,
+            "input_tokens": 9960,
+            "output_tokens": 22,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 9982
+          },
+          "reconciliation": "matched",
+          "rollout": {
+            "cached_input_tokens": 0,
+            "input_tokens": 9960,
+            "output_tokens": 22,
+            "reasoning_output_tokens": 0,
+            "total_tokens": 9982
+          }
+        }
+      },
+      "verification": {
+        "exit_code": 0,
+        "passed": true,
+        "seconds": 0.04087883298052475,
+        "status": "completed"
+      }
+    }
+  ],
+  "author": "Angelis Pseftis",
+  "calibration_scope": "Certificate applies to its frozen policy/data/loss assumptions. End-to-end fallback workflow still requires separate calibration.",
+  "controller_version": 1,
+  "initial_effort": "medium",
+  "reference_effort": "medium",
+  "response": {
+    "answer": "ASTRA_CONTROLLER_OK",
+    "code": ""
+  },
+  "selection_reason": "reference_no_certificate",
+  "status": "accepted_by_supplied_verifier",
+  "total_wall_seconds": 10.364354375051335,
+  "usage_totals": {
+    "cached_input_tokens": 0,
+    "input_tokens": 9960,
+    "output_tokens": 22,
+    "reasoning_output_tokens": 0,
+    "total_tokens": 9982
+  },
+  "evidence_kind": "native_conformance_only",
+  "synthetic_calibration": false,
+  "intentional_first_verifier_rejection": false
+}

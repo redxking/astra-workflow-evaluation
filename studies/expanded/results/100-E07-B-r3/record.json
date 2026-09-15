@@ -1,0 +1,160 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 10240,
+        "input_tokens": 21817,
+        "output_tokens": 264,
+        "reasoning_output_tokens": 53
+      }
+    ],
+    "root_id": "01a0a5e5-6a81-7d30-97fd-7e8cea93f868",
+    "sessions": [
+      {
+        "id": "01a0a5e5-6a81-7d30-97fd-7e8cea93f868",
+        "last_event_at": "2026-09-15T16:28:08.165Z",
+        "model_effort": [
+          {
+            "effort": "medium",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a5e5-6a94-7471-a943-9706ca8f80d4"
+          }
+        ],
+        "rollout_sha256": "6dd6f8daf5101e4f117d01fd057779e2441c053273070ed966cc2c679fb5560c",
+        "source": "exec",
+        "started_at": "2026-09-15T16:27:50.785Z",
+        "tool_events": [
+          {
+            "call_id": "call_rnZbYfNZe0PYf3lxh9YhONQ0",
+            "id": "ctc_0cc0f9f771149941016aa9720df86c87d183c544367e0c2a19",
+            "input": "text(await tools.exec_command({cmd:\"cat input.json\",max_output_tokens:12000}));\n",
+            "internal_chat_message_metadata_passthrough": {
+              "create_time": 1789489675.097503,
+              "turn_id": "01a0a5e5-6a94-7471-a943-9706ca8f80d4"
+            },
+            "name": "exec",
+            "status": "completed",
+            "type": "custom_tool_call"
+          },
+          {
+            "call_id": "call_rnZbYfNZe0PYf3lxh9YhONQ0",
+            "id": "ctco_01a0a5e5-8943-7c31-8c82-e3db50ce04bd",
+            "internal_chat_message_metadata_passthrough": {
+              "create_time": 1789489678.659287,
+              "turn_id": "01a0a5e5-6a94-7471-a943-9706ca8f80d4"
+            },
+            "output": [
+              {
+                "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+                "type": "input_text"
+              },
+              {
+                "text": "{\"chunk_id\":\"33aa65\",\"wall_time_seconds\":0.00000325,\"exit_code\":0,\"original_token_count\":581,\"output\":\"{\\n  \\\"horizon\\\": 40,\\n  \\\"jobs\\\": [\\n    \\\"a\\\",\\n    \\\"b\\\",\\n    \\\"c\\\",\\n    \\\"d\\\"\\n  ],\\n  \\\"events\\\": [\\n    {\\n      \\\"sequence\\\": 7,\\n      \\\"time\\\": 10,\\n      \\\"kind\\\": \\\"RESULT\\\",\\n      \\\"job\\\": \\\"a\\\",\\n      \\\"attempt\\\": 1,\\n      \\\"token\\\": \\\"x\\\"\\n    },\\n    {\\n      \\\"sequence\\\": 1,\\n      \\\"time\\\": 0,\\n      \\\"kind\\\": \\\"START\\\",\\n      \\\"job\\\": \\\"a\\\",\\n      \\\"lease\\\": 10\\n    },\\n    {\\n      \\\"sequence\\\": 2,\\n      \\\"time\\\": 0,\\n      \\\"kind\\\": \\\"START\\\",\\n      \\\"job\\\": \\\"b\\\",\\n      \\\"lease\\\": 12\\n    },\\n    {\\n      \\\"sequence\\\": 3,\\n      \\\"time\\\": 2,\\n      \\\"kind\\\": \\\"START\\\",\\n      \\\"job\\\": \\\"a\\\",\\n      \\\"lease\\\": 8\\n    },\\n    {\\n      \\\"sequence\\\": 4,\\n      \\\"time\\\": 5,\\n      \\\"kind\\\": \\\"RESULT\\\",\\n      \\\"job\\\": \\\"b\\\",\\n      \\\"attempt\\\": 2,\\n      \\\"token\\\": \\\"x\\\"\\n    },\\n    {\\n      \\\"sequence\\\": 5,\\n      \\\"time\\\": 6,\\n      \\\"kind\\\": \\\"RESULT\\\",\\n      \\\"job\\\": \\\"b\\\",\\n      \\\"attempt\\\": 1,\\n      \\\"token\\\": \\\"y\\\"\\n    },\\n    {\\n      \\\"sequence\\\": 6,\\n      \\\"time\\\": 8,\\n      \\\"kind\\\": \\\"START\\\",\\n      \\\"job\\\": \\\"c\\\",\\n      \\\"lease\\\": 8\\n    },\\n    {\\n      \\\"sequence\\\": 8,\\n      \\\"time\\\": 10,\\n      \\\"kind\\\": \\\"START\\\",\\n      \\\"job\\\": \\\"a\\\",\\n      \\\"lease\\\": 10\\n    },\\n    {\\n      \\\"sequence\\\": 9,\\n      \\\"time\\\": 11,\\n      \\\"kind\\\": \\\"RESULT\\\",\\n      \\\"job\\\": \\\"a\\\",\\n      \\\"attempt\\\": 1,\\n      \\\"token\\\": \\\"z\\\"\\n    },\\n    {\\n      \\\"sequence\\\": 10,\\n      \\\"time\\\": 12,\\n      \\\"kind\\\": \\\"RESULT\\\",\\n      \\\"job\\\": \\\"a\\\",\\n      \\\"attempt\\\": 2,\\n      \\\"token\\\": \\\"y\\\"\\n    },\\n    {\\n      \\\"sequence\\\": 11,\\n      \\\"time\\\": 13,\\n      \\\"kind\\\": \\\"RESULT\\\",\\n      \\\"job\\\": \\\"a\\\",\\n      \\\"attempt\\\": 2,\\n      \\\"token\\\": \\\"x\\\"\\n    },\\n    {\\n      \\\"sequence\\\": 12,\\n      \\\"time\\\": 14,\\n      \\\"kind\\\": \\\"CANCEL\\\",\\n      \\\"job\\\": \\\"a\\\"\\n    },\\n    {\\n      \\\"sequence\\\": 13,\\n      \\\"time\\\": 16,\\n      \\\"kind\\\": \\\"RESULT\\\",\\n      \\\"job\\\": \\\"c\\\",\\n      \\\"attempt\\\": 1,\\n      \\\"token\\\": \\\"z\\\"\\n    },\\n    {\\n      \\\"sequence\\\": 14,\\n      \\\"time\\\": 16,\\n      \\\"kind\\\": \\\"START\\\",\\n      \\\"job\\\": \\\"c\\\",\\n      \\\"lease\\\": 10\\n    },\\n    {\\n      \\\"sequence\\\": 15,\\n      \\\"time\\\": 17,\\n      \\\"kind\\\": \\\"CANCEL\\\",\\n      \\\"job\\\": \\\"c\\\"\\n    },\\n    {\\n      \\\"sequence\\\": 16,\\n      \\\"time\\\": 18,\\n      \\\"kind\\\": \\\"START\\\",\\n      \\\"job\\\": \\\"c\\\",\\n      \\\"lease\\\": 10\\n    },\\n    {\\n      \\\"sequence\\\": 17,\\n      \\\"time\\\": 20,\\n      \\\"kind\\\": \\\"START\\\",\\n      \\\"job\\\": \\\"d\\\",\\n      \\\"lease\\\": 20\\n    },\\n    {\\n      \\\"sequence\\\": 18,\\n      \\\"time\\\": 25,\\n      \\\"kind\\\": \\\"RESULT\\\",\\n      \\\"job\\\": \\\"d\\\",\\n      \\\"attempt\\\": 0,\\n      \\\"token\\\": \\\"w\\\"\\n    },\\n    {\\n      \\\"sequence\\\": 19,\\n      \\\"time\\\": 30,\\n      \\\"kind\\\": \\\"CANCEL\\\",\\n      \\\"job\\\": \\\"c\\\"\\n    }\\n  ]\\n}\\n\"}",
+                "type": "input_text"
+              }
+            ],
+            "type": "custom_tool_call_output"
+          }
+        ],
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 10240,
+          "input_tokens": 21817,
+          "output_tokens": 264,
+          "reasoning_output_tokens": 53,
+          "total_tokens": 22081
+        },
+        "usage_event_count": 2,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 10364,
+                "output_tokens": 52,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 10416
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 10364,
+                "output_tokens": 52,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 10416
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 10240,
+                "input_tokens": 11453,
+                "output_tokens": 212,
+                "reasoning_output_tokens": 53,
+                "total_tokens": 11665
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 10240,
+                "input_tokens": 21817,
+                "output_tokens": 264,
+                "reasoning_output_tokens": 53,
+                "total_tokens": 22081
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "B",
+  "config_sha256": "32742fbaa817f54a70bca827fa8250fa36784752e475d71a829503e27452e1c3",
+  "elapsed_seconds": 18.313817040994763,
+  "ended_at": "2026-09-15T16:28:09.051310+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {
+    "input.json": "8abfde3ef28b5adfd80086ea74a94ff2ce4a26f91a2559ed29e2b7043260a103",
+    "task.json": "55394fde62d265b68c41746863e70d36a8f3fb0db365325a886b24408137d308"
+  },
+  "input_hashes_after": {
+    "input.json": "8abfde3ef28b5adfd80086ea74a94ff2ce4a26f91a2559ed29e2b7043260a103",
+    "task.json": "55394fde62d265b68c41746863e70d36a8f3fb0db365325a886b24408137d308"
+  },
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "d0d36c84b4b71f8504a6e983309607550019ab9fc1c1908359f972410a4b4c31",
+    "serialized_characters": 11587
+  },
+  "instructions_sha256": "e6747d36ccceb529c8aa0eb321a49cf0f716ee410c8cf5a48e1d2db418c7e69e",
+  "operational_status": "completed",
+  "response": {
+    "answer": "{\"jobs\":[{\"id\":\"a\",\"state\":\"DONE\",\"attempt\":2,\"lease_until\":null},{\"id\":\"b\",\"state\":\"DONE\",\"attempt\":1,\"lease_until\":null},{\"id\":\"c\",\"state\":\"CANCELLED\",\"attempt\":2,\"lease_until\":null},{\"id\":\"d\",\"state\":\"PENDING\",\"attempt\":1,\"lease_until\":null}],\"accepted_sequences\":[1,2,5,6,8,11,14,15,17],\"rejected_sequences\":[3,4,7,9,10,12,13,16,18,19],\"accepted_tokens\":[\"x\",\"y\"]}",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "100-E07-B-r3",
+  "setup_seconds": 0.8221870409906842,
+  "started_at": "2026-09-15T16:27:50.733749+00:00",
+  "task_id": "E07",
+  "timed_out": false,
+  "timeout_seconds": 300
+}

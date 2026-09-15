@@ -1,0 +1,28 @@
+{
+  "author": "Angelis Pseftis",
+  "runs": 108,
+  "sessions": 135,
+  "root_usage_reconciled": 108,
+  "checks": 810,
+  "children_by_arm": {
+    "B": 0,
+    "C": 3,
+    "A": 24
+  },
+  "last_observed_model_effort_counts": {
+    "B/root/gpt-6-astra/medium": 36,
+    "C/root/gpt-6-astra/medium": 36,
+    "A/root/gpt-6-astra/ultra": 36,
+    "A/child/gpt-6-astra/ultra": 24,
+    "C/child/gpt-6-astra/high": 3
+  },
+  "frozen_hash_and_input_or_accounting_issues": [],
+  "tool_scope_keyword_flags": [],
+  "tool_audit_scope": "Keyword scan of retained tool-call inputs; not filesystem access tracing or proof against obfuscation. Reading scope was instructional.",
+  "integration_review": {
+    "067-E01-C-r2": "Child final repair edges/cost agree with parent result.",
+    "087-E01-C-r3": "Child final reachability and authorization agree with parent result.",
+    "080-E08-C-r3": "Child sent a message and parent received an agent message; child turn subsequently interrupted. Message contents retained encrypted, so semantic integration not independently established."
+  },
+  "claim_boundary": "Output agreement does not establish causal reviewer benefit. Invocation gate failed. No independent human review or external reproduction."
+}

@@ -1,0 +1,160 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 10112,
+        "input_tokens": 21982,
+        "output_tokens": 234,
+        "reasoning_output_tokens": 27
+      }
+    ],
+    "root_id": "01a0a5be-47c5-7673-a0a5-f897697d11e0",
+    "sessions": [
+      {
+        "id": "01a0a5be-47c5-7673-a0a5-f897697d11e0",
+        "last_event_at": "2026-09-15T15:45:20.507Z",
+        "model_effort": [
+          {
+            "effort": "medium",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a5be-47da-72c1-a3cf-4e03ab8d7293"
+          }
+        ],
+        "rollout_sha256": "3800cfd98742c62e5a5cb09a92c9742779c5a2a5163add47e967ae8e3b8c330b",
+        "source": "exec",
+        "started_at": "2026-09-15T15:45:05.990Z",
+        "tool_events": [
+          {
+            "call_id": "call_bz8RaVJpBbTjTVttMcTyK5vU",
+            "id": "ctc_06a8f0e8368f0b25016aa968063fb887d1ae09f5f253db8036",
+            "input": "text(await tools.exec_command({cmd:\"cat input.json\",\"max_output_tokens\":12000}));\n",
+            "internal_chat_message_metadata_passthrough": {
+              "create_time": 1789487108.224523,
+              "turn_id": "01a0a5be-47da-72c1-a3cf-4e03ab8d7293"
+            },
+            "name": "exec",
+            "status": "completed",
+            "type": "custom_tool_call"
+          },
+          {
+            "call_id": "call_bz8RaVJpBbTjTVttMcTyK5vU",
+            "id": "ctco_01a0a5be-5c35-76c1-91ec-3950d07c14b8",
+            "internal_chat_message_metadata_passthrough": {
+              "create_time": 1789487111.221645,
+              "turn_id": "01a0a5be-47da-72c1-a3cf-4e03ab8d7293"
+            },
+            "output": [
+              {
+                "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+                "type": "input_text"
+              },
+              {
+                "text": "{\"chunk_id\":\"91a641\",\"wall_time_seconds\":0.00000225,\"exit_code\":0,\"original_token_count\":728,\"output\":\"{\\n  \\\"cutoff\\\": 100,\\n  \\\"release\\\": \\\"R2\\\",\\n  \\\"environment\\\": \\\"prod\\\",\\n  \\\"max_age\\\": 20,\\n  \\\"gates\\\": [\\n    {\\n      \\\"id\\\": \\\"g1\\\",\\n      \\\"requires\\\": []\\n    },\\n    {\\n      \\\"id\\\": \\\"g2\\\",\\n      \\\"requires\\\": [\\n        \\\"g1\\\"\\n      ]\\n    },\\n    {\\n      \\\"id\\\": \\\"g3\\\",\\n      \\\"requires\\\": [\\n        \\\"g2\\\"\\n      ]\\n    },\\n    {\\n      \\\"id\\\": \\\"g4\\\",\\n      \\\"requires\\\": [\\n        \\\"g1\\\"\\n      ]\\n    },\\n    {\\n      \\\"id\\\": \\\"g5\\\",\\n      \\\"requires\\\": [\\n        \\\"g3\\\",\\n        \\\"g4\\\"\\n      ]\\n    },\\n    {\\n      \\\"id\\\": \\\"g6\\\",\\n      \\\"requires\\\": [\\n        \\\"g5\\\"\\n      ]\\n    }\\n  ],\\n  \\\"records\\\": [\\n    {\\n      \\\"id\\\": \\\"a\\\",\\n      \\\"gate\\\": \\\"g1\\\",\\n      \\\"observed_at\\\": 81,\\n      \\\"recorded_at\\\": 82,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"PASS\\\",\\n      \\\"findings\\\": 0\\n    },\\n    {\\n      \\\"id\\\": \\\"b\\\",\\n      \\\"gate\\\": \\\"g1\\\",\\n      \\\"observed_at\\\": 70,\\n      \\\"recorded_at\\\": 99,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"FAIL\\\",\\n      \\\"findings\\\": 5\\n    },\\n    {\\n      \\\"id\\\": \\\"c\\\",\\n      \\\"gate\\\": \\\"g2\\\",\\n      \\\"observed_at\\\": 80,\\n      \\\"recorded_at\\\": 80,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"PASS\\\",\\n      \\\"findings\\\": 0\\n    },\\n    {\\n      \\\"id\\\": \\\"d\\\",\\n      \\\"gate\\\": \\\"g2\\\",\\n      \\\"observed_at\\\": 80,\\n      \\\"recorded_at\\\": 92,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"FAIL\\\",\\n      \\\"findings\\\": 1\\n    },\\n    {\\n      \\\"id\\\": \\\"e\\\",\\n      \\\"gate\\\": \\\"g2\\\",\\n      \\\"observed_at\\\": 95,\\n      \\\"recorded_at\\\": 101,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"PASS\\\",\\n      \\\"findings\\\": 0\\n    },\\n    {\\n      \\\"id\\\": \\\"f\\\",\\n      \\\"gate\\\": \\\"g3\\\",\\n      \\\"observed_at\\\": 98,\\n      \\\"recorded_at\\\": 98,\\n      \\\"release\\\": \\\"R1\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"PASS\\\",\\n      \\\"findings\\\": 0\\n    },\\n    {\\n      \\\"id\\\": \\\"g\\\",\\n      \\\"gate\\\": \\\"g3\\\",\\n      \\\"observed_at\\\": 98,\\n      \\\"recorded_at\\\": 98,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"lab\\\",\\n      \\\"status\\\": \\\"PASS\\\",\\n      \\\"findings\\\": 0\\n    },\\n    {\\n      \\\"id\\\": \\\"h\\\",\\n      \\\"gate\\\": \\\"g3\\\",\\n      \\\"observed_at\\\": 78,\\n      \\\"recorded_at\\\": 99,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"PASS\\\",\\n      \\\"findings\\\": 0\\n    },\\n    {\\n      \\\"id\\\": \\\"i\\\",\\n      \\\"gate\\\": \\\"g4\\\",\\n      \\\"observed_at\\\": 95,\\n      \\\"recorded_at\\\": 96,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"NOT_RUN\\\",\\n      \\\"findings\\\": null\\n    },\\n    {\\n      \\\"id\\\": \\\"j\\\",\\n      \\\"gate\\\": \\\"g5\\\",\\n      \\\"observed_at\\\": 99,\\n      \\\"recorded_at\\\": 99,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"PASS\\\",\\n      \\\"findings\\\": 0\\n    },\\n    {\\n      \\\"id\\\": \\\"k\\\",\\n      \\\"gate\\\": \\\"g6\\\",\\n      \\\"observed_at\\\": 98,\\n      \\\"recorded_at\\\": 98,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"PROMISED\\\",\\n      \\\"findings\\\": 0\\n    },\\n    {\\n      \\\"id\\\": \\\"l\\\",\\n      \\\"gate\\\": \\\"g4\\\",\\n      \\\"observed_at\\\": 95,\\n      \\\"recorded_at\\\": 96,\\n      \\\"release\\\": \\\"R2\\\",\\n      \\\"environment\\\": \\\"prod\\\",\\n      \\\"status\\\": \\\"UNKNOWN\\\",\\n      \\\"findings\\\": null\\n    }\\n  ]\\n}\\n\"}",
+                "type": "input_text"
+              }
+            ],
+            "type": "custom_tool_call_output"
+          }
+        ],
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 10112,
+          "input_tokens": 21982,
+          "output_tokens": 234,
+          "reasoning_output_tokens": 27,
+          "total_tokens": 22216
+        },
+        "usage_event_count": 2,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 10348,
+                "output_tokens": 52,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 10400
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 10348,
+                "output_tokens": 52,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 10400
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 10112,
+                "input_tokens": 11634,
+                "output_tokens": 182,
+                "reasoning_output_tokens": 27,
+                "total_tokens": 11816
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 10112,
+                "input_tokens": 21982,
+                "output_tokens": 234,
+                "reasoning_output_tokens": 27,
+                "total_tokens": 22216
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "B",
+  "config_sha256": "32742fbaa817f54a70bca827fa8250fa36784752e475d71a829503e27452e1c3",
+  "elapsed_seconds": 15.300020124996081,
+  "ended_at": "2026-09-15T15:45:21.233316+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {
+    "input.json": "70ff612704a9fa2ab23792652e102b56fb35d28f45dd494bbe7832a7d2958637",
+    "task.json": "9a04c9ab5b38a32f4b19e311802536c2a15f30cdf9258ea9029d84c9b6a32119"
+  },
+  "input_hashes_after": {
+    "input.json": "70ff612704a9fa2ab23792652e102b56fb35d28f45dd494bbe7832a7d2958637",
+    "task.json": "9a04c9ab5b38a32f4b19e311802536c2a15f30cdf9258ea9029d84c9b6a32119"
+  },
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "79fa2c646ac68fce24d0cbea23d59f41ec8ad3c7bb7f1364f25a6d3508528ea5",
+    "serialized_characters": 11588
+  },
+  "instructions_sha256": "e6747d36ccceb529c8aa0eb321a49cf0f716ee410c8cf5a48e1d2db418c7e69e",
+  "operational_status": "completed",
+  "response": {
+    "answer": "{\"gates\":[{\"id\":\"g1\",\"status\":\"PASS\",\"source\":\"a\"},{\"id\":\"g2\",\"status\":\"FAIL\",\"source\":\"d\"},{\"id\":\"g3\",\"status\":\"UNKNOWN\",\"source\":\"h\"},{\"id\":\"g4\",\"status\":\"UNKNOWN\",\"source\":\"l\"},{\"id\":\"g5\",\"status\":\"PASS\",\"source\":\"j\"},{\"id\":\"g6\",\"status\":\"UNKNOWN\",\"source\":null}],\"decision\":\"BLOCKED\",\"blocked_dependencies\":[\"g3\",\"g5\"],\"observed_findings\":1,\"unknown_finding_gates\":[\"g4\",\"g6\"]}",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "030-E04-B-r1",
+  "setup_seconds": 0.7958140000118874,
+  "started_at": "2026-09-15T15:45:05.930858+00:00",
+  "task_id": "E04",
+  "timed_out": false,
+  "timeout_seconds": 300
+}

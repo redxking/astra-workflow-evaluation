@@ -1,0 +1,160 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12416,
+        "input_tokens": 25505,
+        "output_tokens": 209,
+        "reasoning_output_tokens": 79
+      }
+    ],
+    "root_id": "01a0a5b4-af32-77a1-b6c9-f41d16611837",
+    "sessions": [
+      {
+        "id": "01a0a5b4-af32-77a1-b6c9-f41d16611837",
+        "last_event_at": "2026-09-15T15:34:52.072Z",
+        "model_effort": [
+          {
+            "effort": "ultra",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a5b4-af46-7023-b29e-4dfd1d9d70bc"
+          }
+        ],
+        "rollout_sha256": "c171af79c1b6417e80af5534adb39802c8128fe8e8cbfcec278f229ad0d0ea33",
+        "source": "exec",
+        "started_at": "2026-09-15T15:34:37.107Z",
+        "tool_events": [
+          {
+            "call_id": "call_D9IG3Zj0KHgjsZzqX8oqWlnc",
+            "id": "ctc_0085cbb84c69b74b016aa96594503087d19926d6b0e52f4502",
+            "input": "text(await tools.exec_command({cmd:\"cat input.json\",\"max_output_tokens\":20000}));\n",
+            "internal_chat_message_metadata_passthrough": {
+              "create_time": 1789486481.994681,
+              "turn_id": "01a0a5b4-af46-7023-b29e-4dfd1d9d70bc"
+            },
+            "name": "exec",
+            "status": "completed",
+            "type": "custom_tool_call"
+          },
+          {
+            "call_id": "call_D9IG3Zj0KHgjsZzqX8oqWlnc",
+            "id": "ctco_01a0a5b4-cf3d-7891-ab49-0d55f6c4b359",
+            "internal_chat_message_metadata_passthrough": {
+              "create_time": 1789486485.30917,
+              "turn_id": "01a0a5b4-af46-7023-b29e-4dfd1d9d70bc"
+            },
+            "output": [
+              {
+                "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+                "type": "input_text"
+              },
+              {
+                "text": "{\"chunk_id\":\"9da337\",\"wall_time_seconds\":0.000002209,\"exit_code\":0,\"original_token_count\":128,\"output\":\"{\\n  \\\"nodes\\\": [\\n    \\\"a\\\",\\n    \\\"b\\\",\\n    \\\"c\\\",\\n    \\\"d\\\",\\n    \\\"e\\\",\\n    \\\"f\\\",\\n    \\\"g\\\",\\n    \\\"h\\\",\\n    \\\"i\\\",\\n    \\\"j\\\",\\n    \\\"k\\\"\\n  ],\\n  \\\"edges\\\": [\\n    [\\n      \\\"a\\\",\\n      \\\"b\\\"\\n    ],\\n    [\\n      \\\"b\\\",\\n      \\\"c\\\"\\n    ],\\n    [\\n      \\\"c\\\",\\n      \\\"b\\\"\\n    ],\\n    [\\n      \\\"d\\\",\\n      \\\"a\\\"\\n    ],\\n    [\\n      \\\"e\\\",\\n      \\\"f\\\"\\n    ],\\n    [\\n      \\\"f\\\",\\n      \\\"f\\\"\\n    ],\\n    [\\n      \\\"g\\\",\\n      \\\"h\\\"\\n    ],\\n    [\\n      \\\"i\\\",\\n      \\\"g\\\"\\n    ],\\n    [\\n      \\\"i\\\",\\n      \\\"j\\\"\\n    ],\\n    [\\n      \\\"a\\\",\\n      \\\"b\\\"\\n    ],\\n    [\\n      \\\"k\\\",\\n      \\\"j\\\"\\n    ]\\n  ]\\n}\\n\"}",
+                "type": "input_text"
+              }
+            ],
+            "type": "custom_tool_call_output"
+          }
+        ],
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 12416,
+          "input_tokens": 25505,
+          "output_tokens": 209,
+          "reasoning_output_tokens": 79,
+          "total_tokens": 25714
+        },
+        "usage_event_count": 2,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 12556,
+                "output_tokens": 59,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 12615
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 12556,
+                "output_tokens": 59,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 12615
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12416,
+                "input_tokens": 12949,
+                "output_tokens": 150,
+                "reasoning_output_tokens": 79,
+                "total_tokens": 13099
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12416,
+                "input_tokens": 25505,
+                "output_tokens": 209,
+                "reasoning_output_tokens": 79,
+                "total_tokens": 25714
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "A",
+  "config_sha256": "f9e63cc0b1b99c6012320f95473ee67f565797ecb7ab71be48680769e35c5d5d",
+  "elapsed_seconds": 16.203824750031345,
+  "ended_at": "2026-09-15T15:34:53.262745+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {
+    "input.json": "04cde627505cd439a46a72c672f4501d7acb5e0bbb2cac4c029cb4307a7df0a3",
+    "task.json": "40c931a142762c18ae5b4d6369fdb4a43f72deb4f3f76d16c55d8f5845882a3d"
+  },
+  "input_hashes_after": {
+    "input.json": "04cde627505cd439a46a72c672f4501d7acb5e0bbb2cac4c029cb4307a7df0a3",
+    "task.json": "40c931a142762c18ae5b4d6369fdb4a43f72deb4f3f76d16c55d8f5845882a3d"
+  },
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "272ed3e08572d9ba96c44b75d66225ed2d53c04a430422c7ebdfbc60630ad2fb",
+    "serialized_characters": 15513
+  },
+  "instructions_sha256": "77c70a9b119b624d6fc152fd601b2595bc7dc0ec2c83bf04b14a7c747f7cfab9",
+  "operational_status": "completed",
+  "response": {
+    "answer": "{\"cycle_components\":[[\"b\",\"c\"],[\"f\"]],\"blocked\":[\"a\",\"b\",\"c\",\"d\",\"e\",\"f\"],\"build_order\":[\"h\",\"g\",\"j\",\"i\",\"k\"]}",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "012-E09-A-r1",
+  "setup_seconds": 0.9732499999809079,
+  "started_at": "2026-09-15T15:34:37.056404+00:00",
+  "task_id": "E09",
+  "timed_out": false,
+  "timeout_seconds": 300
+}

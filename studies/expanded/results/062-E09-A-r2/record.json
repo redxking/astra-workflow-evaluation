@@ -1,0 +1,160 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 12416,
+        "input_tokens": 25388,
+        "output_tokens": 218,
+        "reasoning_output_tokens": 86
+      }
+    ],
+    "root_id": "01a0a5cf-b952-70b2-9420-e97fbcba9ddb",
+    "sessions": [
+      {
+        "id": "01a0a5cf-b952-70b2-9420-e97fbcba9ddb",
+        "last_event_at": "2026-09-15T16:04:21.307Z",
+        "model_effort": [
+          {
+            "effort": "ultra",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a5cf-b965-7e42-bde2-e74972b950e4"
+          }
+        ],
+        "rollout_sha256": "f1336cb49490a0765fc7a59d251af5bf7018b8ba27133e786a6e59db3bee4776",
+        "source": "exec",
+        "started_at": "2026-09-15T16:04:09.170Z",
+        "tool_events": [
+          {
+            "call_id": "call_t3jl7L77L50GTiOR24LJDYw8",
+            "id": "ctc_0f9c952c83e9a50f016aa96c7d4ae487d197fe54b9a0622c53",
+            "input": "const r = await tools.exec_command({cmd:\"cat input.json\",\"max_output_tokens\":20000});text(r.output);\n",
+            "internal_chat_message_metadata_passthrough": {
+              "create_time": 1789488251.425683,
+              "turn_id": "01a0a5cf-b965-7e42-bde2-e74972b950e4"
+            },
+            "name": "exec",
+            "status": "completed",
+            "type": "custom_tool_call"
+          },
+          {
+            "call_id": "call_t3jl7L77L50GTiOR24LJDYw8",
+            "id": "ctco_01a0a5cf-cddd-7463-bef8-1643cc22743e",
+            "internal_chat_message_metadata_passthrough": {
+              "create_time": 1789488254.429109,
+              "turn_id": "01a0a5cf-b965-7e42-bde2-e74972b950e4"
+            },
+            "output": [
+              {
+                "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+                "type": "input_text"
+              },
+              {
+                "text": "{\n  \"nodes\": [\n    \"a\",\n    \"b\",\n    \"c\",\n    \"d\",\n    \"e\",\n    \"f\",\n    \"g\",\n    \"h\",\n    \"i\",\n    \"j\",\n    \"k\"\n  ],\n  \"edges\": [\n    [\n      \"a\",\n      \"b\"\n    ],\n    [\n      \"b\",\n      \"c\"\n    ],\n    [\n      \"c\",\n      \"b\"\n    ],\n    [\n      \"d\",\n      \"a\"\n    ],\n    [\n      \"e\",\n      \"f\"\n    ],\n    [\n      \"f\",\n      \"f\"\n    ],\n    [\n      \"g\",\n      \"h\"\n    ],\n    [\n      \"i\",\n      \"g\"\n    ],\n    [\n      \"i\",\n      \"j\"\n    ],\n    [\n      \"a\",\n      \"b\"\n    ],\n    [\n      \"k\",\n      \"j\"\n    ]\n  ]\n}\n",
+                "type": "input_text"
+              }
+            ],
+            "type": "custom_tool_call_output"
+          }
+        ],
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 12416,
+          "input_tokens": 25388,
+          "output_tokens": 218,
+          "reasoning_output_tokens": 86,
+          "total_tokens": 25606
+        },
+        "usage_event_count": 2,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 12556,
+                "output_tokens": 61,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 12617
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 12556,
+                "output_tokens": 61,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 12617
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12416,
+                "input_tokens": 12832,
+                "output_tokens": 157,
+                "reasoning_output_tokens": 86,
+                "total_tokens": 12989
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 12416,
+                "input_tokens": 25388,
+                "output_tokens": 218,
+                "reasoning_output_tokens": 86,
+                "total_tokens": 25606
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "A",
+  "config_sha256": "f9e63cc0b1b99c6012320f95473ee67f565797ecb7ab71be48680769e35c5d5d",
+  "elapsed_seconds": 13.595029957999941,
+  "ended_at": "2026-09-15T16:04:22.709051+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {
+    "input.json": "04cde627505cd439a46a72c672f4501d7acb5e0bbb2cac4c029cb4307a7df0a3",
+    "task.json": "40c931a142762c18ae5b4d6369fdb4a43f72deb4f3f76d16c55d8f5845882a3d"
+  },
+  "input_hashes_after": {
+    "input.json": "04cde627505cd439a46a72c672f4501d7acb5e0bbb2cac4c029cb4307a7df0a3",
+    "task.json": "40c931a142762c18ae5b4d6369fdb4a43f72deb4f3f76d16c55d8f5845882a3d"
+  },
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "a841a1d7a5844dd83b57ed6464f63253154aff1335527c86b0d896bc09bd83aa",
+    "serialized_characters": 15513
+  },
+  "instructions_sha256": "77c70a9b119b624d6fc152fd601b2595bc7dc0ec2c83bf04b14a7c747f7cfab9",
+  "operational_status": "completed",
+  "response": {
+    "answer": "{\"cycle_components\":[[\"b\",\"c\"],[\"f\"]],\"blocked\":[\"a\",\"b\",\"c\",\"d\",\"e\",\"f\"],\"build_order\":[\"h\",\"g\",\"j\",\"i\",\"k\"]}",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "062-E09-A-r2",
+  "setup_seconds": 1.203841749986168,
+  "started_at": "2026-09-15T16:04:09.111887+00:00",
+  "task_id": "E09",
+  "timed_out": false,
+  "timeout_seconds": 300
+}

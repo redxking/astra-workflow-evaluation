@@ -1,0 +1,2370 @@
+{
+  "author": "Angelis Pseftis",
+  "runs": [
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "001-E08-B-r1",
+      "task": "E08",
+      "accepted": true,
+      "tokens": 46422,
+      "seconds": 43.48208191693993,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "selected_edges": true,
+        "departures": true,
+        "arrival": true,
+        "energy_consumed": true,
+        "feasible_path_count": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "002-E08-C-r1",
+      "task": "E08",
+      "accepted": true,
+      "tokens": 59830,
+      "seconds": 39.57799487496959,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "selected_edges": true,
+        "departures": true,
+        "arrival": true,
+        "energy_consumed": true,
+        "feasible_path_count": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "003-E08-A-r1",
+      "task": "E08",
+      "accepted": true,
+      "tokens": 173430,
+      "seconds": 81.1332627920201,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "selected_edges": true,
+        "departures": true,
+        "arrival": true,
+        "energy_consumed": true,
+        "feasible_path_count": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "004-E07-A-r1",
+      "task": "E07",
+      "accepted": true,
+      "tokens": 97769,
+      "seconds": 52.08231283305213,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "jobs": true,
+        "accepted_sequences": true,
+        "rejected_sequences": true,
+        "accepted_tokens": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "005-E07-B-r1",
+      "task": "E07",
+      "accepted": true,
+      "tokens": 22098,
+      "seconds": 14.113320750999264,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "jobs": true,
+        "accepted_sequences": true,
+        "rejected_sequences": true,
+        "accepted_tokens": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "006-E07-C-r1",
+      "task": "E07",
+      "accepted": true,
+      "tokens": 60466,
+      "seconds": 43.6405235430575,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "jobs": true,
+        "accepted_sequences": true,
+        "rejected_sequences": true,
+        "accepted_tokens": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "007-E02-B-r1",
+      "task": "E02",
+      "accepted": true,
+      "tokens": 47780,
+      "seconds": 64.99906245904276,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_placements": true,
+        "selected": true,
+        "selected_cost": true,
+        "selected_min_surviving_weight": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "008-E02-A-r1",
+      "task": "E02",
+      "accepted": true,
+      "tokens": 143843,
+      "seconds": 57.817995375953615,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_placements": true,
+        "selected": true,
+        "selected_cost": true,
+        "selected_min_surviving_weight": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "009-E02-C-r1",
+      "task": "E02",
+      "accepted": true,
+      "tokens": 60950,
+      "seconds": 42.813325416937005,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_placements": true,
+        "selected": true,
+        "selected_cost": true,
+        "selected_min_surviving_weight": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "010-E09-B-r1",
+      "task": "E09",
+      "accepted": true,
+      "tokens": 21070,
+      "seconds": 13.348576124990359,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "cycle_components": true,
+        "blocked": true,
+        "build_order": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "011-E09-C-r1",
+      "task": "E09",
+      "accepted": true,
+      "tokens": 27641,
+      "seconds": 14.428394916001707,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "cycle_components": true,
+        "blocked": true,
+        "build_order": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "012-E09-A-r1",
+      "task": "E09",
+      "accepted": true,
+      "tokens": 25714,
+      "seconds": 17.177507667045575,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "cycle_components": true,
+        "blocked": true,
+        "build_order": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "013-E12-C-r1",
+      "task": "E12",
+      "accepted": true,
+      "tokens": 56785,
+      "seconds": 29.80976954102516,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_starts": true,
+        "earliest": true,
+        "latest": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "014-E12-B-r1",
+      "task": "E12",
+      "accepted": true,
+      "tokens": 43628,
+      "seconds": 26.4666572920396,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_starts": true,
+        "earliest": true,
+        "latest": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "015-E12-A-r1",
+      "task": "E12",
+      "accepted": true,
+      "tokens": 53211,
+      "seconds": 34.62178220797796,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_starts": true,
+        "earliest": true,
+        "latest": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "016-E05-B-r1",
+      "task": "E05",
+      "accepted": true,
+      "tokens": 22342,
+      "seconds": 15.817543416982517,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "services": true,
+        "fleet_confirmed_minutes": true,
+        "retained_report_ids": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "017-E05-C-r1",
+      "task": "E05",
+      "accepted": true,
+      "tokens": 61467,
+      "seconds": 44.53705774899572,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "services": true,
+        "fleet_confirmed_minutes": true,
+        "retained_report_ids": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "018-E05-A-r1",
+      "task": "E05",
+      "accepted": true,
+      "tokens": 98713,
+      "seconds": 60.852042167040054,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "services": true,
+        "fleet_confirmed_minutes": true,
+        "retained_report_ids": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "019-E10-B-r1",
+      "task": "E10",
+      "accepted": true,
+      "tokens": 45433,
+      "seconds": 33.172600791964214,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "starts": true,
+        "makespan": true,
+        "risk_exposure": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "020-E10-A-r1",
+      "task": "E10",
+      "accepted": true,
+      "tokens": 94639,
+      "seconds": 47.02182337397244,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "starts": true,
+        "makespan": true,
+        "risk_exposure": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "021-E10-C-r1",
+      "task": "E10",
+      "accepted": true,
+      "tokens": 58561,
+      "seconds": 42.840321250027046,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "starts": true,
+        "makespan": true,
+        "risk_exposure": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "022-E06-B-r1",
+      "task": "E06",
+      "accepted": true,
+      "tokens": 21403,
+      "seconds": 14.963890125101898,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "claims": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "023-E06-C-r1",
+      "task": "E06",
+      "accepted": true,
+      "tokens": 27975,
+      "seconds": 14.239896540995687,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "claims": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "024-E06-A-r1",
+      "task": "E06",
+      "accepted": true,
+      "tokens": 25889,
+      "seconds": 15.964815123938024,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "claims": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "025-E01-A-r1",
+      "task": "E01",
+      "accepted": true,
+      "tokens": 114345,
+      "seconds": 53.08947208401514,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "reachable_probes": true,
+        "authorized_probes": true,
+        "repair_edges": true,
+        "repair_cost": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "026-E01-B-r1",
+      "task": "E01",
+      "accepted": true,
+      "tokens": 48265,
+      "seconds": 46.689553791016806,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "reachable_probes": true,
+        "authorized_probes": true,
+        "repair_edges": true,
+        "repair_cost": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "027-E01-C-r1",
+      "task": "E01",
+      "accepted": true,
+      "tokens": 61569,
+      "seconds": 58.35864550102269,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "reachable_probes": true,
+        "authorized_probes": true,
+        "repair_edges": true,
+        "repair_cost": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "028-E04-C-r1",
+      "task": "E04",
+      "accepted": true,
+      "tokens": 28797,
+      "seconds": 13.708778708940372,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "gates": true,
+        "decision": true,
+        "blocked_dependencies": true,
+        "observed_findings": true,
+        "unknown_finding_gates": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "029-E04-A-r1",
+      "task": "E04",
+      "accepted": true,
+      "tokens": 113112,
+      "seconds": 59.35743466694839,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "gates": true,
+        "decision": true,
+        "blocked_dependencies": true,
+        "observed_findings": true,
+        "unknown_finding_gates": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "030-E04-B-r1",
+      "task": "E04",
+      "accepted": true,
+      "tokens": 22216,
+      "seconds": 16.09613400005037,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "gates": true,
+        "decision": true,
+        "blocked_dependencies": true,
+        "observed_findings": true,
+        "unknown_finding_gates": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "031-E11-A-r1",
+      "task": "E11",
+      "accepted": true,
+      "tokens": 154178,
+      "seconds": 69.19999787496636,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "actions": true,
+        "cost": true,
+        "scenario_losses": true,
+        "worst_loss": true,
+        "weighted_loss": true,
+        "feasible_portfolios": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "032-E11-B-r1",
+      "task": "E11",
+      "accepted": true,
+      "tokens": 45944,
+      "seconds": 41.266041498980485,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "actions": true,
+        "cost": true,
+        "scenario_losses": true,
+        "worst_loss": true,
+        "weighted_loss": true,
+        "feasible_portfolios": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "033-E11-C-r1",
+      "task": "E11",
+      "accepted": true,
+      "tokens": 59072,
+      "seconds": 40.49841258302331,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "actions": true,
+        "cost": true,
+        "scenario_losses": true,
+        "worst_loss": true,
+        "weighted_loss": true,
+        "feasible_portfolios": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 1,
+      "run_id": "034-E03-C-r1",
+      "task": "E03",
+      "accepted": true,
+      "tokens": 27993,
+      "seconds": 14.352714374894276,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "decisions": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 1,
+      "run_id": "035-E03-B-r1",
+      "task": "E03",
+      "accepted": true,
+      "tokens": 21420,
+      "seconds": 12.627353292016778,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "decisions": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 1,
+      "run_id": "036-E03-A-r1",
+      "task": "E03",
+      "accepted": true,
+      "tokens": 26087,
+      "seconds": 15.315150874957908,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "decisions": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "037-E04-B-r2",
+      "task": "E04",
+      "accepted": true,
+      "tokens": 22191,
+      "seconds": 13.474388372909743,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "gates": true,
+        "decision": true,
+        "blocked_dependencies": true,
+        "observed_findings": true,
+        "unknown_finding_gates": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "038-E04-A-r2",
+      "task": "E04",
+      "accepted": true,
+      "tokens": 113173,
+      "seconds": 55.18063841800904,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "gates": true,
+        "decision": true,
+        "blocked_dependencies": true,
+        "observed_findings": true,
+        "unknown_finding_gates": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "039-E04-C-r2",
+      "task": "E04",
+      "accepted": true,
+      "tokens": 28794,
+      "seconds": 15.114815500972327,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "gates": true,
+        "decision": true,
+        "blocked_dependencies": true,
+        "observed_findings": true,
+        "unknown_finding_gates": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "040-E03-B-r2",
+      "task": "E03",
+      "accepted": true,
+      "tokens": 21420,
+      "seconds": 11.859210875991266,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "decisions": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "041-E03-A-r2",
+      "task": "E03",
+      "accepted": true,
+      "tokens": 26072,
+      "seconds": 14.89020362496376,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "decisions": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "042-E03-C-r2",
+      "task": "E03",
+      "accepted": true,
+      "tokens": 27991,
+      "seconds": 13.85011025093263,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "decisions": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "043-E02-C-r2",
+      "task": "E02",
+      "accepted": true,
+      "tokens": 60986,
+      "seconds": 39.90545804199064,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_placements": true,
+        "selected": true,
+        "selected_cost": true,
+        "selected_min_surviving_weight": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "044-E02-A-r2",
+      "task": "E02",
+      "accepted": true,
+      "tokens": 164323,
+      "seconds": 79.71555366797838,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_placements": true,
+        "selected": true,
+        "selected_cost": true,
+        "selected_min_surviving_weight": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "045-E02-B-r2",
+      "task": "E02",
+      "accepted": true,
+      "tokens": 47827,
+      "seconds": 40.837815708015114,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_placements": true,
+        "selected": true,
+        "selected_cost": true,
+        "selected_min_surviving_weight": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "046-E12-A-r2",
+      "task": "E12",
+      "accepted": true,
+      "tokens": 53428,
+      "seconds": 44.59088666696334,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_starts": true,
+        "earliest": true,
+        "latest": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "047-E12-B-r2",
+      "task": "E12",
+      "accepted": true,
+      "tokens": 43471,
+      "seconds": 33.73054308304563,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_starts": true,
+        "earliest": true,
+        "latest": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "048-E12-C-r2",
+      "task": "E12",
+      "accepted": true,
+      "tokens": 56530,
+      "seconds": 28.833813500008546,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_starts": true,
+        "earliest": true,
+        "latest": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "049-E11-A-r2",
+      "task": "E11",
+      "accepted": true,
+      "tokens": 139157,
+      "seconds": 60.509142583061475,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "actions": true,
+        "cost": true,
+        "scenario_losses": true,
+        "worst_loss": true,
+        "weighted_loss": true,
+        "feasible_portfolios": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "050-E11-B-r2",
+      "task": "E11",
+      "accepted": true,
+      "tokens": 45962,
+      "seconds": 36.134715873980895,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "actions": true,
+        "cost": true,
+        "scenario_losses": true,
+        "worst_loss": true,
+        "weighted_loss": true,
+        "feasible_portfolios": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "051-E11-C-r2",
+      "task": "E11",
+      "accepted": true,
+      "tokens": 59023,
+      "seconds": 36.98382162494818,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "actions": true,
+        "cost": true,
+        "scenario_losses": true,
+        "worst_loss": true,
+        "weighted_loss": true,
+        "feasible_portfolios": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "052-E05-A-r2",
+      "task": "E05",
+      "accepted": true,
+      "tokens": 83780,
+      "seconds": 42.08709349995479,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "services": true,
+        "fleet_confirmed_minutes": true,
+        "retained_report_ids": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "053-E05-C-r2",
+      "task": "E05",
+      "accepted": true,
+      "tokens": 61113,
+      "seconds": 74.89154087402858,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "services": true,
+        "fleet_confirmed_minutes": true,
+        "retained_report_ids": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "054-E05-B-r2",
+      "task": "E05",
+      "accepted": true,
+      "tokens": 22344,
+      "seconds": 14.342429250013083,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "services": true,
+        "fleet_confirmed_minutes": true,
+        "retained_report_ids": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "055-E07-B-r2",
+      "task": "E07",
+      "accepted": true,
+      "tokens": 47288,
+      "seconds": 42.12347116600722,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "jobs": true,
+        "accepted_sequences": true,
+        "rejected_sequences": true,
+        "accepted_tokens": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "056-E07-A-r2",
+      "task": "E07",
+      "accepted": true,
+      "tokens": 111872,
+      "seconds": 52.54712928994559,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "jobs": true,
+        "accepted_sequences": true,
+        "rejected_sequences": true,
+        "accepted_tokens": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "057-E07-C-r2",
+      "task": "E07",
+      "accepted": true,
+      "tokens": 60561,
+      "seconds": 49.27210204093717,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "jobs": true,
+        "accepted_sequences": true,
+        "rejected_sequences": true,
+        "accepted_tokens": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "058-E08-C-r2",
+      "task": "E08",
+      "accepted": true,
+      "tokens": 59921,
+      "seconds": 35.78010916803032,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "selected_edges": true,
+        "departures": true,
+        "arrival": true,
+        "energy_consumed": true,
+        "feasible_path_count": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "059-E08-A-r2",
+      "task": "E08",
+      "accepted": true,
+      "tokens": 112433,
+      "seconds": 49.222717667988036,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "selected_edges": true,
+        "departures": true,
+        "arrival": true,
+        "energy_consumed": true,
+        "feasible_path_count": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "060-E08-B-r2",
+      "task": "E08",
+      "accepted": true,
+      "tokens": 46474,
+      "seconds": 33.51171404105844,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "selected_edges": true,
+        "departures": true,
+        "arrival": true,
+        "energy_consumed": true,
+        "feasible_path_count": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "061-E09-C-r2",
+      "task": "E09",
+      "accepted": true,
+      "tokens": 27638,
+      "seconds": 12.789554793038405,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "cycle_components": true,
+        "blocked": true,
+        "build_order": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "062-E09-A-r2",
+      "task": "E09",
+      "accepted": true,
+      "tokens": 25606,
+      "seconds": 14.799225875001866,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "cycle_components": true,
+        "blocked": true,
+        "build_order": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "063-E09-B-r2",
+      "task": "E09",
+      "accepted": true,
+      "tokens": 21067,
+      "seconds": 11.352091875043698,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "cycle_components": true,
+        "blocked": true,
+        "build_order": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "064-E10-C-r2",
+      "task": "E10",
+      "accepted": true,
+      "tokens": 58564,
+      "seconds": 38.802376415987965,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "starts": true,
+        "makespan": true,
+        "risk_exposure": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "065-E10-B-r2",
+      "task": "E10",
+      "accepted": true,
+      "tokens": 45408,
+      "seconds": 32.2689646249637,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "starts": true,
+        "makespan": true,
+        "risk_exposure": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "066-E10-A-r2",
+      "task": "E10",
+      "accepted": true,
+      "tokens": 95440,
+      "seconds": 57.65825479099294,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "starts": true,
+        "makespan": true,
+        "risk_exposure": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "067-E01-C-r2",
+      "task": "E01",
+      "accepted": true,
+      "tokens": 152450,
+      "seconds": 62.22754995699506,
+      "children": 1,
+      "verified_high_child": true,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "reachable_probes": true,
+        "authorized_probes": true,
+        "repair_edges": true,
+        "repair_cost": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "068-E01-B-r2",
+      "task": "E01",
+      "accepted": true,
+      "tokens": 48254,
+      "seconds": 39.65625533298589,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "reachable_probes": true,
+        "authorized_probes": true,
+        "repair_edges": true,
+        "repair_cost": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "069-E01-A-r2",
+      "task": "E01",
+      "accepted": true,
+      "tokens": 99643,
+      "seconds": 58.077662666968536,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "reachable_probes": true,
+        "authorized_probes": true,
+        "repair_edges": true,
+        "repair_cost": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 2,
+      "run_id": "070-E06-C-r2",
+      "task": "E06",
+      "accepted": true,
+      "tokens": 27974,
+      "seconds": 12.98584983299952,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "claims": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 2,
+      "run_id": "071-E06-B-r2",
+      "task": "E06",
+      "accepted": true,
+      "tokens": 21401,
+      "seconds": 13.43985879101092,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "claims": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 2,
+      "run_id": "072-E06-A-r2",
+      "task": "E06",
+      "accepted": true,
+      "tokens": 25899,
+      "seconds": 14.096029583888594,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "claims": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "073-E09-A-r3",
+      "task": "E09",
+      "accepted": true,
+      "tokens": 25737,
+      "seconds": 15.786268541996833,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "cycle_components": true,
+        "blocked": true,
+        "build_order": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "074-E09-B-r3",
+      "task": "E09",
+      "accepted": true,
+      "tokens": 21058,
+      "seconds": 11.644133208028506,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "cycle_components": true,
+        "blocked": true,
+        "build_order": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "075-E09-C-r3",
+      "task": "E09",
+      "accepted": true,
+      "tokens": 27634,
+      "seconds": 13.81459745799657,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "cycle_components": true,
+        "blocked": true,
+        "build_order": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "076-E03-C-r3",
+      "task": "E03",
+      "accepted": true,
+      "tokens": 27992,
+      "seconds": 13.171528874023352,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "decisions": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "077-E03-B-r3",
+      "task": "E03",
+      "accepted": true,
+      "tokens": 21420,
+      "seconds": 12.995585875003599,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "decisions": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "078-E03-A-r3",
+      "task": "E03",
+      "accepted": true,
+      "tokens": 26077,
+      "seconds": 14.743378707964439,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "decisions": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "079-E08-A-r3",
+      "task": "E08",
+      "accepted": true,
+      "tokens": 159469,
+      "seconds": 73.1645686669508,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "selected_edges": true,
+        "departures": true,
+        "arrival": true,
+        "energy_consumed": true,
+        "feasible_path_count": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "080-E08-C-r3",
+      "task": "E08",
+      "accepted": true,
+      "tokens": 165799,
+      "seconds": 59.937781373912,
+      "children": 1,
+      "verified_high_child": true,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "selected_edges": true,
+        "departures": true,
+        "arrival": true,
+        "energy_consumed": true,
+        "feasible_path_count": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "081-E08-B-r3",
+      "task": "E08",
+      "accepted": true,
+      "tokens": 46176,
+      "seconds": 36.857849666965194,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "selected_edges": true,
+        "departures": true,
+        "arrival": true,
+        "energy_consumed": true,
+        "feasible_path_count": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "082-E04-A-r3",
+      "task": "E04",
+      "accepted": true,
+      "tokens": 126655,
+      "seconds": 57.74262787599582,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "gates": true,
+        "decision": true,
+        "blocked_dependencies": true,
+        "observed_findings": true,
+        "unknown_finding_gates": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "083-E04-C-r3",
+      "task": "E04",
+      "accepted": true,
+      "tokens": 28795,
+      "seconds": 21.01181820896454,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "gates": true,
+        "decision": true,
+        "blocked_dependencies": true,
+        "observed_findings": true,
+        "unknown_finding_gates": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "084-E04-B-r3",
+      "task": "E04",
+      "accepted": true,
+      "tokens": 22213,
+      "seconds": 17.043814957956783,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "gates": true,
+        "decision": true,
+        "blocked_dependencies": true,
+        "observed_findings": true,
+        "unknown_finding_gates": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "085-E01-B-r3",
+      "task": "E01",
+      "accepted": true,
+      "tokens": 48279,
+      "seconds": 43.79947050003102,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "reachable_probes": true,
+        "authorized_probes": true,
+        "repair_edges": true,
+        "repair_cost": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "086-E01-A-r3",
+      "task": "E01",
+      "accepted": true,
+      "tokens": 114658,
+      "seconds": 65.64610729098786,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "reachable_probes": true,
+        "authorized_probes": true,
+        "repair_edges": true,
+        "repair_cost": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "087-E01-C-r3",
+      "task": "E01",
+      "accepted": true,
+      "tokens": 152633,
+      "seconds": 62.117357999959495,
+      "children": 1,
+      "verified_high_child": true,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "reachable_probes": true,
+        "authorized_probes": true,
+        "repair_edges": true,
+        "repair_cost": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "088-E02-C-r3",
+      "task": "E02",
+      "accepted": true,
+      "tokens": 60956,
+      "seconds": 52.02629912504926,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_placements": true,
+        "selected": true,
+        "selected_cost": true,
+        "selected_min_surviving_weight": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "089-E02-B-r3",
+      "task": "E02",
+      "accepted": true,
+      "tokens": 47790,
+      "seconds": 53.57392791705206,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_placements": true,
+        "selected": true,
+        "selected_cost": true,
+        "selected_min_surviving_weight": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "090-E02-A-r3",
+      "task": "E02",
+      "accepted": true,
+      "tokens": 161450,
+      "seconds": 75.7376542930142,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_placements": true,
+        "selected": true,
+        "selected_cost": true,
+        "selected_min_surviving_weight": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "091-E06-C-r3",
+      "task": "E06",
+      "accepted": true,
+      "tokens": 27977,
+      "seconds": 15.684913124947343,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "claims": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "092-E06-A-r3",
+      "task": "E06",
+      "accepted": true,
+      "tokens": 26042,
+      "seconds": 18.063846542034298,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "claims": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "093-E06-B-r3",
+      "task": "E06",
+      "accepted": true,
+      "tokens": 21403,
+      "seconds": 15.616060792002827,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "claims": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "094-E11-A-r3",
+      "task": "E11",
+      "accepted": true,
+      "tokens": 157056,
+      "seconds": 82.17806599999312,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "actions": true,
+        "cost": true,
+        "scenario_losses": true,
+        "worst_loss": true,
+        "weighted_loss": true,
+        "feasible_portfolios": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "095-E11-B-r3",
+      "task": "E11",
+      "accepted": true,
+      "tokens": 45980,
+      "seconds": 43.853109542047605,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "actions": true,
+        "cost": true,
+        "scenario_losses": true,
+        "worst_loss": true,
+        "weighted_loss": true,
+        "feasible_portfolios": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "096-E11-C-r3",
+      "task": "E11",
+      "accepted": true,
+      "tokens": 59008,
+      "seconds": 51.001063749950845,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "actions": true,
+        "cost": true,
+        "scenario_losses": true,
+        "worst_loss": true,
+        "weighted_loss": true,
+        "feasible_portfolios": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "097-E12-B-r3",
+      "task": "E12",
+      "accepted": true,
+      "tokens": 43568,
+      "seconds": 47.93452045903541,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_starts": true,
+        "earliest": true,
+        "latest": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "098-E12-A-r3",
+      "task": "E12",
+      "accepted": true,
+      "tokens": 53337,
+      "seconds": 45.24678170896368,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_starts": true,
+        "earliest": true,
+        "latest": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "099-E12-C-r3",
+      "task": "E12",
+      "accepted": true,
+      "tokens": 56739,
+      "seconds": 45.56835816701641,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "feasible_starts": true,
+        "earliest": true,
+        "latest": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "100-E07-B-r3",
+      "task": "E07",
+      "accepted": true,
+      "tokens": 22081,
+      "seconds": 19.13632566499291,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "jobs": true,
+        "accepted_sequences": true,
+        "rejected_sequences": true,
+        "accepted_tokens": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "101-E07-A-r3",
+      "task": "E07",
+      "accepted": true,
+      "tokens": 98121,
+      "seconds": 67.41964045801433,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "jobs": true,
+        "accepted_sequences": true,
+        "rejected_sequences": true,
+        "accepted_tokens": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "102-E07-C-r3",
+      "task": "E07",
+      "accepted": true,
+      "tokens": 60466,
+      "seconds": 51.04021858301712,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "jobs": true,
+        "accepted_sequences": true,
+        "rejected_sequences": true,
+        "accepted_tokens": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "103-E05-C-r3",
+      "task": "E05",
+      "accepted": true,
+      "tokens": 61405,
+      "seconds": 49.31003449903801,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "services": true,
+        "fleet_confirmed_minutes": true,
+        "retained_report_ids": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "104-E05-A-r3",
+      "task": "E05",
+      "accepted": true,
+      "tokens": 145659,
+      "seconds": 67.08578329102602,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "services": true,
+        "fleet_confirmed_minutes": true,
+        "retained_report_ids": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "105-E05-B-r3",
+      "task": "E05",
+      "accepted": true,
+      "tokens": 35080,
+      "seconds": 30.97498129197629,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "services": true,
+        "fleet_confirmed_minutes": true,
+        "retained_report_ids": true
+      }
+    },
+    {
+      "arm": "C",
+      "repeat": 3,
+      "run_id": "106-E10-C-r3",
+      "task": "E10",
+      "accepted": true,
+      "tokens": 58656,
+      "seconds": 37.50542833306827,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "starts": true,
+        "makespan": true,
+        "risk_exposure": true
+      }
+    },
+    {
+      "arm": "A",
+      "repeat": 3,
+      "run_id": "107-E10-A-r3",
+      "task": "E10",
+      "accepted": true,
+      "tokens": 95248,
+      "seconds": 55.27428233408136,
+      "children": 1,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "starts": true,
+        "makespan": true,
+        "risk_exposure": true
+      }
+    },
+    {
+      "arm": "B",
+      "repeat": 3,
+      "run_id": "108-E10-B-r3",
+      "task": "E10",
+      "accepted": true,
+      "tokens": 45414,
+      "seconds": 34.74757399997907,
+      "children": 0,
+      "verified_high_child": false,
+      "check_results": {
+        "response_schema": true,
+        "noncoding_code_empty": true,
+        "answer_object": true,
+        "answer_keys": true,
+        "starts": true,
+        "makespan": true,
+        "risk_exposure": true
+      }
+    }
+  ],
+  "totals": {
+    "A": {
+      "accepted": 36,
+      "tokens": 3361265,
+      "seconds": 1745.0971410886268
+    },
+    "B": {
+      "accepted": 36,
+      "tokens": 1261590,
+      "seconds": 1033.9516283302219
+    },
+    "C": {
+      "accepted": 36,
+      "tokens": 2060711,
+      "seconds": 1292.4323364977026
+    }
+  },
+  "comparisons": {
+    "C_vs_A": {
+      "task_balanced_acceptance_difference": 0.0,
+      "regression_tasks": 0,
+      "regression_incidence_upper_95": 0.2209221919455559,
+      "quality_noninferiority": "inconclusive",
+      "note": "Incidence bound is not a CI for acceptance difference; purposive synthetic tasks preclude population inference.",
+      "tokens": {
+        "ratio_C_to_comparator": 0.6130760294115459,
+        "descriptive_cluster_interval_95": [
+          0.48298141288100344,
+          0.792405827706614
+        ],
+        "population_inference": false
+      },
+      "seconds": {
+        "ratio_C_to_comparator": 0.7406076751071045,
+        "descriptive_cluster_interval_95": [
+          0.622101705436458,
+          0.8639523508259697
+        ],
+        "population_inference": false
+      }
+    },
+    "C_vs_B": {
+      "task_balanced_acceptance_difference": 0.0,
+      "regression_tasks": 0,
+      "regression_incidence_upper_95": 0.2209221919455559,
+      "quality_noninferiority": "inconclusive",
+      "note": "Incidence bound is not a CI for acceptance difference; purposive synthetic tasks preclude population inference.",
+      "tokens": {
+        "ratio_C_to_comparator": 1.633423695495367,
+        "descriptive_cluster_interval_95": [
+          1.3876471853430576,
+          1.8808690609428618
+        ],
+        "population_inference": false
+      },
+      "seconds": {
+        "ratio_C_to_comparator": 1.2499930374740196,
+        "descriptive_cluster_interval_95": [
+          1.0470117661208564,
+          1.4810929969199964
+        ],
+        "population_inference": false
+      }
+    }
+  },
+  "routing_confusion_matrix": {
+    "TP": 1,
+    "FN": 7,
+    "FP": 0,
+    "TN": 4
+  },
+  "routing": [
+    {
+      "task": "E01",
+      "expected_opportunity": true,
+      "verified_high_child_runs": 2,
+      "task_positive": true
+    },
+    {
+      "task": "E02",
+      "expected_opportunity": true,
+      "verified_high_child_runs": 0,
+      "task_positive": false
+    },
+    {
+      "task": "E03",
+      "expected_opportunity": false,
+      "verified_high_child_runs": 0,
+      "task_positive": false
+    },
+    {
+      "task": "E04",
+      "expected_opportunity": true,
+      "verified_high_child_runs": 0,
+      "task_positive": false
+    },
+    {
+      "task": "E05",
+      "expected_opportunity": true,
+      "verified_high_child_runs": 0,
+      "task_positive": false
+    },
+    {
+      "task": "E06",
+      "expected_opportunity": false,
+      "verified_high_child_runs": 0,
+      "task_positive": false
+    },
+    {
+      "task": "E07",
+      "expected_opportunity": true,
+      "verified_high_child_runs": 0,
+      "task_positive": false
+    },
+    {
+      "task": "E08",
+      "expected_opportunity": true,
+      "verified_high_child_runs": 1,
+      "task_positive": false
+    },
+    {
+      "task": "E09",
+      "expected_opportunity": false,
+      "verified_high_child_runs": 0,
+      "task_positive": false
+    },
+    {
+      "task": "E10",
+      "expected_opportunity": true,
+      "verified_high_child_runs": 0,
+      "task_positive": false
+    },
+    {
+      "task": "E11",
+      "expected_opportunity": true,
+      "verified_high_child_runs": 0,
+      "task_positive": false
+    },
+    {
+      "task": "E12",
+      "expected_opportunity": false,
+      "verified_high_child_runs": 0,
+      "task_positive": false
+    }
+  ],
+  "routing_invocation_gate": false,
+  "routing_integration": "Requires retained child/parent evidence review; invocation alone is insufficient",
+  "observed_acceptance_gate": true,
+  "critical_failure_gate": true,
+  "critical_failures": [],
+  "indispensable_regressions": []
+}

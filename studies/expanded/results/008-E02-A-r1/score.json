@@ -1,0 +1,50 @@
+{
+  "accepted": true,
+  "checks": [
+    {
+      "detail": "",
+      "name": "response_schema",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "noncoding_code_empty",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_object",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_keys",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "feasible_placements",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "selected",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "selected_cost",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "selected_min_surviving_weight",
+      "passed": true
+    }
+  ],
+  "checks_passed": 8,
+  "checks_total": 8,
+  "errors": [],
+  "grading_seconds": 0.0006164999795146286,
+  "passed": true
+}

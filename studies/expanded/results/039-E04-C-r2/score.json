@@ -1,0 +1,55 @@
+{
+  "accepted": true,
+  "checks": [
+    {
+      "detail": "",
+      "name": "response_schema",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "noncoding_code_empty",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_object",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_keys",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "gates",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "decision",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "blocked_dependencies",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "observed_findings",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "unknown_finding_gates",
+      "passed": true
+    }
+  ],
+  "checks_passed": 9,
+  "checks_total": 9,
+  "errors": [],
+  "grading_seconds": 0.0003499590093269944,
+  "passed": true
+}

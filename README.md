@@ -5,7 +5,7 @@ created: 2026-09-15
 ---
 # Astra workflow evaluation
 
-An exploratory, reproducible comparison of fixed Astra Ultra, single-agent Astra Medium, and a Medium-first adaptive Astra workflow. Read the [report](REPORT.md) before treating this as an optimization recommendation. Four synthetic tasks, one run per task and condition, cannot establish general superiority or unchanged quality.
+An exploratory, reproducible comparison of fixed Astra Ultra, single-agent Astra Medium, and a Medium-first adaptive Astra workflow. Read the [report](REPORT.md) before treating this as an optimization recommendation. The original 12-run pilot and expanded 108-run study are complete. Adaptive was more expensive and slower than fixed Medium in both. The synthetic studies cannot establish general superiority or unchanged quality.
 
 ## Evidence
 
@@ -51,8 +51,16 @@ MIT license. Author: Angelis Pseftis. No external reproduction or production-wid
 
 ## Follow-up validation
 
-An expanded 108-run study is frozen and execution is starting. Its [protocol](studies/expanded/protocol.json), [fixtures and runner](studies/expanded), and [four passing forced conformance probes](studies/expanded/evidence/conformance-summary.json) are available. Expanded outcome claims remain pending. Original pilot results are preserved.
+The expanded 108-run study is complete. Its [protocol](studies/expanded/protocol.json), [fixtures and runner](studies/expanded), and [four passing forced conformance probes](studies/expanded/evidence/conformance-summary.json) are available. Results and limitations are reported below. Original pilot results are preserved.
 
 ## Stronger-validation tools
 
 The [independent-reproduction kit](reproducibility/README.md), [blinded-review exporter](validation/review/README.md), [real-workload candidate inventory](validation/workloads/README.md), and [sample-size planning sensitivity](validation/design/README.md) are implemented and tested. They prepare future validation; no independent external result or real-workload performance claim is established by these tools.
+
+## Experimental task-boundary controller
+
+[Controller instructions](controller/README.md) cover training/calibration, explicit Astra effort, trusted verification and retained fallback attempts. Forty-two automated tests and native Medium / forced Low-to-Medium conformance checks passed. This is a read-only prototype with synthetic conformance evidence, not a globally deployed or representative-workload-certified optimizer. See the authoritative report for evidence boundaries.
+
+## Completed expanded study
+
+All 108 runs passed their deterministic task checks. Adaptive used **63.3% more tokens and 25.0% more elapsed time than fixed Medium**, despite improving on Ultra. Its natural routing gate failed (1/8 opportunity tasks met the required repeat threshold). [Read the report](REPORT.md#expanded-study-results--revision-7) and [retained analysis](studies/expanded/results/summary.json). These results support Medium as the measured baseline, not universal superiority or quality equivalence.

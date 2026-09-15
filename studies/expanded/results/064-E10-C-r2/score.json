@@ -1,0 +1,45 @@
+{
+  "accepted": true,
+  "checks": [
+    {
+      "detail": "",
+      "name": "response_schema",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "noncoding_code_empty",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_object",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_keys",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "starts",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "makespan",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "risk_exposure",
+      "passed": true
+    }
+  ],
+  "checks_passed": 7,
+  "checks_total": 7,
+  "errors": [],
+  "grading_seconds": 0.004010458011180162,
+  "passed": true
+}

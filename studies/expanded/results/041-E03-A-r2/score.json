@@ -1,0 +1,35 @@
+{
+  "accepted": true,
+  "checks": [
+    {
+      "detail": "",
+      "name": "response_schema",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "noncoding_code_empty",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_object",
+      "passed": true
+    },
+    {
+      "detail": "",
+      "name": "answer_keys",
+      "passed": true
+    },
+    {
+      "detail": "Exact type-sensitive structured answer",
+      "name": "decisions",
+      "passed": true
+    }
+  ],
+  "checks_passed": 5,
+  "checks_total": 5,
+  "errors": [],
+  "grading_seconds": 0.0003826249740086496,
+  "passed": true
+}

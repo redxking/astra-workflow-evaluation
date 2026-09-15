@@ -1,0 +1,144 @@
+{
+  "acceptance_scope": "Supplied verifier only; not independent validation or general correctness",
+  "attempts": [
+    {
+      "execution": {
+        "attempt_id": "123bcead-47b8-442a-887d-467b43e21ef0",
+        "config_provenance": {
+          "approval_policy": {
+            "name": {
+              "file": "<RUNTIME>/config.toml",
+              "profile": null,
+              "type": "user"
+            },
+            "version": "sha256:fe2291e18e50bd676fe11047545ad1ce99d97e783be43f94a96d0c75a92f87ab"
+          },
+          "model": {
+            "name": {
+              "file": "<RUNTIME>/config.toml",
+              "profile": null,
+              "type": "user"
+            },
+            "version": "sha256:fe2291e18e50bd676fe11047545ad1ce99d97e783be43f94a96d0c75a92f87ab"
+          },
+          "model_reasoning_effort": {
+            "name": {
+              "file": "<RUNTIME>/config.toml",
+              "profile": null,
+              "type": "user"
+            },
+            "version": "sha256:fe2291e18e50bd676fe11047545ad1ce99d97e783be43f94a96d0c75a92f87ab"
+          },
+          "sandbox_mode": {
+            "name": {
+              "file": "<RUNTIME>/config.toml",
+              "profile": null,
+              "type": "user"
+            },
+            "version": "sha256:fe2291e18e50bd676fe11047545ad1ce99d97e783be43f94a96d0c75a92f87ab"
+          }
+        },
+        "configuration_checks": {
+          "agents_disabled": true,
+          "approval_never": true,
+          "apps_disabled": true,
+          "common_contract_loaded": true,
+          "effort_matches": true,
+          "host_skills_disabled": true,
+          "memory_disabled": true,
+          "model_matches": true,
+          "native_login": true,
+          "personal_instructions_absent": true,
+          "personal_memory_absent": true,
+          "plugins_disabled": true,
+          "project_instructions_disabled": true,
+          "read_only": true,
+          "web_disabled": true
+        },
+        "ended_at": "2026-09-15T16:33:11.515322+00:00",
+        "error": {
+          "message": "[Errno 2] No such file or directory: '<PRIVATE_RUN>/response.json'",
+          "phase": "response_validation",
+          "type": "FileNotFoundError"
+        },
+        "execution_seconds": 300.0180919590057,
+        "exit_code": -15,
+        "failure_reasons": [
+          "execution_timeout",
+          "cli_exit_failure",
+          "runtime_error:FileNotFoundError"
+        ],
+        "malformed_runtime_records": 0,
+        "observed_effort": "medium",
+        "observed_model": "gpt-6-astra",
+        "observed_sandbox": {
+          "type": "read-only"
+        },
+        "operational_status": "failed",
+        "original_hashes": {
+          "config-read.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "config-read.stdout.jsonl": "69ddaa0118c28c3fd776c0c0e994b27c7c354e0971cf2d9fdfa7d9913b06b456",
+          "error.json": "9c2519dc7ee85276173cf58dd44587d130a2e1a77fa71a4f5a1753c96226fa3c",
+          "events.jsonl": "ac585f1e78f4376064f7ae3c967c4b993e23168919f8ec525d631feb04612769",
+          "native-config.json": "a03da660758bb553a04e6ce0978a6e67b532ccc7b8411fe2c65979d301e9d9ae",
+          "prompt-assembly.json": "3fe1982c579b03228ee77bcb69b0571041f32e40251c8074e289b567495c3b6a",
+          "prompt-assembly.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "prompt.txt": "d4843cf3190c13a165b43d647a3763867021691d292630df1ab9d4d4470b2ae4",
+          "record.json": "7bbe59c26ead8b1b603ab2305a04aa9e48bda9924a14a1ffd5affafb101dba8e",
+          "response.schema.json": "d0e28a769035cfbc58186ab38f4a7824cda10b8e895a59349237b8a0bc0fc982",
+          "runtime/AGENTS.md": "8f2215483c97a60d740b513fa7e8109a80302231f6c54d41865489b5fab17fdc",
+          "runtime/config.toml": "d5d1e9726f77aa3c07c47485e57f1460f97586db6780383ae9291d6fed2cba2b",
+          "stderr.log": "17ea7afb97d2d42b2b459b7e3f43a67ea43b8065d328c9ea367587d6bce9a5e0"
+        },
+        "requested_effort": "medium",
+        "requested_model": "gpt-6-astra",
+        "response": null,
+        "rollout_hashes": [
+          "f12331a39885f97b3b5c591509b037f21b32d4b63e54dccdf8a560487e9fb647"
+        ],
+        "root_id": "01a0a5e5-c7f0-7eb3-b0fe-78f2f6ba8f77",
+        "scope": {
+          "agents_enabled": false,
+          "boundary": "TASK",
+          "code_executed": false,
+          "reading_scope": "workspace and necessary installed runtime files; instructional",
+          "sandbox": "read-only",
+          "semantic_acceptance": "not_assessed"
+        },
+        "session_count": 1,
+        "setup_seconds": 3.107479083992075,
+        "started_at": "2026-09-15T16:28:08.385171+00:00",
+        "timed_out": true,
+        "usage": {
+          "cli": null,
+          "reconciled": null,
+          "reconciliation": "usage-unresolved",
+          "rollout": null
+        }
+      },
+      "verification": {
+        "passed": null,
+        "seconds": 0,
+        "status": "not_run_execution_failed"
+      }
+    }
+  ],
+  "author": "Angelis Pseftis",
+  "calibration_scope": "Certificate applies to its frozen policy/data/loss assumptions. End-to-end fallback workflow still requires separate calibration.",
+  "controller_version": 1,
+  "initial_effort": "medium",
+  "reference_effort": "medium",
+  "response": null,
+  "selection_reason": "reference_no_certificate",
+  "status": "execution_failed",
+  "total_wall_seconds": 303.13741583301453,
+  "usage_totals": {
+    "cached_input_tokens": null,
+    "input_tokens": null,
+    "output_tokens": null,
+    "reasoning_output_tokens": null,
+    "total_tokens": null
+  },
+  "evidence_kind": "restricted_network_failure",
+  "quality_interpretation": "Not a task-quality result; no successful provider response"
+}

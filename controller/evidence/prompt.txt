@@ -1,0 +1,1 @@
+Return answer exactly ASTRA_CONTROLLER_OK and code as an empty string. No tools are needed.

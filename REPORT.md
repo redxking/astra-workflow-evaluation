@@ -4,13 +4,13 @@ author: Angelis Pseftis
 creator: Angelis Pseftis
 created: 2026-09-15
 modified: 2026-09-15
-revision: 6
-status: Original pilot complete; expanded validation in preparation
+revision: 7
+status: Both studies complete; controller prototype tested; broader validation pending
 ---
 
 # Astra Workflow Evaluation — Controlled Pilot
 
-This is the single authoritative report for a 12-run exploratory evaluation of three Astra development configurations. All 12 scored runs completed without repairs or retries. The protocol and scoring code were frozen before scored model execution.
+This is the single authoritative report for the original 12-run exploratory evaluation, its completed 108-run expanded follow-up, and the subsequent controller prototype. The original study evaluated three Astra development configurations. All 12 scored runs completed without repairs or retries. The protocol and scoring code were frozen before scored model execution.
 
 ## Question and scope
 
@@ -162,3 +162,35 @@ The runtime must apply the selected effort through supported call/turn controls 
 Keep the learned rule and calibration set separate, preserve whole task/repository clusters, include model randomness in the evaluated procedure, and recalibrate after material distribution/model/harness changes. Evaluate quality and resource performance against both Medium and the chosen reference configuration. Higher effort is not assumed pointwise more accurate. These methods provide a path to conditional statistical assurance, not universal superiority, zero error, guaranteed speed, or dollar savings from subscription token counts.
 
 - Revision 6, 2026-09-15: added primary-source routing research and its applicability boundary. Frozen experimental files and live execution were unchanged. Author and creator: Angelis Pseftis.
+
+## Task-boundary controller implementation — revision 7
+
+The experimental [controller](controller/README.md) now implements training-only finite effort policies, separate paired-risk calibration with multiplicity correction, and native Astra effort enforcement at task boundaries. It defaults to trusted Medium when no admissible certificate applies. It is not installed globally. The prototype handles read-only answer/code tasks; general project editing remains outside its implemented scope.
+
+All 42 controller unit/integration tests passed, including mocked native processes, timeout handling, certificate tampering, missing accounting, explicit verifier checks and fallback retention. A separate statistical review found floating-point underflow and unbounded certificate-count computation; supported delta and sample-count limits plus regression tests address those findings. Unique cluster identifiers still do not establish independent or representative sampling.
+
+Native conformance tests passed for a Medium reference execution and a deliberately forced Low-to-Medium fallback. The latter uses a clearly labeled synthetic certificate and intentionally rejects the first response; both model attempts pass the marker contract, and the verifier rejects the first solely to exercise fallback. These tests establish observed runtime mechanics, not savings or quality certification. [Retained evidence](controller/evidence/) includes sanitized execution summaries, exact marker prompt, verifier code and the synthetic certificate. A restricted-network attempt is also retained and is not a task-quality failure. No paid API fallback, model purchase or global configuration change was made.
+
+The verifier consumes original private responses, while shareable summaries are sanitized. Unknown usage remains unknown. Certificates concern the frozen selector and paired loss; the complete verifier/fallback workflow still needs separate end-to-end evaluation. Representative calibration, held-out confirmation, general project integration and independent reproduction remain unfinished.
+
+## Expanded study results — revision 7
+
+All 108 prespecified runs completed, covering 12 synthetic tasks, three repetitions and three conditions. Each arm passed 36/36 runs and 270/270 deterministic checks. The 48 frozen fixture/analysis tests passed after execution; frozen file hashes and task inputs remained unchanged. [Analysis](studies/expanded/results/summary.json) and [final audit](studies/expanded/evidence/final-audit.json) retain the results and evidence boundaries.
+
+| Condition | Accepted runs | Total tokens | Setup + execution + grading seconds | Child sessions |
+|---|---:|---:|---:|---:|
+| A: Ultra | 36/36 | 3,361,265 | 1,745.10 | 24 |
+| B: Medium single-agent | 36/36 | 1,261,590 | 1,033.95 | 0 |
+| C: adaptive Medium | 36/36 | 2,060,711 | 1,292.43 | 3 |
+
+Adaptive used 38.7% fewer tokens and 25.9% less elapsed time than Ultra, but **63.3% more tokens and 25.0% more elapsed time than fixed Medium**. The descriptive task-cluster bootstrap ratio intervals were 0.483–0.792 for C/A tokens and 0.622–0.864 for C/A time; C/B intervals were 1.388–1.881 and 1.047–1.481 respectively. These describe resampling within the purposive synthetic suite, not population effects. Cache state and provider contention were not controlled, and tool/delegation choices differed by condition.
+
+All 108 root usage records reconciled with CLI totals; retained hashes matched all 135 root/child rollout files. Final observed configurations were Ultra for all A roots and children, Medium for all B/C roots, and High for the three C children. Cached/reasoning counts are subsets. Development, review, controller smoke testing and failed infrastructure attempts are outside these scored totals; complete project lifecycle usage and subscription-dollar savings are not established.
+
+**The routing invocation gate failed.** C invoked High reviewers in E01 repetitions 2 and 3, and E08 repetition 3. At the prespecified two-of-three task threshold this produces TP=1, FN=7, FP=0, TN=4, below the required six of eight opportunity tasks. E01 child results agree with the corresponding parent outputs; this does not establish causal benefit. The E08 child sent a message before its turn was interrupted; encrypted message content prevents independent semantic integration assessment from the retained readable record. Forced role-conformance probes remain separate evidence of invocation mechanics.
+
+Observed acceptance and critical-check gates passed, but quality noninferiority remains inconclusive. Zero observed task regressions is compatible with a 22.1% upper one-sided bound on regression-task incidence under the binomial model; that quantity is not a confidence interval for acceptance-rate equivalence. The synthetic suite still has a ceiling effect and does not represent general project work.
+
+**Decision:** retain fixed Medium as the practical baseline for this measured workload. The prompt-based adaptive policy has not earned default adoption. The new controller offers explicit execution, accounting and fail-closed calibration mechanics, but has not been evaluated for representative-workload superiority. Broader deployment requires eligible real tasks, frozen feature/labeling rules, independent calibration and held-out confirmation, followed by actual external reproduction. The public contributor tools are prepared; no external reviewer results are claimed.
+
+- Revision 7, 2026-09-15: completed expanded analysis and audit, retained the negative routing finding, and added the tested controller prototype and native conformance evidence. Author and creator: Angelis Pseftis.

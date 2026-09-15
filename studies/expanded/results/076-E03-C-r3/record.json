@@ -1,0 +1,160 @@
+{
+  "accounting": {
+    "cli_completed_usage": [
+      {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 13312,
+        "input_tokens": 27822,
+        "output_tokens": 170,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "root_id": "01a0a5d5-c70f-7020-a17f-95faa6c1fbe6",
+    "sessions": [
+      {
+        "id": "01a0a5d5-c70f-7020-a17f-95faa6c1fbe6",
+        "last_event_at": "2026-09-15T16:10:56.871Z",
+        "model_effort": [
+          {
+            "effort": "medium",
+            "model": "gpt-6-astra",
+            "sandbox": {
+              "type": "read-only"
+            },
+            "turn_id": "01a0a5d5-c724-79f3-a711-d4f5f6cb72d4"
+          }
+        ],
+        "rollout_sha256": "3fa3dd25ab7ecd79f8f89705fb6dd3f478a75aa2a1652e0100b228eefbad8d37",
+        "source": "exec",
+        "started_at": "2026-09-15T16:10:45.903Z",
+        "tool_events": [
+          {
+            "call_id": "call_s67eG1LKfdvcVofuFLQmqnhS",
+            "id": "ctc_091832837d12db01016aa96e0a590487d1a73d4c4231ab20dd",
+            "input": "text(await tools.exec_command({cmd:\"cat input.json\",max_output_tokens:12000}));\n",
+            "internal_chat_message_metadata_passthrough": {
+              "create_time": 1789488647.921299,
+              "turn_id": "01a0a5d5-c724-79f3-a711-d4f5f6cb72d4"
+            },
+            "name": "exec",
+            "status": "completed",
+            "type": "custom_tool_call"
+          },
+          {
+            "call_id": "call_s67eG1LKfdvcVofuFLQmqnhS",
+            "id": "ctco_01a0a5d5-dc18-7850-9907-4f72dbb92114",
+            "internal_chat_message_metadata_passthrough": {
+              "create_time": 1789488651.288379,
+              "turn_id": "01a0a5d5-c724-79f3-a711-d4f5f6cb72d4"
+            },
+            "output": [
+              {
+                "text": "Script completed\nWall time 0.1 seconds\nOutput:\n",
+                "type": "input_text"
+              },
+              {
+                "text": "{\"chunk_id\":\"e19c0e\",\"wall_time_seconds\":0.000001916,\"exit_code\":0,\"original_token_count\":430,\"output\":\"{\\n  \\\"now\\\": 50,\\n  \\\"rules\\\": [\\n    {\\n      \\\"id\\\": \\\"r1\\\",\\n      \\\"priority\\\": 1,\\n      \\\"effect\\\": \\\"allow\\\",\\n      \\\"subject\\\": \\\"*\\\",\\n      \\\"resource\\\": \\\"*\\\",\\n      \\\"action\\\": \\\"read\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"r2\\\",\\n      \\\"priority\\\": 3,\\n      \\\"effect\\\": \\\"allow\\\",\\n      \\\"subject\\\": \\\"ops\\\",\\n      \\\"resource\\\": \\\"vault\\\",\\n      \\\"action\\\": \\\"*\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"r3\\\",\\n      \\\"priority\\\": 3,\\n      \\\"effect\\\": \\\"deny\\\",\\n      \\\"subject\\\": \\\"*\\\",\\n      \\\"resource\\\": \\\"vault\\\",\\n      \\\"action\\\": \\\"write\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"r4\\\",\\n      \\\"priority\\\": 3,\\n      \\\"effect\\\": \\\"allow\\\",\\n      \\\"subject\\\": \\\"ops\\\",\\n      \\\"resource\\\": \\\"vault\\\",\\n      \\\"action\\\": \\\"write\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"r5\\\",\\n      \\\"priority\\\": 3,\\n      \\\"effect\\\": \\\"deny\\\",\\n      \\\"subject\\\": \\\"ops\\\",\\n      \\\"resource\\\": \\\"vault\\\",\\n      \\\"action\\\": \\\"write\\\"\\n    },\\n    {\\n      \\\"id\\\": \\\"r6\\\",\\n      \\\"priority\\\": 5,\\n      \\\"effect\\\": \\\"allow\\\",\\n      \\\"subject\\\": \\\"auditor\\\",\\n      \\\"resource\\\": \\\"vault\\\",\\n      \\\"action\\\": \\\"read\\\"\\n    }\\n  ],\\n  \\\"requests\\\": [\\n    {\\n      \\\"id\\\": \\\"q1\\\",\\n      \\\"subject\\\": \\\"ops\\\",\\n      \\\"resource\\\": \\\"vault\\\",\\n      \\\"action\\\": \\\"write\\\",\\n      \\\"expiry\\\": 60\\n    },\\n    {\\n      \\\"id\\\": \\\"q2\\\",\\n      \\\"subject\\\": \\\"ops\\\",\\n      \\\"resource\\\": \\\"vault\\\",\\n      \\\"action\\\": \\\"read\\\",\\n      \\\"expiry\\\": 60\\n    },\\n    {\\n      \\\"id\\\": \\\"q3\\\",\\n      \\\"subject\\\": \\\"auditor\\\",\\n      \\\"resource\\\": \\\"vault\\\",\\n      \\\"action\\\": \\\"read\\\",\\n      \\\"expiry\\\": 50\\n    },\\n    {\\n      \\\"id\\\": \\\"q4\\\",\\n      \\\"subject\\\": \\\"guest\\\",\\n      \\\"resource\\\": \\\"public\\\",\\n      \\\"action\\\": \\\"read\\\",\\n      \\\"expiry\\\": 70\\n    },\\n    {\\n      \\\"id\\\": \\\"q5\\\",\\n      \\\"subject\\\": \\\"guest\\\",\\n      \\\"resource\\\": \\\"public\\\",\\n      \\\"action\\\": \\\"write\\\",\\n      \\\"expiry\\\": 70\\n    },\\n    {\\n      \\\"id\\\": \\\"q6\\\",\\n      \\\"subject\\\": \\\"auditor\\\",\\n      \\\"resource\\\": \\\"vault\\\",\\n      \\\"action\\\": \\\"read\\\",\\n      \\\"expiry\\\": 51\\n    }\\n  ]\\n}\\n\"}",
+                "type": "input_text"
+              }
+            ],
+            "type": "custom_tool_call_output"
+          }
+        ],
+        "usage": {
+          "cache_write_input_tokens": 0,
+          "cached_input_tokens": 13312,
+          "input_tokens": 27822,
+          "output_tokens": 170,
+          "reasoning_output_tokens": 0,
+          "total_tokens": 27992
+        },
+        "usage_event_count": 2,
+        "usage_events": [
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 13530,
+                "output_tokens": 52,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13582
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 0,
+                "input_tokens": 13530,
+                "output_tokens": 52,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 13582
+              }
+            },
+            "type": "token_count"
+          },
+          {
+            "info": {
+              "last_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 13312,
+                "input_tokens": 14292,
+                "output_tokens": 118,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 14410
+              },
+              "model_context_window": 258400,
+              "total_token_usage": {
+                "cache_write_input_tokens": 0,
+                "cached_input_tokens": 13312,
+                "input_tokens": 27822,
+                "output_tokens": 170,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 27992
+              }
+            },
+            "type": "token_count"
+          }
+        ]
+      }
+    ]
+  },
+  "arm": "C",
+  "config_sha256": "caaa5f430569d80b56db4973b16db5e4ea911fa8a5a4a2ebcfbe18cbf51a8652",
+  "elapsed_seconds": 12.084004417003598,
+  "ended_at": "2026-09-15T16:10:57.927643+00:00",
+  "exit_code": 0,
+  "human_intervention": false,
+  "input_hashes": {
+    "input.json": "3582d7f6c5a4755bc0cfd1a985626cfa29028324e572f8da66ba5a89c3c70778",
+    "task.json": "422b4b9c96af55d51d7e7b12c8947fc6a601c6907b7b5047d2ea6d69a171022d"
+  },
+  "input_hashes_after": {
+    "input.json": "3582d7f6c5a4755bc0cfd1a985626cfa29028324e572f8da66ba5a89c3c70778",
+    "task.json": "422b4b9c96af55d51d7e7b12c8947fc6a601c6907b7b5047d2ea6d69a171022d"
+  },
+  "input_unchanged": true,
+  "instruction_isolation": {
+    "checks": {
+      "baseline_policy_matches_arm": true,
+      "candidate_policy_matches_arm": true,
+      "common_contract_loaded": true,
+      "personal_instructions_absent": true,
+      "personal_memory_absent": true
+    },
+    "prompt_assembly_sha256": "38f600c39d08b8f627d1b2c2c615ef35741a78f283fafc3e7b725c6ae54a9f78",
+    "serialized_characters": 20931
+  },
+  "instructions_sha256": "a14e753cdc80073a6b2e714fbc58fb6e0407ddfb7b37805147694d23b4f560ed",
+  "operational_status": "completed",
+  "response": {
+    "answer": "{\"decisions\":[{\"id\":\"q1\",\"decision\":\"deny\",\"rule\":\"r3\"},{\"id\":\"q2\",\"decision\":\"allow\",\"rule\":\"r2\"},{\"id\":\"q3\",\"decision\":\"deny\",\"rule\":\"EXPIRED\"},{\"id\":\"q4\",\"decision\":\"allow\",\"rule\":\"r1\"},{\"id\":\"q5\",\"decision\":\"deny\",\"rule\":null},{\"id\":\"q6\",\"decision\":\"allow\",\"rule\":\"r6\"}]}",
+    "code": ""
+  },
+  "response_parse_error": null,
+  "run_id": "076-E03-C-r3",
+  "setup_seconds": 1.0872234160196967,
+  "started_at": "2026-09-15T16:10:45.841355+00:00",
+  "task_id": "E03",
+  "timed_out": false,
+  "timeout_seconds": 300
+}
