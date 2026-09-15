@@ -2,7 +2,7 @@
   ".gitignore": "4f24c66e208da1bf217937cb2d12e6fbad29139901139ebaa74d2669e1203dba",
   "LICENSE": "a532256e81fc0fa3068f0814d1fe365c1c08dd6bd177788002f86528f92034d3",
   "README.md": "bfbf83d7c06371dcffc63e6ef7a6f142460896448e14d02f67e8996e307fdb1d",
-  "REPORT.md": "545a59205633017c9a0bf6a781577152ff1b6f6690830ce0db66ef1bb1db3c85",
+  "REPORT.md": "ad85693792465dd6a9060ca6e4c6ceac284dc8dbc39427e527b428d7d64e107a",
   "config/adaptive.md": "0a8be91f24f286209bcf8dc54eda88423cce1819243050df8456998e596b3146",
   "config/agents/critical-verifier.toml": "58e7aef3fa68aa60fea9e7294e6142a2963fae0b4407d565162a899aaf6909fb",
   "config/agents/evidence-researcher.toml": "00338f3bd442c638138f9b2c271dd574419b14ae6619dfa9cef77afd552837b4",

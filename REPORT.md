@@ -4,7 +4,7 @@ author: Angelis Pseftis
 creator: Angelis Pseftis
 created: 2026-09-15
 modified: 2026-09-15
-revision: 5
+revision: 6
 status: Original pilot complete; expanded validation in preparation
 ---
 
@@ -143,3 +143,22 @@ The following preparation is implemented and tested while the frozen expanded co
 Docker Server 29.8.0 was reachable in a read-only environment check. No new benchmark images or real-task executions were started by this preparation. External reviewer recruitment, completed blinded reviews, independent reproduction, target-specific endpoint validation, confirmation power/simulation review and full live-harness qualification remain pending. The current 108-run protocol and its frozen inputs were not changed. All 26 tests above concern the new preparation tools; they are not 26 additional model-performance observations.
 
 - Revision 5, 2026-09-15: recorded implemented and tested stronger-validation tooling, real-workload candidate provenance, and remaining external prerequisites. Author and creator: Angelis Pseftis.
+
+## Research on provable routing — 2026-09-15
+
+Primary-source research supports a more precise direction: a learned effort-selection rule, independently calibrated risk control, and enforced execution settings. This is an architectural recommendation, not an implemented or validated replacement for the frozen candidate.
+
+| Work | Relevant evidence | Boundary |
+|---|---|---|
+| [Learn then Test](https://arxiv.org/pdf/2110.01052), Definition 1 and Theorem 1 | Uses valid hypothesis tests and family-wise error control to select policies satisfying a chosen risk bound with high probability over calibration sampling. | Requires the stated sampling/testing conditions and defined loss; does not guarantee every answer or any savings. |
+| [Ares](https://arxiv.org/html/2603.07915v1), Tables 1–2 | Learns per-step effort selection. Table 2 reports 52.7% fewer reasoning tokens for the Retail experiment with improved task success against fixed High. | Empirical preprint result using gpt-oss-20b and a trained Qwen router; not an Astra result, total subscription-cost result or universal quality theorem. |
+| [RouteLLM](https://arxiv.org/html/2406.18665) | Learns stronger/weaker model selection from preference data and reports favorable benchmark cost/quality tradeoffs. | Empirical evidence; its pretrained router is not calibrated for Astra effort levels or this workload. |
+| [Conformal Thinking](https://arxiv.org/html/2602.03814v1), Sections 4.4 and Appendix B | Calibrates reasoning-stop thresholds against a specified risk. | Uses internal reasoning/uncertainty access not established in our Codex surface. Fixed-candidate bounds require correction when selecting across a grid; its combined-threshold discussion limits the resulting guarantee. |
+
+The transferable design is to define a finite family of Astra effort policies before calibration, fit route predictors on tuning data, evaluate their task-level losses on independent representative calibration data, and retain only statistically admissible policies. A separate resource objective chooses among the retained policies; if no cheaper candidate qualifies, retain the reference policy. Per-step decisions must be evaluated through end-to-end task loss because errors can propagate through a trajectory. A statistical guarantee on a proxy grader is a guarantee about that proxy, not every aspect of real-world quality.
+
+The runtime must apply the selected effort through supported call/turn controls and record actual execution. Fine-grained per-tool-call effort control and hidden-state/token-distribution access have not been established for our native Codex setup. We should not emulate an effort switch by silently adding a subagent and omitting its context/coordination costs. Ares's external router is incompatible with adopting its package unchanged under the Astra-only preference; a statistical decision rule or separately evaluated Astra-based selector would need its own overhead measurement.
+
+Keep the learned rule and calibration set separate, preserve whole task/repository clusters, include model randomness in the evaluated procedure, and recalibrate after material distribution/model/harness changes. Evaluate quality and resource performance against both Medium and the chosen reference configuration. Higher effort is not assumed pointwise more accurate. These methods provide a path to conditional statistical assurance, not universal superiority, zero error, guaranteed speed, or dollar savings from subscription token counts.
+
+- Revision 6, 2026-09-15: added primary-source routing research and its applicability boundary. Frozen experimental files and live execution were unchanged. Author and creator: Angelis Pseftis.
